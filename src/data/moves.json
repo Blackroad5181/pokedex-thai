@@ -12,7 +12,7 @@
     "pp": 25,
     "description": {
       "en": "Drains half the damage inflicted to heal the user.",
-      "th": ""
+      "th": "ดูด HP ของเป้าหมายครึ่งหนึ่งของความเสียหายที่ทำได้มาฟื้นฟูตัวเอง"
     },
     "champions": {
       "available": true
@@ -31,7 +31,7 @@
     "pp": 20,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -50,7 +50,7 @@
     "pp": 30,
     "description": {
       "en": "Has a 10% chance to lower the target’s Special Defense by one stage.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะลดพลังป้องกันพิเศษ (Sp. Def) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -69,7 +69,7 @@
     "pp": 20,
     "description": {
       "en": "Raises the user’s Defense by two stages.",
-      "th": ""
+      "th": "เพิ่มพลังป้องกัน (Defense) ของผู้ใช้ขึ้น 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -88,7 +88,7 @@
     "pp": 20,
     "description": {
       "en": "Lowers the target’s Special Defense by two stages.",
-      "th": ""
+      "th": "ลดพลังป้องกันพิเศษ (Sp. Def) ของเป้าหมายลง 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -107,7 +107,7 @@
     "pp": 15,
     "description": {
       "en": "Has double power if the user has no held item.",
-      "th": ""
+      "th": "พลังโจมตีจะแรงขึ้นเป็น 2 เท่า หากผู้ใช้ไม่ได้ถือไอเทมอยู่"
     },
     "champions": {
       "available": true
@@ -126,7 +126,7 @@
     "pp": 30,
     "description": {
       "en": "Raises one of a friendly Pokémon’s stats at random by two stages.",
-      "th": ""
+      "th": "สุ่มเพิ่มค่าพลังด้านใดด้านหนึ่งของโปเกมอนฝ่ายเราขึ้น 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -145,7 +145,7 @@
     "pp": 20,
     "description": {
       "en": "Never misses.",
-      "th": ""
+      "th": "การโจมตีที่ไม่มีวันพลาดเป้า"
     },
     "champions": {
       "available": true
@@ -164,7 +164,7 @@
     "pp": 15,
     "description": {
       "en": "Makes the target act next this turn.",
-      "th": ""
+      "th": "ทำให้เป้าหมายได้ร่ายท่าต่อจากผู้ใช้ทันทีในเทิร์นนี้"
     },
     "champions": {
       "available": true
@@ -183,7 +183,7 @@
     "pp": 30,
     "description": {
       "en": "Raises the user’s Speed by two stages.",
-      "th": ""
+      "th": "เพิ่มความเร็ว (Speed) ของผู้ใช้ขึ้น 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -202,7 +202,7 @@
     "pp": 25,
     "description": {
       "en": "Has an increased chance for a critical hit.",
-      "th": ""
+      "th": "มีโอกาสสูงที่จะโจมตีติดคริติคอล"
     },
     "champions": {
       "available": true
@@ -221,7 +221,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 30% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดอาการชะงัก (Flinch)"
     },
     "champions": {
       "available": true
@@ -239,8 +239,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "",
-      "th": ""
+      "en": "Inflicts damage and confuses the target if its stats were raised this turn.",
+      "th": "สร้างความเสียหายและทำให้เป้าหมายสับสนหากมีการเพิ่มค่าพลังในเทิร์นนี้"
     },
     "champions": {
       "available": true
@@ -259,7 +259,7 @@
     "pp": 15,
     "description": {
       "en": "User switches places with the friendly Pokémon opposite it.",
-      "th": ""
+      "th": "ผู้ใช้สลับตำแหน่งกับโปเกมอนฝ่ายเดียวกันที่อยู่ฝั่งตรงข้าม"
     },
     "champions": {
       "available": true
@@ -278,7 +278,7 @@
     "pp": 20,
     "description": {
       "en": "Raises the user’s Special Defense by two stages.",
-      "th": ""
+      "th": "เพิ่มพลังป้องกันพิเศษ (Sp. Def) ของผู้ใช้ขึ้น 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -297,7 +297,7 @@
     "pp": 5,
     "description": {
       "en": "Has a 10% chance to raise all of the user’s stats by one stage.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะเพิ่มค่าพลังทุกอย่างของผู้ใช้ขึ้นอย่างละ 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -315,8 +315,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "",
-      "th": ""
+      "en": "Has a high critical-hit ratio.",
+      "th": "มีโอกาสสูงที่จะโจมตีติดคริติคอล"
     },
     "champions": {
       "available": true
@@ -335,7 +335,7 @@
     "pp": 20,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -354,7 +354,7 @@
     "pp": 20,
     "description": {
       "en": "Restores 1/16 of the user’s max HP each turn.",
-      "th": ""
+      "th": "ฟื้นฟู HP 1/16 ของค่าสูงสุดให้ผู้ใช้ในทุกๆ เทิร์น"
     },
     "champions": {
       "available": true
@@ -373,7 +373,7 @@
     "pp": 10,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -392,7 +392,7 @@
     "pp": 20,
     "description": {
       "en": "Hits 2-5 times in one turn.",
-      "th": ""
+      "th": "โจมตีต่อเนื่อง 2-5 ครั้งในเทิร์นเดียว"
     },
     "champions": {
       "available": true
@@ -411,7 +411,7 @@
     "pp": 5,
     "description": {
       "en": "Cures the entire party of major status effects.",
-      "th": ""
+      "th": "รักษาอาการผิดปกติ (Status) ทั้งหมดให้กับทุกคนในทีม"
     },
     "champions": {
       "available": true
@@ -430,7 +430,7 @@
     "pp": 20,
     "description": {
       "en": "Raises a selected ally’s Special Defense by one stage.",
-      "th": ""
+      "th": "เพิ่มพลังป้องกันพิเศษ (Sp. Def) ของเพื่อนร่วมทีมที่เลือกขึ้น 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -449,7 +449,7 @@
     "pp": 20,
     "description": {
       "en": "Randomly selects and uses one of the trainer’s other Pokémon’s moves.",
-      "th": ""
+      "th": "สุ่มเลือกใช้หนึ่งในท่าของโปเกมอนตัวอื่นที่อยู่ในทีม"
     },
     "champions": {
       "available": true
@@ -468,7 +468,7 @@
     "pp": 10,
     "description": {
       "en": "Power is doubled if the target has already received damage this turn.",
-      "th": ""
+      "th": "พลังโจมตีจะแรงเป็น 2 เท่า หากเป้าหมายได้รับความเสียหายไปก่อนแล้วในเทิร์นนี้"
     },
     "champions": {
       "available": true
@@ -487,7 +487,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 30% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดอาการชะงัก (Flinch)"
     },
     "champions": {
       "available": true
@@ -506,7 +506,7 @@
     "pp": 15,
     "description": {
       "en": "Target falls in love if it has the opposite gender, and has a 50% chance to refuse attacking the user.",
-      "th": ""
+      "th": "ทำให้เป้าหมายที่มีเพศตรงข้ามหลงรัก และมีโอกาส 50% ที่จะไม่ยอมโจมตี"
     },
     "champions": {
       "available": true
@@ -525,7 +525,7 @@
     "pp": 20,
     "description": {
       "en": "Never misses.",
-      "th": ""
+      "th": "การโจมตีที่ไม่มีวันพลาดเป้า"
     },
     "champions": {
       "available": true
@@ -544,7 +544,7 @@
     "pp": 20,
     "description": {
       "en": "Has a 10% chance to lower the target’s Attack by one stage.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะลดพลังโจมตี (Attack) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -563,7 +563,7 @@
     "pp": 20,
     "description": {
       "en": "Reduces damage five turns, but must be used during hail.",
-      "th": ""
+      "th": "ลดความเสียหายที่ได้รับลงเป็นเวลา 5 เทิร์น (ต้องใช้ในช่วงที่มีลูกเห็บตก)"
     },
     "champions": {
       "available": true
@@ -582,7 +582,7 @@
     "pp": 15,
     "description": {
       "en": "Raises the user’s Speed by two stages and halves the user’s weight.",
-      "th": ""
+      "th": "เพิ่มความเร็ว (Speed) ขึ้น 2 ระดับ และทำให้น้ำหนักตัวของผู้ใช้ลดลงครึ่งหนึ่ง"
     },
     "champions": {
       "available": true
@@ -601,7 +601,7 @@
     "pp": 10,
     "description": {
       "en": "Inflicts double damage if the user takes damage before attacking this turn.",
-      "th": ""
+      "th": "พลังโจมตีจะแรงเป็น 2 เท่า หากผู้ใช้ได้รับความเสียหายก่อนโจมตีในเทิร์นนี้"
     },
     "champions": {
       "available": true
@@ -619,8 +619,8 @@
     "accuracy": 90,
     "pp": 10,
     "description": {
-      "en": "",
-      "th": ""
+      "en": "May cause flinching. If it misses, the user takes damage.",
+      "th": "อาจทำให้เป้าหมายชะงัก หากโจมตีพลาดผู้ใช้จะได้รับความเสียหาย"
     },
     "champions": {
       "available": true
@@ -639,7 +639,7 @@
     "pp": 30,
     "description": {
       "en": "Lowers the target’s Attack by one stage.",
-      "th": ""
+      "th": "ลดพลังโจมตี (Attack) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -658,7 +658,7 @@
     "pp": 20,
     "description": {
       "en": "Raises the user’s Defense by two stages.",
-      "th": ""
+      "th": "เพิ่มพลังป้องกัน (Defense) ของผู้ใช้ขึ้น 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -677,7 +677,7 @@
     "pp": 40,
     "description": {
       "en": "Allows the trainer to switch out the user and pass effects along to its replacement.",
-      "th": ""
+      "th": "สลับตัวผู้ใช้ออกพร้อมส่งต่อผลของบัฟต่างๆ ให้กับโปเกมอนที่มาแทน"
     },
     "champions": {
       "available": true
@@ -696,7 +696,7 @@
     "pp": 15,
     "description": {
       "en": "Inflicts a burn on any Pokémon that makes contact before the attack.",
-      "th": ""
+      "th": "ทำให้โปเกมอนที่โจมตีถูกตัวผู้ใช้ติดอาการไหม้ (Burn) ก่อนเริ่มการโจมตี"
     },
     "champions": {
       "available": true
@@ -715,7 +715,7 @@
     "pp": 10,
     "description": {
       "en": "Hits once for every conscious Pokémon the trainer has.",
-      "th": ""
+      "th": "โจมตีหนึ่งครั้งต่อจำนวนโปเกมอนในทีมที่ยังไม่หมดสภาพต่อสู้"
     },
     "champions": {
       "available": true
@@ -734,7 +734,7 @@
     "pp": 10,
     "description": {
       "en": "Can only be used after the user has eaten a berry.",
-      "th": ""
+      "th": "จะใช้ได้ต่อเมื่อผู้ใช้กินเบอร์รี่ไปแล้วเท่านั้น"
     },
     "champions": {
       "available": true
@@ -753,7 +753,7 @@
     "pp": 10,
     "description": {
       "en": "User pays half its max HP to max out its Attack.",
-      "th": ""
+      "th": "ยอมเสีย HP ครึ่งหนึ่งของค่าสูงสุด เพื่อเพิ่มพลังโจมตี (Attack) จนถึงระดับสูงสุด"
     },
     "champions": {
       "available": true
@@ -772,7 +772,7 @@
     "pp": 15,
     "description": {
       "en": "Gives the user’s held item to the target.",
-      "th": ""
+      "th": "มอบไอเทมที่ผู้ใช้ถืออยู่ให้แก่เป้าหมาย"
     },
     "champions": {
       "available": true
@@ -791,7 +791,7 @@
     "pp": 10,
     "description": {
       "en": "User waits for two turns, then hits back for twice the damage it took.",
-      "th": ""
+      "th": "ผู้ใช้จะรอเป็นเวลา 2 เทิร์น แล้วโจมตีกลับด้วยความเสียหาย 2 เท่าของที่ได้รับมา"
     },
     "champions": {
       "available": true
@@ -810,7 +810,7 @@
     "pp": 20,
     "description": {
       "en": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
-      "th": ""
+      "th": "ทำให้เป้าหมายหนีไม่ได้และสร้างความเสียหายต่อเนื่อง 2-5 เทิร์น"
     },
     "champions": {
       "available": true
@@ -829,7 +829,7 @@
     "pp": 25,
     "description": {
       "en": "Has a 30% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดอาการชะงัก (Flinch)"
     },
     "champions": {
       "available": true
@@ -847,8 +847,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "",
-      "th": ""
+      "en": "Lowers the target's Attack. Power doubles if the target has a status condition.",
+      "th": "ลดพลังโจมตี (Attack) ของเป้าหมายลง 1 ระดับ และแรงขึ้นถ้าเป้าหมายติดสถานะผิดปกติ"
     },
     "champions": {
       "available": true
@@ -867,7 +867,7 @@
     "pp": 5,
     "description": {
       "en": "User foregoes its next turn to recharge.",
-      "th": ""
+      "th": "ผู้ใช้จะต้องพักหนึ่งเทิร์นเพื่อสะสมพลังหลังจากใช้ท่านี้"
     },
     "champions": {
       "available": true
@@ -886,7 +886,7 @@
     "pp": 10,
     "description": {
       "en": "Has an increased chance for a critical hit and a 10% chance to burn the target.",
-      "th": ""
+      "th": "มีโอกาสสูงที่จะติดคริติคอล และมีโอกาส 10% ที่จะทำให้เป้าหมายติดอาการไหม้ (Burn)"
     },
     "champions": {
       "available": true
@@ -905,7 +905,7 @@
     "pp": 5,
     "description": {
       "en": "Has a 10% chance to freeze the target.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดสภาวะเยือกแข็ง (Freeze)"
     },
     "champions": {
       "available": true
@@ -924,7 +924,7 @@
     "pp": 5,
     "description": {
       "en": "Prevents the target from leaving battle.",
-      "th": ""
+      "th": "ทำให้เป้าหมายไม่สามารถหนีหรือออกจากการต่อสู้ได้"
     },
     "champions": {
       "available": true
@@ -942,8 +942,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "",
-      "th": ""
+      "en": "The higher the user's Defense, the more damage it can inflict.",
+      "th": "ใช้ร่างกายกระแทกเป้าหมาย ยิ่งพลังป้องกัน (Defense) ของผู้ใช้สูง ความเสียหายจะยิ่งรุนแรง"
     },
     "champions": {
       "available": true
@@ -962,7 +962,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 30% chance to paralyze the target.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดอาการเป็นอัมพาต (Paralyze)"
     },
     "champions": {
       "available": true
@@ -981,7 +981,7 @@
     "pp": 10,
     "description": {
       "en": "Hits 2-5 times in one turn.",
-      "th": ""
+      "th": "โจมตีต่อเนื่อง 2-5 ครั้งในเทิร์นเดียว"
     },
     "champions": {
       "available": true
@@ -1000,7 +1000,7 @@
     "pp": 10,
     "description": {
       "en": "Inflicts regular damage.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -1019,7 +1019,7 @@
     "pp": 5,
     "description": {
       "en": "User bounces high into the air, dodging all attacks, and hits next turn.",
-      "th": ""
+      "th": "กระโดดขึ้นไปบนฟ้าเพื่อหลบการโจมตีทั้งหมด แล้วจึงโจมตีกลับในเทิร์นถัดไป"
     },
     "champions": {
       "available": true
@@ -1038,7 +1038,7 @@
     "pp": 40,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -1057,7 +1057,7 @@
     "pp": 15,
     "description": {
       "en": "User receives 1/3 the damage inflicted in recoil.",
-      "th": ""
+      "th": "ผู้ใช้จะได้รับความเสียหายสะท้อนกลับ 1/3 ของความเสียหายที่ทำได้"
     },
     "champions": {
       "available": true
@@ -1076,7 +1076,7 @@
     "pp": 15,
     "description": {
       "en": "Lowers the target’s Attack by one stage after inflicting damage.",
-      "th": ""
+      "th": "ลดพลังโจมตี (Attack) ของเป้าหมายลง 1 ระดับหลังจากโจมตี"
     },
     "champions": {
       "available": true
@@ -1095,7 +1095,7 @@
     "pp": 15,
     "description": {
       "en": "Destroys Reflect and Light Screen.",
-      "th": ""
+      "th": "ทำลายผลของท่า Reflect และ Light Screen ของฝ่ายตรงข้าม"
     },
     "champions": {
       "available": true
@@ -1114,7 +1114,7 @@
     "pp": 10,
     "description": {
       "en": "Has double power against Pokémon that have less than half their max HP remaining.",
-      "th": ""
+      "th": "พลังโจมตีจะแรงขึ้น 2 เท่า หากเป้าหมายมี HP เหลือต่ำกว่าครึ่งหนึ่ง"
     },
     "champions": {
       "available": true
@@ -1133,7 +1133,7 @@
     "pp": 20,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -1152,7 +1152,7 @@
     "pp": 30,
     "description": {
       "en": "Has a 10% chance to lower the target’s Speed by one stage.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะลดความเร็ว (Speed) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -1171,7 +1171,7 @@
     "pp": 20,
     "description": {
       "en": "Has a 10% chance to lower the target’s Speed by one stage.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะลดความเร็ว (Speed) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -1190,7 +1190,7 @@
     "pp": 20,
     "description": {
       "en": "If target has a berry, inflicts double damage and uses the berry.",
-      "th": ""
+      "th": "หากเป้าหมายถือเบอร์รี่ จะสร้างความเสียหาย 2 เท่าและผู้ใช้จะกินเบอร์รี่นั้นแทน"
     },
     "champions": {
       "available": true
@@ -1209,7 +1209,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 10% chance to lower the target’s Special Defense by one stage.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะลดพลังป้องกันพิเศษ (Sp. Def) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -1228,7 +1228,7 @@
     "pp": 20,
     "description": {
       "en": "Raises the user’s Attack and Defense by one stage.",
-      "th": ""
+      "th": "เพิ่มพลังโจมตี (Attack) และพลังป้องกัน (Defense) ของผู้ใช้ขึ้นอย่างละ 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -1247,7 +1247,7 @@
     "pp": 20,
     "description": {
       "en": "Has a 100% chance to lower the target’s Speed by one stage.",
-      "th": ""
+      "th": "ลดความเร็ว (Speed) ของเป้าหมายลง 1 ระดับแน่นอน"
     },
     "champions": {
       "available": true
@@ -1266,7 +1266,7 @@
     "pp": 30,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -1285,7 +1285,7 @@
     "pp": 30,
     "description": {
       "en": "Hits 2-5 times in one turn.",
-      "th": ""
+      "th": "โจมตีต่อเนื่อง 2-5 ครั้งในเทิร์นเดียว"
     },
     "champions": {
       "available": true
@@ -1304,7 +1304,7 @@
     "pp": 5,
     "description": {
       "en": "Removes the user’s type after inflicting damage.",
-      "th": ""
+      "th": "เสียธาตุไฟของตัวเองไปหลังจากที่โจมตีสำเร็จ"
     },
     "champions": {
       "available": true
@@ -1323,7 +1323,7 @@
     "pp": 5,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -1342,7 +1342,7 @@
     "pp": 20,
     "description": {
       "en": "Raises the user’s Special Attack and Special Defense by one stage.",
-      "th": ""
+      "th": "เพิ่มพลังโจมตีพิเศษ (Sp. Atk) และพลังป้องกันพิเศษ (Sp. Def) ของผู้ใช้ขึ้นอย่างละ 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -1361,7 +1361,7 @@
     "pp": 20,
     "description": {
       "en": "User’s type changes to match the terrain.",
-      "th": ""
+      "th": "เปลี่ยนธาตุของผู้ใช้ให้สอดคล้องกับสภาพสนามต่อสู้"
     },
     "champions": {
       "available": true
@@ -1380,7 +1380,7 @@
     "pp": 20,
     "description": {
       "en": "Lowers the target’s Special Attack by two stages if it’s the opposite gender.",
-      "th": ""
+      "th": "ลดพลังโจมตีพิเศษ (Sp. Atk) ของเป้าหมายลง 2 ระดับ หากเป็นเพศตรงข้าม"
     },
     "champions": {
       "available": true
@@ -1398,8 +1398,8 @@
     "accuracy": 90,
     "pp": 15,
     "description": {
-      "en": "",
-      "th": ""
+      "en": "Slashes the target and scatters spikes around the opposing team.",
+      "th": "ฟันใส่เป้าหมายและโปรยหนาม (Spikes) ไว้รอบฝั่งคู่ต่อสู้"
     },
     "champions": {
       "available": true
@@ -1418,7 +1418,7 @@
     "pp": 20,
     "description": {
       "en": "Raises the user’s Special Defense by one stage. User’s Electric moves have doubled power next turn.",
-      "th": ""
+      "th": "เพิ่มพลังป้องกันพิเศษ (Sp. Def) ขึ้น 1 ระดับ และท่าประเภทไฟฟ้าครั้งต่อไปจะแรงขึ้น 2 เท่า"
     },
     "champions": {
       "available": true
@@ -1437,7 +1437,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 70% chance to raise the user’s Special Attack by one stage.",
-      "th": ""
+      "th": "มีโอกาส 70% ที่จะเพิ่มพลังโจมตีพิเศษ (Sp. Atk) ของผู้ใช้ขึ้น 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -1456,7 +1456,7 @@
     "pp": 20,
     "description": {
       "en": "Lowers the target’s Attack by two stages.",
-      "th": ""
+      "th": "ลดพลังโจมตี (Attack) ของเป้าหมายลง 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -1474,8 +1474,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "",
-      "th": ""
+      "en": "Throws cold water at the target and lowers the target's Attack stat.",
+      "th": "สาดน้ำเย็นใส่เป้าหมาย และลดพลังโจมตี (Attack) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -1493,8 +1493,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "",
-      "th": ""
+      "en": "Summons snow and switches the user out immediately.",
+      "th": "เปลี่ยนสภาพอากาศเป็นหิมะตกและสลับตัวผู้ใช้ออกทันที"
     },
     "champions": {
       "available": true
@@ -1513,7 +1513,7 @@
     "pp": 20,
     "description": {
       "en": "Ignores the target’s stat modifiers.",
-      "th": ""
+      "th": "โจมตีโดยไม่สนการเปลี่ยนแปลงค่าพลัง (Stat) ของเป้าหมาย"
     },
     "champions": {
       "available": true
@@ -1532,7 +1532,7 @@
     "pp": 10,
     "description": {
       "en": "Ends wild battles. Forces trainers to switch Pokémon.",
-      "th": ""
+      "th": "จบการต่อสู้กับโปเกมอนป่า หรือบังคับให้อีกฝ่ายสลับตัวโปเกมอน"
     },
     "champions": {
       "available": true
@@ -1551,7 +1551,7 @@
     "pp": 15,
     "description": {
       "en": "Removes all of the target’s stat modifiers.",
-      "th": ""
+      "th": "ล้างการเปลี่ยนแปลงค่าพลัง (Stat) ทั้งหมดของเป้าหมาย"
     },
     "champions": {
       "available": true
@@ -1570,7 +1570,7 @@
     "pp": 5,
     "description": {
       "en": "Lowers the user’s Defense and Special Defense by one stage after inflicting damage.",
-      "th": ""
+      "th": "ลดพลังป้องกัน (Defense) และพลังป้องกันพิเศษ (Sp. Def) ของผู้ใช้ลงอย่างละ 1 ระดับหลังโจมตี"
     },
     "champions": {
       "available": true
@@ -1588,8 +1588,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "en": "Raises Attack and Defense for all allies.",
+      "th": "เพิ่มพลังโจมตี (Attack) และพลังป้องกัน (Defense) ให้กับเพื่อนร่วมทีม"
     },
     "champions": {
       "available": true
@@ -1608,7 +1608,7 @@
     "pp": 20,
     "description": {
       "en": "Raises the user’s Attack, Defense, and accuracy by one stage each.",
-      "th": ""
+      "th": "เพิ่มพลังโจมตี (Attack), พลังป้องกัน (Defense) และความแม่นยำ (Accuracy) อย่างละ 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -1627,7 +1627,7 @@
     "pp": 15,
     "description": {
       "en": "Hits 2-5 times in one turn.",
-      "th": ""
+      "th": "โจมตีต่อเนื่อง 2-5 ครั้งในเทิร์นเดียว"
     },
     "champions": {
       "available": true
@@ -1665,7 +1665,7 @@
     "pp": 20,
     "description": {
       "en": "Lowers the target’s Special Attack by one stage.",
-      "th": ""
+      "th": "ลดพลังโจมตีพิเศษ (Sp. Atk) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -1684,7 +1684,7 @@
     "pp": 10,
     "description": {
       "en": "Confuses the target.",
-      "th": ""
+      "th": "ทำให้เป้าหมายติดอาการสับสน (Confusion)"
     },
     "champions": {
       "available": true
@@ -1703,7 +1703,7 @@
     "pp": 25,
     "description": {
       "en": "Has a 10% chance to confuse the target.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดอาการสับสน (Confusion)"
     },
     "champions": {
       "available": true
@@ -1722,7 +1722,7 @@
     "pp": 35,
     "description": {
       "en": "Has a 10% chance to lower the target’s Speed by one stage.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะลดความเร็ว (Speed) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -1740,8 +1740,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Uses the target’s last used move.",
-      "th": ""
+      "en": "Uses the last move that was used.",
+      "th": "เลียนแบบและใช้ท่าล่าสุดที่เพิ่งถูกใช้ในการต่อสู้"
     },
     "champions": {
       "available": true
@@ -1778,8 +1778,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Raises the user’s Defense and Special Defense by one stage.",
-      "th": ""
+      "en": "Raises the user’s Defense and Special Defense by one stage each.",
+      "th": "เพิ่มพลังป้องกัน (Defense) และพลังป้องกันพิเศษ (Sp. Def) อย่างละ 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -1798,7 +1798,7 @@
     "pp": 10,
     "description": {
       "en": "Raises the user’s Defense by three stages.",
-      "th": ""
+      "th": "เพิ่มพลังป้องกัน (Defense) ของผู้ใช้ขึ้น 3 ระดับ"
     },
     "champions": {
       "available": true
@@ -1817,7 +1817,7 @@
     "pp": 40,
     "description": {
       "en": "Lowers the target’s Speed by two stages.",
-      "th": ""
+      "th": "ลดความเร็ว (Speed) ของเป้าหมายลง 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -1836,7 +1836,7 @@
     "pp": 20,
     "description": {
       "en": "Inflicts twice the damage the user received from the last physical hit it took.",
-      "th": ""
+      "th": "สวนกลับการโจมตีทางกายภาพด้วยความเสียหาย 2 เท่าของที่ได้รับมา"
     },
     "champions": {
       "available": true
@@ -1855,7 +1855,7 @@
     "pp": 25,
     "description": {
       "en": "Takes the target’s item.",
-      "th": ""
+      "th": "โจมตีและขโมยไอเทมที่เป้าหมายถืออยู่ (หากผู้ใช้ไม่ได้ถือไอเทม)"
     },
     "champions": {
       "available": true
@@ -1874,7 +1874,7 @@
     "pp": 10,
     "description": {
       "en": "Has an increased chance for a critical hit.",
-      "th": ""
+      "th": "มีโอกาสสูงที่จะโจมตีติดคริติคอล"
     },
     "champions": {
       "available": true
@@ -1912,7 +1912,7 @@
     "pp": 5,
     "description": {
       "en": "Has an increased chance for a critical hit.",
-      "th": ""
+      "th": "มีโอกาสสูงที่จะโจมตีติดคริติคอล"
     },
     "champions": {
       "available": true
@@ -1931,7 +1931,7 @@
     "pp": 20,
     "description": {
       "en": "Has an increased chance for a critical hit and a 10% chance to poison the target.",
-      "th": ""
+      "th": "มีโอกาสสูงที่จะติดคริติคอล และมีโอกาส 10% ที่จะทำให้เป้าหมายติดยาพิษ"
     },
     "champions": {
       "available": true
@@ -1950,7 +1950,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 20% chance to lower the target’s Defense by one stage.",
-      "th": ""
+      "th": "มีโอกาส 20% ที่จะลดพลังป้องกัน (Defense) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -1987,8 +1987,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Ghosts pay half their max HP to hurt the target every turn. Others decrease Speed but raise Attack and Defense.",
-      "th": ""
+      "en": "Ghosts pay half their max HP to curse the target. Others lower their Speed to raise Attack and Defense.",
+      "th": "(ถ้าเป็นผี) ยอมเสีย HP ครึ่งหนึ่งเพื่อสาปเป้าหมาย / (ธาตุอื่น) เพิ่ม Attack, Defense แต่ลด Speed"
     },
     "champions": {
       "available": true
@@ -2007,7 +2007,7 @@
     "pp": 30,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -2026,7 +2026,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 20% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 20% ที่จะทำให้เป้าหมายติดอาการชะงัก (Flinch)"
     },
     "champions": {
       "available": true
@@ -2063,8 +2063,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "en": "Inflicts regular damage to all targets.",
+      "th": "โจมตีสร้างความเสียหายปกติแก่ศัตรูทั้งหมด"
     },
     "champions": {
       "available": true
@@ -2082,8 +2082,8 @@
     "accuracy": null,
     "pp": 40,
     "description": {
-      "en": "Raises user’s Defense by one stage.",
-      "th": ""
+      "en": "Raises the user’s Defense by one stage.",
+      "th": "เพิ่มพลังป้องกัน (Defense) ขึ้น 1 ระดับ และเพิ่มพลังให้ท่า Rollout / Ice Ball"
     },
     "champions": {
       "available": true
@@ -2101,8 +2101,8 @@
     "accuracy": null,
     "pp": 15,
     "description": {
-      "en": "Lowers the target’s evasion by one stage. Removes field effects from the enemy field.",
-      "th": ""
+      "en": "Lowers the target’s evasion and clears terrain effects.",
+      "th": "ลดการหลบหลีกของเป้าหมาย และล้างสนาม (เช่น Reflect, Light Screen, Spikes)"
     },
     "champions": {
       "available": true
@@ -2120,8 +2120,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "If the user faints this turn, the target automatically will, too.",
-      "th": ""
+      "en": "If the user faints this turn, the target faints too.",
+      "th": "หากผู้ใช้หมดสภาพในเทิร์นนี้ เป้าหมายจะหมดสภาพตามไปด้วย"
     },
     "champions": {
       "available": true
@@ -2139,8 +2139,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "Prevents any moves from hitting the user this turn.",
-      "th": ""
+      "en": "Prevents any attacks from hitting the user this turn.",
+      "th": "ป้องกันการโจมตีทั้งหมดในเทิร์นนี้ (โอกาสสำเร็จจะลดลงถ้าใช้ติดต่อกัน)"
     },
     "champions": {
       "available": true
@@ -2159,7 +2159,7 @@
     "pp": 10,
     "description": {
       "en": "User digs underground, dodging all attacks, and hits next turn.",
-      "th": ""
+      "th": "มุดดินในเทิร์นแรกเพื่อหลบการโจมตี และโผล่ขึ้นมาโจมตีในเทิร์นถัดไป"
     },
     "champions": {
       "available": true
@@ -2177,8 +2177,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Disables the target’s last used move for 1-8 turns.",
-      "th": ""
+      "en": "Target cannot use its last move for 4 turns.",
+      "th": "ทำให้เป้าหมายไม่สามารถใช้ท่าล่าสุดที่เพิ่งใช้ไปได้เป็นเวลา 4 เทิร์น"
     },
     "champions": {
       "available": true
@@ -2197,7 +2197,7 @@
     "pp": 15,
     "description": {
       "en": "Never misses.",
-      "th": ""
+      "th": "การโจมตีที่ไม่มีวันพลาดเป้า"
     },
     "champions": {
       "available": true
@@ -2216,7 +2216,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 30% chance to paralyze the target.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดอาการเป็นอัมพาต (Paralyze)"
     },
     "champions": {
       "available": true
@@ -2235,7 +2235,7 @@
     "pp": 10,
     "description": {
       "en": "User dives underwater, dodging all attacks, and hits next turn.",
-      "th": ""
+      "th": "ดำน้ำในเทิร์นแรกเพื่อหลบการโจมตี และโผล่ขึ้นมาโจมตีในเทิร์นถัดไป"
     },
     "champions": {
       "available": true
@@ -2254,7 +2254,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 20% chance to confuse the target.",
-      "th": ""
+      "th": "มีโอกาส 20% ที่จะทำให้เป้าหมายติดอาการสับสน (Confusion)"
     },
     "champions": {
       "available": true
@@ -2291,8 +2291,8 @@
     "accuracy": 90,
     "pp": 10,
     "description": {
-      "en": "Hits twice in one turn.",
-      "th": ""
+      "en": "Hits 2 times in one turn.",
+      "th": "โจมตีต่อเนื่อง 2 ครั้งในเทิร์นเดียว"
     },
     "champions": {
       "available": true
@@ -2310,8 +2310,8 @@
     "accuracy": 100,
     "pp": 30,
     "description": {
-      "en": "Hits twice in one turn.",
-      "th": ""
+      "en": "Hits 2 times in one turn.",
+      "th": "โจมตีต่อเนื่อง 2 ครั้งในเทิร์นเดียว"
     },
     "champions": {
       "available": true
@@ -2349,7 +2349,7 @@
     "pp": 15,
     "description": {
       "en": "Raises the user’s evasion by one stage.",
-      "th": ""
+      "th": "เพิ่มค่าการหลบหลีก (Evasiveness) ของผู้ใช้ขึ้น 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -2368,7 +2368,7 @@
     "pp": 5,
     "description": {
       "en": "Lowers the user’s Special Attack by two stages after inflicting damage.",
-      "th": ""
+      "th": "หลังจากโจมตี จะลดพลังโจมตีพิเศษ (Sp. Atk) ของผู้ใช้ลง 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -2425,7 +2425,7 @@
     "pp": 15,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -2443,8 +2443,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Raises the user’s Attack and Speed by one stage.",
-      "th": ""
+      "en": "Raises the user’s Attack and Speed by one stage each.",
+      "th": "เพิ่มพลังโจมตี (Attack) และความเร็ว (Speed) อย่างละ 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -2463,7 +2463,7 @@
     "pp": 10,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -2501,7 +2501,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 20% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 20% ที่จะทำให้เป้าหมายติดอาการชะงัก (Flinch)"
     },
     "champions": {
       "available": true
@@ -2520,7 +2520,7 @@
     "pp": 10,
     "description": {
       "en": "Ends wild battles. Forces trainers to switch Pokémon.",
-      "th": ""
+      "th": "บังคับสลับตัวเป้าหมายออกจากการต่อสู้"
     },
     "champions": {
       "available": true
@@ -2539,7 +2539,7 @@
     "pp": 10,
     "description": {
       "en": "Drains half the damage inflicted to heal the user.",
-      "th": ""
+      "th": "ฟื้นฟู HP ให้ผู้ใช้ครึ่งหนึ่งของความเสียหายที่ทำได้"
     },
     "champions": {
       "available": true
@@ -2558,7 +2558,7 @@
     "pp": 10,
     "description": {
       "en": "Drains 75% of the damage inflicted to heal the user.",
-      "th": ""
+      "th": "ฟื้นฟู HP ให้ผู้ใช้เป็นจำนวน 75% ของความเสียหายที่ทำได้"
     },
     "champions": {
       "available": true
@@ -2596,7 +2596,7 @@
     "pp": 20,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -2615,7 +2615,7 @@
     "pp": 10,
     "description": {
       "en": "Has an increased chance for a critical hit.",
-      "th": ""
+      "th": "มีโอกาสสูงที่จะโจมตีติดคริติคอล"
     },
     "champions": {
       "available": true
@@ -2633,8 +2633,8 @@
     "accuracy": 90,
     "pp": 15,
     "description": {
-      "en": "Hits twice in one turn.",
-      "th": ""
+      "en": "Hits 2 times in one turn.",
+      "th": "โจมตีต่อเนื่อง 2 ครั้งในเทิร์นเดียว"
     },
     "champions": {
       "available": true
@@ -2671,8 +2671,8 @@
     "accuracy": 50,
     "pp": 5,
     "description": {
-      "en": "Has a 100% chance to confuse the target.",
-      "th": ""
+      "en": "Confuses the target.",
+      "th": "ทำให้เป้าหมายติดอาการสับสน (Confusion) แน่นอนหากโจมตีโดน"
     },
     "champions": {
       "available": true
@@ -2691,7 +2691,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 10% chance to lower the target’s Special Defense by one stage.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะลดพลังป้องกันพิเศษ (Sp. Def) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -2709,8 +2709,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Inflicts regular damage and can hit Dig users.",
-      "th": ""
+      "en": "Inflicts regular damage.",
+      "th": "โจมตีสร้างความเสียหายรุนแรงแก่โปเกมอนทุกตัวในสนาม (ยกเว้นธาตุบิน/ลอยตัว)"
     },
     "champions": {
       "available": true
@@ -2728,8 +2728,8 @@
     "accuracy": 100,
     "pp": 15,
     "description": {
-      "en": "Power increases by 100% for each consecutive use by any friendly Pokémon, to a maximum of 200.",
-      "th": ""
+      "en": "Power increases each turn it’s used consecutively.",
+      "th": "พลังโจมตีจะแรงขึ้นเรื่อยๆ หากคนในทีมใช้ท่านี้ติดต่อกันในทุกเทิร์น"
     },
     "champions": {
       "available": true
@@ -2748,7 +2748,7 @@
     "pp": 15,
     "description": {
       "en": "Lowers the target’s Special Attack by two stages.",
-      "th": ""
+      "th": "ลดพลังโจมตีพิเศษ (Sp. Atk) ของเป้าหมายลง 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -2785,8 +2785,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "For five turns, prevents all Pokémon on the ground from sleeping and strengthens their moves to 1.5× their power.",
-      "th": ""
+      "en": "Prevents Pokémon from falling asleep and increases the power of Electric moves for five turns.",
+      "th": "สร้างสนามไฟฟ้าเป็นเวลา 5 เทิร์น ป้องกันการหลับและเพิ่มพลังท่าไฟฟ้า"
     },
     "champions": {
       "available": true
@@ -2843,7 +2843,7 @@
     "pp": 15,
     "description": {
       "en": "Lowers the target’s Speed by one stage.",
-      "th": ""
+      "th": "ลดความเร็ว (Speed) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -2881,7 +2881,7 @@
     "pp": 25,
     "description": {
       "en": "Has a 10% chance to burn the target.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดอาการไหม้ (Burn)"
     },
     "champions": {
       "available": true
@@ -2899,8 +2899,8 @@
     "accuracy": 100,
     "pp": 5,
     "description": {
-      "en": "Forces the target to repeat its last used move every turn for 2 to 6 turns.",
-      "th": ""
+      "en": "Forces the target to repeat its last move for 3 turns.",
+      "th": "บังคับให้เป้าหมายใช้เฉพาะท่าล่าสุดซ้ำๆ เป็นเวลา 3 เทิร์น"
     },
     "champions": {
       "available": true
@@ -2919,7 +2919,7 @@
     "pp": 5,
     "description": {
       "en": "Lowers the target’s HP to equal the user’s.",
-      "th": ""
+      "th": "ลด HP ของเป้าหมายให้เหลือเท่ากับ HP ปัจจุบันของผู้ใช้"
     },
     "champions": {
       "available": true
@@ -2937,8 +2937,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Prevents the user’s HP from lowering below 1 this turn.",
-      "th": ""
+      "en": "User survives any hit with at least 1 HP this turn.",
+      "th": "อดทนต่อการโจมตีเพื่อให้เหลือ HP อย่างน้อย 1 (โอกาสสำเร็จลดลงถ้าใช้ต่อเนื่อง)"
     },
     "champions": {
       "available": true
@@ -2957,7 +2957,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 10% chance to lower the target’s Special Defense by one stage.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะลดพลังป้องกันพิเศษ (Sp. Def) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -2975,8 +2975,8 @@
     "accuracy": 100,
     "pp": 15,
     "description": {
-      "en": "Copies the user’s ability onto the target.",
-      "th": ""
+      "en": "Changes the target’s ability to the user’s.",
+      "th": "เปลี่ยนความสามารถ (Ability) ของเป้าหมายให้เหมือนกับของผู้ใช้"
     },
     "champions": {
       "available": true
@@ -2994,8 +2994,8 @@
     "accuracy": 100,
     "pp": 5,
     "description": {
-      "en": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power.",
-      "th": ""
+      "en": "Power is higher the more HP the user has.",
+      "th": "พลังโจมตีจะยิ่งแรงขึ้นตามจำนวน HP ที่เหลืออยู่ของผู้ใช้"
     },
     "champions": {
       "available": true
@@ -3032,8 +3032,8 @@
     "accuracy": 100,
     "pp": 5,
     "description": {
-      "en": "User faints.",
-      "th": ""
+      "en": "User faints after inflicting damage.",
+      "th": "ผู้ใช้ระเบิดตัวเองจนหมดสภาพเพื่อสร้างความเสียหายมหาศาล"
     },
     "champions": {
       "available": true
@@ -3052,7 +3052,7 @@
     "pp": 20,
     "description": {
       "en": "Has a 10% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดอาการชะงัก (Flinch)"
     },
     "champions": {
       "available": true
@@ -3071,7 +3071,7 @@
     "pp": 5,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "ท่าโจมตีที่มีลำดับความสำคัญสูง (ออกท่าได้เร็วมาก)"
     },
     "champions": {
       "available": true
@@ -3089,8 +3089,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Power doubles if user is burned, paralyzed, or poisoned.",
-      "th": ""
+      "en": "Power is doubled if the user is burned, paralyzed, or poisoned.",
+      "th": "พลังโจมตีจะแรงขึ้น 2 เท่า หากผู้ใช้ติดอาการไหม้, อัมพาต หรือยาพิษ"
     },
     "champions": {
       "available": true
@@ -3128,7 +3128,7 @@
     "pp": 30,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -3146,8 +3146,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Can only be used as the first move after the user enters battle. Causes the target to flinch.",
-      "th": ""
+      "en": "Flinches the target. Only works on the first turn.",
+      "th": "ทำให้เป้าหมายชะงักแน่นอน แต่ใช้ได้เฉพาะเทิร์นแรกที่ผู้ใช้ออกมาในสนามเท่านั้น"
     },
     "champions": {
       "available": true
@@ -3166,7 +3166,7 @@
     "pp": 20,
     "description": {
       "en": "Lowers the target’s Special Defense by two stages.",
-      "th": ""
+      "th": "ลดพลังป้องกันพิเศษ (Sp. Def) ของเป้าหมายลง 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -3184,8 +3184,8 @@
     "accuracy": 100,
     "pp": 40,
     "description": {
-      "en": "Cannot lower the target’s HP below 1.",
-      "th": ""
+      "en": "Always leaves the target with at least 1 HP.",
+      "th": "การโจมตีที่จะทำให้เป้าหมายเหลือ HP อย่างน้อย 1 เสมอ (ไม่ทำให้หมดสภาพ)"
     },
     "champions": {
       "available": true
@@ -3204,7 +3204,7 @@
     "pp": 15,
     "description": {
       "en": "Lowers the target’s Attack by two stages.",
-      "th": ""
+      "th": "ลดพลังโจมตี (Attack) ของเป้าหมายลง 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -3223,7 +3223,7 @@
     "pp": 10,
     "description": {
       "en": "Hits through Protect and Detect.",
-      "th": ""
+      "th": "โจมตีทะลุผ่านท่าป้องกันอย่าง Protect หรือ Detect ได้"
     },
     "champions": {
       "available": true
@@ -3242,7 +3242,7 @@
     "pp": 20,
     "description": {
       "en": "Never misses.",
-      "th": ""
+      "th": "การโจมตีที่ไม่มีวันพลาดเป้า"
     },
     "champions": {
       "available": true
@@ -3260,8 +3260,8 @@
     "accuracy": 100,
     "pp": 25,
     "description": {
-      "en": "Raises the user’s Attack by two stages if it KOs the target.",
-      "th": ""
+      "en": "Raises the user’s Attack by three stages if it faints a target.",
+      "th": "หากท่านี้ทำให้เป้าหมายหมดสภาพ จะเพิ่มพลังโจมตี (Attack) ของผู้ใช้ 3 ระดับ"
     },
     "champions": {
       "available": true
@@ -3280,7 +3280,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 50% chance to raise the user’s Special Attack by one stage.",
-      "th": ""
+      "th": "มีโอกาส 50% ที่จะเพิ่มพลังโจมตีพิเศษ (Sp. Atk) ของผู้ใช้ขึ้น 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -3298,8 +3298,8 @@
     "accuracy": 100,
     "pp": 5,
     "description": {
-      "en": "Inflicts damage equal to the user’s remaining HP. User faints.",
-      "th": ""
+      "en": "User faints to inflict damage equal to its current HP.",
+      "th": "ผู้ใช้ยอมหมดสภาพเพื่อสร้างความเสียหายเท่ากับ HP ปัจจุบันที่มีอยู่"
     },
     "champions": {
       "available": true
@@ -3318,7 +3318,7 @@
     "pp": 5,
     "description": {
       "en": "Has a 10% chance to burn the target.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดอาการไหม้ (Burn)"
     },
     "champions": {
       "available": true
@@ -3337,7 +3337,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 10% chance to burn the target and a 10% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้ชะงัก และอีก 10% ที่จะทำให้ติดอาการไหม้"
     },
     "champions": {
       "available": true
@@ -3375,7 +3375,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 10% chance to burn the target.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดอาการไหม้ (Burn)"
     },
     "champions": {
       "available": true
@@ -3393,8 +3393,8 @@
     "accuracy": 85,
     "pp": 15,
     "description": {
-      "en": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
-      "th": ""
+      "en": "Traps the target and inflicts damage for 4-5 turns.",
+      "th": "กักขังเป้าหมายและสร้างความเสียหายต่อเนื่อง 4-5 เทิร์น"
     },
     "champions": {
       "available": true
@@ -3413,7 +3413,7 @@
     "pp": 5,
     "description": {
       "en": "Causes a one-hit KO.",
-      "th": ""
+      "th": "ท่าโจมตีที่ทำให้เป้าหมายหมดสภาพทันที (โอกาสโดนต่ำมาก)"
     },
     "champions": {
       "available": true
@@ -3431,8 +3431,8 @@
     "accuracy": 100,
     "pp": 15,
     "description": {
-      "en": "Inflicts more damage when the user has less HP remaining, with a maximum of 200 power.",
-      "th": ""
+      "en": "Power is higher the less HP the user has.",
+      "th": "พลังโจมตีจะยิ่งแรงขึ้นเมื่อ HP ของผู้ใช้เหลือน้อย"
     },
     "champions": {
       "available": true
@@ -3469,8 +3469,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Inflicts regular damage. Raises the user’s Speed by one stage.",
-      "th": ""
+      "en": "Raises the user’s Speed by one stage after inflicting damage.",
+      "th": "หลังจากโจมตี จะเพิ่มความเร็ว (Speed) ของผู้ใช้ขึ้น 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -3488,8 +3488,8 @@
     "accuracy": 100,
     "pp": 25,
     "description": {
-      "en": "Has a 10% chance to burn the target. Lets frozen Pokémon thaw themselves.",
-      "th": ""
+      "en": "Has a 10% chance to burn the target.",
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดอาการไหม้ (Burn)"
     },
     "champions": {
       "available": true
@@ -3508,7 +3508,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 10% chance to burn the target.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดอาการไหม้ (Burn)"
     },
     "champions": {
       "available": true
@@ -3526,8 +3526,8 @@
     "accuracy": 100,
     "pp": 15,
     "description": {
-      "en": "User takes 1/3 the damage inflicted in recoil. Has a 10% chance to burn the target.",
-      "th": ""
+      "en": "User receives 1/3 the damage inflicted in recoil and has a 10% chance to burn the target.",
+      "th": "ผู้ใช้ได้รับความเสียหายสะท้อนกลับ 1/3 และมีโอกาส 10% ทำให้เป้าหมายติดอาการไหม้"
     },
     "champions": {
       "available": true
@@ -3546,7 +3546,7 @@
     "pp": 20,
     "description": {
       "en": "Lowers the target’s accuracy by one stage.",
-      "th": ""
+      "th": "ลดความแม่นยำ (Accuracy) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -3565,7 +3565,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 10% chance to lower the target’s Special Defense by one stage.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะลดพลังป้องกันพิเศษ (Sp. Def) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -3583,8 +3583,8 @@
     "accuracy": 100,
     "pp": 15,
     "description": {
-      "en": "Raises the target’s Special Attack by one stage and confuses the target.",
-      "th": ""
+      "en": "Confuses the target and raises its Special Attack by one stage.",
+      "th": "ทำให้เป้าหมายสับสน แต่จะเพิ่มพลังโจมตีพิเศษ (Sp. Atk) ให้เป้าหมาย 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -3602,8 +3602,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Throws held item at the target; power depends on the item.",
-      "th": ""
+      "en": "Throws the user’s held item to inflict damage.",
+      "th": "ขว้างไอเทมที่ถืออยู่ใส่เป้าหมาย (พลังโจมตีและผลลัพธ์ขึ้นอยู่กับไอเทมนั้น)"
     },
     "champions": {
       "available": true
@@ -3640,8 +3640,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Raises the Defense of all Pokémon in battle.",
-      "th": ""
+      "en": "Raises the Defense of all Grass-type Pokémon in battle.",
+      "th": "เพิ่มพลังป้องกัน (Defense) ให้กับโปเกมอนธาตุพืชทุกตัวในสนาม"
     },
     "champions": {
       "available": true
@@ -3660,7 +3660,7 @@
     "pp": 15,
     "description": {
       "en": "User flies high into the air, dodging all attacks, and hits next turn.",
-      "th": ""
+      "th": "บินขึ้นฟ้าในเทิร์นแรกเพื่อหลบการโจมตี และพุ่งลงมาโจมตีในเทิร์นถัดไป"
     },
     "champions": {
       "available": true
@@ -3678,8 +3678,8 @@
     "accuracy": 95,
     "pp": 10,
     "description": {
-      "en": "Deals both and -type damage.",
-      "th": ""
+      "en": "Inflicts regular damage.",
+      "th": "ท่าโจมตีที่เป็นทั้งธาตุต่อสู้และบินในเวลาเดียวกัน"
     },
     "champions": {
       "available": true
@@ -3698,7 +3698,7 @@
     "pp": 5,
     "description": {
       "en": "Has a 10% chance to lower the target’s Special Defense by one stage.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะลดพลังป้องกันพิเศษ (Sp. Def) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -3716,8 +3716,8 @@
     "accuracy": null,
     "pp": 30,
     "description": {
-      "en": "Increases the user’s chance to score a critical hit.",
-      "th": ""
+      "en": "Increases the user’s critical-hit ratio.",
+      "th": "เพิ่มโอกาสการโจมตีติดคริติคอลของผู้ใช้"
     },
     "champions": {
       "available": true
@@ -3735,8 +3735,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "If the user takes damage before attacking, the attack is canceled.",
-      "th": ""
+      "en": "Move fails if the user takes damage before it acts this turn.",
+      "th": "ท่าที่มีพลังทำลายสูงมาก แต่ถ้าผู้ใช้โดนโจมตีในเทิร์นนั้นก่อนจะออกท่า จะล้มเหลวทันที"
     },
     "champions": {
       "available": true
@@ -3754,8 +3754,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Redirects the target’s single-target effects to the user for this turn.",
-      "th": ""
+      "en": "User attracts all opposing Pokémon’s moves.",
+      "th": "ดึงดูดการโจมตีของคู่ต่อสู้ทั้งหมดให้มาลงที่ผู้ใช้แทนเพื่อนร่วมทีม"
     },
     "champions": {
       "available": true
@@ -3774,7 +3774,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 30% chance to paralyze the target.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดอาการเป็นอัมพาต (Paralyze)"
     },
     "champions": {
       "available": true
@@ -3792,8 +3792,8 @@
     "accuracy": null,
     "pp": 40,
     "description": {
-      "en": "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it’s a Ghost.",
-      "th": ""
+      "en": "Allows the user to hit Ghost-type Pokémon with Normal and Fighting-type moves and clears target’s evasion.",
+      "th": "ทำให้ท่าธาตุปกติ/ต่อสู้ โจมตีธาตุผีเข้า และล้างค่าหลบหลีกของเป้าหมาย"
     },
     "champions": {
       "available": true
@@ -3830,8 +3830,8 @@
     "accuracy": 100,
     "pp": 15,
     "description": {
-      "en": "Calculates damage with the target’s attacking stat.",
-      "th": ""
+      "en": "Uses the target’s Attack stat to calculate damage.",
+      "th": "คำนวณความเสียหายโดยใช้ค่าพลังโจมตี (Attack) ของเป้าหมายแทนของผู้ใช้"
     },
     "champions": {
       "available": true
@@ -3849,8 +3849,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Super-effective against .",
-      "th": ""
+      "en": "Super effective against Water-type Pokémon.",
+      "th": "ท่าธาตุน้ำแข็งที่สามารถโจมตีธาตุน้ำได้รุนแรง (Super Effective)"
     },
     "champions": {
       "available": true
@@ -3887,8 +3887,8 @@
     "accuracy": 90,
     "pp": 10,
     "description": {
-      "en": "Always scores a critical hit.",
-      "th": ""
+      "en": "Always results in a critical hit.",
+      "th": "การโจมตีที่ติดคริติคอลแน่นอนเสมอ"
     },
     "champions": {
       "available": true
@@ -3944,8 +3944,8 @@
     "accuracy": 95,
     "pp": 20,
     "description": {
-      "en": "Power doubles every turn this move is used in succession after the first, maxing out after five turns.",
-      "th": ""
+      "en": "Power doubles each turn it’s used consecutively.",
+      "th": "พลังโจมตีจะแรงขึ้นเป็นเท่าตัว หากใช้ท่านี้ติดต่อกันสำเร็จ"
     },
     "champions": {
       "available": true
@@ -3964,7 +3964,7 @@
     "pp": 15,
     "description": {
       "en": "Hits 2-5 times in one turn.",
-      "th": ""
+      "th": "โจมตีต่อเนื่อง 2-5 ครั้งในเทิร์นเดียว"
     },
     "champions": {
       "available": true
@@ -3982,8 +3982,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Hits the target two turns later.",
-      "th": ""
+      "en": "Inflicts damage two turns after use.",
+      "th": "กำหนดความเสียหายล่วงหน้า ซึ่งจะโจมตีใส่เป้าหมายหลังจากผ่านไป 2 เทิร์น"
     },
     "champions": {
       "available": true
@@ -4021,7 +4021,7 @@
     "pp": 10,
     "description": {
       "en": "Drains half the damage inflicted to heal the user.",
-      "th": ""
+      "th": "ฟื้นฟู HP ให้ผู้ใช้ครึ่งหนึ่งของความเสียหายที่ทำได้"
     },
     "champions": {
       "available": true
@@ -4040,7 +4040,7 @@
     "pp": 5,
     "description": {
       "en": "User foregoes its next turn to recharge.",
-      "th": ""
+      "th": "ผู้ใช้ต้องพักหนึ่งเทิร์นหลังจากใช้ท่านี้"
     },
     "champions": {
       "available": true
@@ -4059,7 +4059,7 @@
     "pp": 30,
     "description": {
       "en": "Paralyzes the target.",
-      "th": ""
+      "th": "ทำให้เป้าหมายติดอาการเป็นอัมพาต (Paralyze) แน่นอน"
     },
     "champions": {
       "available": true
@@ -4077,8 +4077,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Inflicts more damage to heavier targets, with a maximum of 120 power.",
-      "th": ""
+      "en": "Inflicts regular damage.",
+      "th": "พลังโจมตีจะยิ่งแรงขึ้นตามน้ำหนักตัวของเป้าหมาย"
     },
     "champions": {
       "available": true
@@ -4116,7 +4116,7 @@
     "pp": 15,
     "description": {
       "en": "Puts the target to sleep.",
-      "th": ""
+      "th": "ทำให้เป้าหมายหลับ (Sleep)"
     },
     "champions": {
       "available": true
@@ -4153,8 +4153,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "For five turns, heals all Pokémon on the ground for 1/16 max HP each turn and strengthens their moves to 1.5× their power.",
-      "th": ""
+      "en": "Heals Pokémon and increases the power of Grass moves for five turns.",
+      "th": "สร้างสนามหญ้า 5 เทิร์น ฟื้นฟู HP ทุกเทิร์นและเพิ่มพลังท่าธาตุพืช"
     },
     "champions": {
       "available": true
@@ -4192,7 +4192,7 @@
     "pp": 40,
     "description": {
       "en": "Lowers the target’s Attack by one stage.",
-      "th": ""
+      "th": "ลดพลังโจมตี (Attack) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -4210,8 +4210,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Raises the user’s Attack and Special Attack by one stage.",
-      "th": ""
+      "en": "Raises the user’s Attack and Special Attack by one stage each.",
+      "th": "เพิ่มพลังโจมตี (Attack) และพลังโจมตีพิเศษ (Sp. Atk) อย่างละ 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -4287,7 +4287,7 @@
     "pp": 5,
     "description": {
       "en": "Causes a one-hit KO.",
-      "th": ""
+      "th": "ท่าโจมตีที่ทำให้เป้าหมายหมดสภาพทันที (โอกาสโดนต่ำมาก)"
     },
     "champions": {
       "available": true
@@ -4306,7 +4306,7 @@
     "pp": 5,
     "description": {
       "en": "Has a 30% chance to poison the target.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดยาพิษ (Poison)"
     },
     "champions": {
       "available": true
@@ -4324,8 +4324,8 @@
     "accuracy": 100,
     "pp": 35,
     "description": {
-      "en": "Inflicts regular damage and can hit Pokémon in the air.",
-      "th": ""
+      "en": "Inflicts regular damage.",
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -4343,8 +4343,8 @@
     "accuracy": 100,
     "pp": 5,
     "description": {
-      "en": "Power raises when the user has lower Speed, up to a maximum of 150.",
-      "th": ""
+      "en": "Power is higher the slower the user is compared to the target.",
+      "th": "พลังโจมตีจะยิ่งแรงขึ้นหากความเร็วของผู้ใช้น้อยกว่าเป้าหมาย"
     },
     "champions": {
       "available": true
@@ -4362,8 +4362,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Changes the weather to a hailstorm for five turns.",
-      "th": ""
+      "en": "Summons a hailstorm for five turns.",
+      "th": "เรียกพายุลูกเห็บเป็นเวลา 5 เทิร์น สร้างความเสียหายแก่โปเกมอนที่ไม่ใช่ธาตุน้ำแข็ง"
     },
     "champions": {
       "available": true
@@ -4381,8 +4381,8 @@
     "accuracy": 90,
     "pp": 10,
     "description": {
-      "en": "Lowers user’s Speed by one stage.",
-      "th": ""
+      "en": "Lowers the user’s Speed by one stage after inflicting damage.",
+      "th": "หลังจากโจมตี จะลดความเร็ว (Speed) ของผู้ใช้ลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -4420,7 +4420,7 @@
     "pp": 30,
     "description": {
       "en": "Raises the user’s Defense by one stage.",
-      "th": ""
+      "th": "เพิ่มพลังป้องกัน (Defense) ของผู้ใช้ขึ้น 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -4438,8 +4438,8 @@
     "accuracy": null,
     "pp": 30,
     "description": {
-      "en": "Resets all Pokémon’s stats, accuracy, and evasion.",
-      "th": ""
+      "en": "Removes all stat modifiers from all Pokémon in battle.",
+      "th": "ล้างการเปลี่ยนแปลงค่าพลัง (Stat) ทั้งหมดของโปเกมอนทุกตัวในสนาม"
     },
     "champions": {
       "available": true
@@ -4477,7 +4477,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 30% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดอาการชะงัก (Flinch)"
     },
     "champions": {
       "available": true
@@ -4515,7 +4515,7 @@
     "pp": 5,
     "description": {
       "en": "Cures the entire party of major status effects.",
-      "th": ""
+      "th": "รักษาอาการผิดปกติให้กับโปเกมอนทุกตัวในทีม"
     },
     "champions": {
       "available": true
@@ -4552,8 +4552,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Heals the target for half its max HP.",
-      "th": ""
+      "en": "Restores half the target’s max HP.",
+      "th": "ฟื้นฟู HP ให้เป้าหมายครึ่งหนึ่งของค่าสูงสุด"
     },
     "champions": {
       "available": true
@@ -4571,8 +4571,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "User faints. Its replacement has its HP fully restored and any major status effect removed.",
-      "th": ""
+      "en": "User faints to fully heal the next Pokémon sent out.",
+      "th": "ผู้ใช้ยอมหมดสภาพเพื่อให้โปเกมอนที่จะออกมาแทนฟื้นฟู HP และอาการผิดปกติจนเต็ม"
     },
     "champions": {
       "available": true
@@ -4590,8 +4590,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Power is higher when the user weighs more than the target, up to a maximum of 120.",
-      "th": ""
+      "en": "Power is higher the more the user outweighs the target.",
+      "th": "พลังโจมตีจะยิ่งแรงขึ้นหากน้ำหนักตัวของผู้ใช้มากกว่าเป้าหมาย"
     },
     "champions": {
       "available": true
@@ -4610,7 +4610,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 10% chance to burn the target.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดอาการไหม้ (Burn)"
     },
     "champions": {
       "available": true
@@ -4628,8 +4628,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Power is higher when the user weighs more than the target, up to a maximum of 120.",
-      "th": ""
+      "en": "Power is higher the more the user outweighs the target.",
+      "th": "พลังโจมตีจะยิ่งแรงขึ้นหากน้ำหนักตัวของผู้ใช้มากกว่าเป้าหมาย"
     },
     "champions": {
       "available": true
@@ -4647,8 +4647,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Ally’s next move inflicts half more damage.",
-      "th": ""
+      "en": "Increases the damage of a selected ally’s move this turn.",
+      "th": "เพิ่มพลังโจมตีให้กับเพื่อนร่วมทีมในเทิร์นนี้"
     },
     "champions": {
       "available": true
@@ -4723,8 +4723,8 @@
     "accuracy": 90,
     "pp": 10,
     "description": {
-      "en": "If the user misses, it takes half the damage it would have inflicted in recoil.",
-      "th": ""
+      "en": "Inflicts damage to the user if the move misses.",
+      "th": "พลังทำลายสูง แต่ถ้าโจมตีพลาด ผู้ใช้จะได้รับความเสียหายครึ่งหนึ่งของ HP สูงสุด"
     },
     "champions": {
       "available": true
@@ -4742,8 +4742,8 @@
     "accuracy": null,
     "pp": 15,
     "description": {
-      "en": "Raises the user’s Attack and accuracy by one stage.",
-      "th": ""
+      "en": "Raises the user’s Attack and accuracy by one stage each.",
+      "th": "เพิ่มพลังโจมตี (Attack) และความแม่นยำ (Accuracy) อย่างละ 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -4781,7 +4781,7 @@
     "pp": 5,
     "description": {
       "en": "Causes a one-hit KO.",
-      "th": ""
+      "th": "ท่าโจมตีที่ทำให้เป้าหมายหมดสภาพทันที (โอกาสโดนต่ำมาก)"
     },
     "champions": {
       "available": true
@@ -4800,7 +4800,7 @@
     "pp": 10,
     "description": {
       "en": "Drains half the damage inflicted to heal the user.",
-      "th": ""
+      "th": "ฟื้นฟู HP ให้ผู้ใช้ครึ่งหนึ่งของความเสียหายที่ทำได้"
     },
     "champions": {
       "available": true
@@ -4838,7 +4838,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 30% chance to confuse the target.",
-      "th": ""
+      "th": "มีโอกาส 30% ทำให้สับสน และโจมตีโดนแน่นอนในช่วงฝนตก"
     },
     "champions": {
       "available": true
@@ -4876,7 +4876,7 @@
     "pp": 5,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีด้วยมวลน้ำมหาศาล (ไม่มีเอฟเฟกต์เพิ่มเติม)"
     },
     "champions": {
       "available": true
@@ -4895,7 +4895,7 @@
     "pp": 5,
     "description": {
       "en": "User foregoes its next turn to recharge.",
-      "th": ""
+      "th": "ผู้ใช้ต้องพักหนึ่งเทิร์นหลังจากใช้ท่านี้"
     },
     "champions": {
       "available": true
@@ -4933,7 +4933,7 @@
     "pp": 10,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -4952,7 +4952,7 @@
     "pp": 20,
     "description": {
       "en": "Puts the target to sleep.",
-      "th": ""
+      "th": "ทำให้เป้าหมายหลับ (Sleep)"
     },
     "champions": {
       "available": true
@@ -4990,7 +4990,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 10% chance to freeze the target.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดสภาวะเยือกแข็ง (Freeze)"
     },
     "champions": {
       "available": true
@@ -5009,7 +5009,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 10% chance to freeze the target and a 10% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 10% ทำให้ชะงัก และอีก 10% ทำให้ติดสภาวะเยือกแข็ง"
     },
     "champions": {
       "available": true
@@ -5047,7 +5047,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 10% chance to freeze the target.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดสภาวะเยือกแข็ง (Freeze)"
     },
     "champions": {
       "available": true
@@ -5066,7 +5066,7 @@
     "pp": 30,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "ท่าโจมตีที่มีลำดับความสำคัญสูง (ออกท่าได้เร็ว)"
     },
     "champions": {
       "available": true
@@ -5104,7 +5104,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 30% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดอาการชะงัก (Flinch)"
     },
     "champions": {
       "available": true
@@ -5123,7 +5123,7 @@
     "pp": 30,
     "description": {
       "en": "Hits 2-5 times in one turn.",
-      "th": ""
+      "th": "โจมตีต่อเนื่อง 2-5 ครั้งในเทิร์นเดียว"
     },
     "champions": {
       "available": true
@@ -5141,8 +5141,8 @@
     "accuracy": 95,
     "pp": 15,
     "description": {
-      "en": "Has a 100% chance to lower the target’s Speed by one stage.",
-      "th": ""
+      "en": "Lowers the target’s Speed by one stage.",
+      "th": "ลดความเร็ว (Speed) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -5160,8 +5160,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Prevents the target from using any moves that the user also knows.",
-      "th": ""
+      "en": "Prevents the target from using any moves the user also has.",
+      "th": "ป้องกันไม่ให้เป้าหมายใช้ท่าโจมตีใดๆ ที่เหมือนกับของผู้ใช้"
     },
     "champions": {
       "available": true
@@ -5179,8 +5179,8 @@
     "accuracy": 100,
     "pp": 15,
     "description": {
-      "en": "Destroys the target’s held berry.",
-      "th": ""
+      "en": "Destroys the target’s berry.",
+      "th": "เผาทำลายเบอร์รี่หรืออัญมณีที่เป้าหมายถืออยู่จนไม่สามารถใช้งานได้"
     },
     "champions": {
       "available": true
@@ -5218,7 +5218,7 @@
     "pp": 5,
     "description": {
       "en": "Has a 100% chance to burn the target.",
-      "th": ""
+      "th": "ทำให้เป้าหมายติดอาการไหม้ (Burn) แน่นอนหากโจมตีโดน"
     },
     "champions": {
       "available": true
@@ -5236,8 +5236,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
-      "th": ""
+      "en": "Traps the target and inflicts damage for 4-5 turns.",
+      "th": "กักขังเป้าหมายและสร้างความเสียหายต่อเนื่อง 4-5 เทิร์น"
     },
     "champions": {
       "available": true
@@ -5255,8 +5255,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Prevents the user from leaving battle. User regains 1/16 of its max HP every turn.",
-      "th": ""
+      "en": "User restores 1/16 its max HP each turn, but cannot flee or switch out.",
+      "th": "ฟื้นฟู HP ทุกเทิร์น แต่ผู้ใช้จะไม่สามารถสลับตัวออกจากการต่อสู้ได้"
     },
     "champions": {
       "available": true
@@ -5294,7 +5294,7 @@
     "pp": 15,
     "description": {
       "en": "Raises the user’s Defense by two stages.",
-      "th": ""
+      "th": "เพิ่มพลังป้องกัน (Defense) ของผู้ใช้ขึ้น 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -5313,7 +5313,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 30% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดอาการชะงัก (Flinch)"
     },
     "champions": {
       "available": true
@@ -5332,7 +5332,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 30% chance to lower the target’s Defense by one stage.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะลดพลังป้องกัน (Defense) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -5350,8 +5350,8 @@
     "accuracy": 95,
     "pp": 10,
     "description": {
-      "en": "If the user misses, it takes half the damage it would have inflicted in recoil.",
-      "th": ""
+      "en": "Inflicts damage to the user if the move misses.",
+      "th": "พลังทำลายสูง แต่ถ้าพลาดผู้ใช้จะได้รับความเสียหายครึ่งหนึ่งของ HP สูงสุด"
     },
     "champions": {
       "available": true
@@ -5407,8 +5407,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Blocks damaging attacks and lowers attacking Pokémon’s Attack by two stages on contact. Switches Aegislash to Shield Forme.",
-      "th": ""
+      "en": "Prevents any attacks from hitting the user this turn and lowers the target’s Attack by two stages.",
+      "th": "ป้องกันการโจมตี และลดพลังโจมตีของคู่ต่อสู้ที่โจมตีถูกตัวลง 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -5426,8 +5426,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Target drops its held item.",
-      "th": ""
+      "en": "Power is doubled if the target has a held item.",
+      "th": "ปัดไอเทมที่เป้าหมายถืออยู่ทิ้ง และแรงขึ้นถ้าเป้าหมายถือไอเทม"
     },
     "champions": {
       "available": true
@@ -5503,7 +5503,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 30% chance to burn the target.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดอาการไหม้ (Burn)"
     },
     "champions": {
       "available": true
@@ -5522,7 +5522,7 @@
     "pp": 15,
     "description": {
       "en": "Has an increased chance for a critical hit.",
-      "th": ""
+      "th": "มีโอกาสสูงที่จะโจมตีติดคริติคอล"
     },
     "champions": {
       "available": true
@@ -5541,7 +5541,7 @@
     "pp": 5,
     "description": {
       "en": "Lowers the user’s Special Attack by two stages after inflicting damage.",
-      "th": ""
+      "th": "หลังจากโจมตี จะลดพลังโจมตีพิเศษ (Sp. Atk) ของผู้ใช้ลง 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -5579,7 +5579,7 @@
     "pp": 40,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -5598,7 +5598,7 @@
     "pp": 10,
     "description": {
       "en": "Drains half the damage inflicted to heal the user.",
-      "th": ""
+      "th": "ฟื้นฟู HP ให้ผู้ใช้ครึ่งหนึ่งของความเสียหายที่ทำได้"
     },
     "champions": {
       "available": true
@@ -5616,8 +5616,8 @@
     "accuracy": 90,
     "pp": 10,
     "description": {
-      "en": "Seeds the target, stealing HP from it every turn.",
-      "th": ""
+      "en": "Traps the target and drains its HP to heal the user each turn.",
+      "th": "ปลูกเมล็ดกาฝากเพื่อดูด HP เป้าหมายมาฟื้นฟูให้ผู้ใช้ในทุกเทิร์น"
     },
     "champions": {
       "available": true
@@ -5636,7 +5636,7 @@
     "pp": 30,
     "description": {
       "en": "Lowers the target’s Defense by one stage.",
-      "th": ""
+      "th": "ลดพลังป้องกัน (Defense) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -5655,7 +5655,7 @@
     "pp": 30,
     "description": {
       "en": "Has a 30% chance to paralyze the target.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดอาการเป็นอัมพาต (Paralyze)"
     },
     "champions": {
       "available": true
@@ -5711,8 +5711,8 @@
     "accuracy": null,
     "pp": 30,
     "description": {
-      "en": "Reduces damage from special attacks by 50% for five turns.",
-      "th": ""
+      "en": "Halves the damage Pokémon on the user’s team take from special attacks for five turns.",
+      "th": "สร้างกำแพงแสงเพื่อลดความเสียหายจากท่าโจมตีพิเศษเป็นเวลา 5 เทิร์น"
     },
     "champions": {
       "available": true
@@ -5731,7 +5731,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 20% chance to lower the target’s Defense by one stage.",
-      "th": ""
+      "th": "มีโอกาส 20% ที่จะลดพลังป้องกัน (Defense) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -5749,8 +5749,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "Ensures that the user’s next move will hit the target.",
-      "th": ""
+      "en": "Causes the user’s next move to hit the target regardless of accuracy.",
+      "th": "ทำให้การโจมตีครั้งถัดไปของผู้ใช้โดนเป้าหมายแน่นอน"
     },
     "champions": {
       "available": true
@@ -5768,8 +5768,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Inflicts more damage to heavier targets, with a maximum of 120 power.",
-      "th": ""
+      "en": "Power is higher the heavier the target is.",
+      "th": "พลังโจมตีจะยิ่งแรงขึ้นตามน้ำหนักตัวของเป้าหมาย"
     },
     "champions": {
       "available": true
@@ -5788,7 +5788,7 @@
     "pp": 20,
     "description": {
       "en": "Lowers the target’s Speed by one stage.",
-      "th": ""
+      "th": "ลดความเร็ว (Speed) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -5806,8 +5806,8 @@
     "accuracy": null,
     "pp": 30,
     "description": {
-      "en": "Prevents the target from scoring critical hits for five turns.",
-      "th": ""
+      "en": "Prevents Pokémon on the user’s team from taking critical hits for five turns.",
+      "th": "ป้องกันการโจมตีติดคริติคอลจากคู่ต่อสู้เป็นเวลา 5 เทิร์น"
     },
     "champions": {
       "available": true
@@ -5826,7 +5826,7 @@
     "pp": 15,
     "description": {
       "en": "Lowers the target’s Attack by one stage after inflicting damage.",
-      "th": ""
+      "th": "ลดพลังโจมตี (Attack) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -5845,7 +5845,7 @@
     "pp": 30,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "ท่าโจมตีที่มีลำดับความสำคัญสูง (ออกท่าได้เร็วมาก)"
     },
     "champions": {
       "available": true
@@ -5863,8 +5863,8 @@
     "accuracy": null,
     "pp": 15,
     "description": {
-      "en": "Reflects back the first effect move used on the user this turn.",
-      "th": ""
+      "en": "Reflects status moves back to the user.",
+      "th": "สะท้อนท่าจำพวกสถานะผิดปกติหรือลดค่า Stat กลับไปหาผู้ใช้ท่าใส่"
     },
     "champions": {
       "available": true
@@ -5882,8 +5882,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Negates held items for five turns.",
-      "th": ""
+      "en": "Prevents held items from working for five turns.",
+      "th": "ยกเลิกผลของไอเทมสวมใส่ทั้งหมดในสนามเป็นเวลา 5 เทิร์น"
     },
     "champions": {
       "available": true
@@ -5902,7 +5902,7 @@
     "pp": 20,
     "description": {
       "en": "Never misses.",
-      "th": ""
+      "th": "การโจมตีที่ไม่มีวันพลาดเป้า"
     },
     "champions": {
       "available": true
@@ -5920,8 +5920,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "User is immune to Ground moves and effects for five turns.",
-      "th": ""
+      "en": "Allows the user to levitate for five turns.",
+      "th": "ทำให้ผู้ใช้ลอยตัวเหนือพื้นดินเพื่อหลบหลีกท่าธาตุพื้นดินเป็นเวลา 5 เทิร์น"
     },
     "champions": {
       "available": true
@@ -5958,8 +5958,8 @@
     "accuracy": 100,
     "pp": 30,
     "description": {
-      "en": "Power varies randomly from 10 to 150.",
-      "th": ""
+      "en": "Power varies.",
+      "th": "สุ่มพลังโจมตี (ตามระดับ Magnitude 4-10)"
     },
     "champions": {
       "available": true
@@ -6015,8 +6015,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "Prevents the target from leaving battle.",
-      "th": ""
+      "en": "Prevents the target from fleeing.",
+      "th": "ทำให้เป้าหมายไม่สามารถหนีหรือสลับตัวออกจากการต่อสู้ได้"
     },
     "champions": {
       "available": true
@@ -6035,7 +6035,7 @@
     "pp": 40,
     "description": {
       "en": "Raises the user’s Attack by one stage.",
-      "th": ""
+      "th": "เพิ่มพลังโจมตี (Attack) ของผู้ใช้ขึ้น 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -6129,8 +6129,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Lowers the target’s Attack and Special Attack by two stages. User faints.",
-      "th": ""
+      "en": "User faints to lower the target’s Attack and Special Attack by two stages.",
+      "th": "ผู้ใช้ยอมหมดสภาพเพื่อลด Attack และ Sp. Atk ของเป้าหมายลง 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -6168,7 +6168,7 @@
     "pp": 35,
     "description": {
       "en": "Has a 10% chance to raise the user’s Attack by one stage.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะเพิ่มพลังโจมตี (Attack) ของผู้ใช้ขึ้น 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -6187,7 +6187,7 @@
     "pp": 40,
     "description": {
       "en": "Lowers the target’s Special Defense by two stages.",
-      "th": ""
+      "th": "ลดพลังป้องกันพิเศษ (Sp. Def) ของเป้าหมายลง 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -6225,7 +6225,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 20% chance to raise the user’s Attack by one stage.",
-      "th": ""
+      "th": "มีโอกาส 20% ที่จะเพิ่มพลังโจมตี (Attack) ของผู้ใช้ขึ้น 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -6243,8 +6243,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Randomly selects and uses any move in the game.",
-      "th": ""
+      "en": "Randomly selects and uses any move.",
+      "th": "สุ่มใช้ท่าโจมตีใดก็ได้ที่มีอยู่ในเกม"
     },
     "champions": {
       "available": true
@@ -6262,8 +6262,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Copies the target’s last used move.",
-      "th": ""
+      "en": "Copies the last move used by the target.",
+      "th": "เลียนแบบและแทนที่ท่านี้ด้วยท่าล่าสุดที่เป้าหมายเพิ่งใช้ไป"
     },
     "champions": {
       "available": true
@@ -6281,8 +6281,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "Ensures that the user’s next move will hit the target.",
-      "th": ""
+      "en": "Causes the user’s next move to hit the target regardless of accuracy.",
+      "th": "ทำให้การโจมตีครั้งถัดไปของผู้ใช้โดนเป้าหมายแน่นอน"
     },
     "champions": {
       "available": true
@@ -6301,7 +6301,7 @@
     "pp": 10,
     "description": {
       "en": "Raises the user’s evasion by two stages.",
-      "th": ""
+      "th": "ลดขนาดตัวเพื่อเพิ่มค่าการหลบหลีก (Evasiveness) ขึ้น 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -6339,7 +6339,7 @@
     "pp": 20,
     "description": {
       "en": "Inflicts twice the damage the user received from the last special hit it took.",
-      "th": ""
+      "th": "สวนกลับการโจมตีพิเศษด้วยความเสียหาย 2 เท่าของที่ได้รับมา"
     },
     "champions": {
       "available": true
@@ -6357,8 +6357,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Uses the target’s last used move.",
-      "th": ""
+      "en": "Uses the last move used by the target against the user.",
+      "th": "ใช้ท่าล่าสุดที่เป้าหมายเพิ่งใช้ใส่ผู้ใช้"
     },
     "champions": {
       "available": true
@@ -6395,8 +6395,8 @@
     "accuracy": null,
     "pp": 30,
     "description": {
-      "en": "Protects the user’s stats from being changed by enemy moves.",
-      "th": ""
+      "en": "Prevents Pokémon on the user’s team from having their stats lowered for five turns.",
+      "th": "ป้องกันไม่ให้ค่าพลัง (Stat) ของโปเกมอนฝ่ายเราถูกลดลงเป็นเวลา 5 เทิร์น"
     },
     "champions": {
       "available": true
@@ -6433,8 +6433,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "For five turns, protects all Pokémon on the ground from major status ailments and confusion, and halves the power of incoming moves.",
-      "th": ""
+      "en": "Prevents Pokémon from gaining major status conditions and halves the damage of Dragon moves for five turns.",
+      "th": "สร้างสนามหมอก 5 เทิร์น ป้องกันสภาวะผิดปกติและลดดาเมจธาตุมังกร"
     },
     "champions": {
       "available": true
@@ -6453,7 +6453,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 30% chance to lower the target’s Special Attack by one stage.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะลดพลังโจมตีพิเศษ (Sp. Atk) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -6471,8 +6471,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "Heals the user by half its max HP. Affected by weather.",
-      "th": ""
+      "en": "Restores the user’s HP.",
+      "th": "ฟื้นฟู HP (ปริมาณขึ้นอยู่กับสภาพอากาศ)"
     },
     "champions": {
       "available": true
@@ -6490,8 +6490,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "Heals the user by half its max HP. Affected by weather.",
-      "th": ""
+      "en": "Restores the user’s HP.",
+      "th": "ฟื้นฟู HP (ปริมาณขึ้นอยู่กับสภาพอากาศ)"
     },
     "champions": {
       "available": true
@@ -6566,8 +6566,8 @@
     "accuracy": 95,
     "pp": 15,
     "description": {
-      "en": "Has a 100% chance to lower the target’s Speed by one stage.",
-      "th": ""
+      "en": "Lowers the target’s Speed by one stage.",
+      "th": "ลดความเร็ว (Speed) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -6585,8 +6585,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Has a 100% chance to lower the target’s accuracy by one stage.",
-      "th": ""
+      "en": "Lowers the target’s accuracy by one stage.",
+      "th": "ลดความแม่นยำ (Accuracy) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -6604,8 +6604,8 @@
     "accuracy": null,
     "pp": 15,
     "description": {
-      "en": "Halves all Electric-type damage.",
-      "th": ""
+      "en": "Reduces the power of Electric moves.",
+      "th": "ลดความเสียหายจากท่าประเภทไฟฟ้าลงในสนาม"
     },
     "champions": {
       "available": true
@@ -6624,7 +6624,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 30% chance to lower the target’s accuracy by one stage.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะลดความแม่นยำ (Accuracy) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -6642,8 +6642,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Has a 100% chance to lower the target’s Special Attack by one stage.",
-      "th": ""
+      "en": "Lowers the target’s Special Attack by one stage after inflicting damage.",
+      "th": "ลดพลังโจมตีพิเศษ (Sp. Atk) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -6662,7 +6662,7 @@
     "pp": 20,
     "description": {
       "en": "Raises the user’s Special Attack by two stages.",
-      "th": ""
+      "th": "เพิ่มพลังโจมตีพิเศษ (Sp. Atk) ของผู้ใช้ขึ้น 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -6680,8 +6680,8 @@
     "accuracy": 100,
     "pp": 15,
     "description": {
-      "en": "Power and type depend on the held berry.",
-      "th": ""
+      "en": "Power and type vary according to the user’s held Berry.",
+      "th": "พลังและธาตุของท่าจะเปลี่ยนไปตามเบอร์รี่ที่ผู้ใช้ถืออยู่"
     },
     "champions": {
       "available": true
@@ -6699,8 +6699,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Uses a move which depends upon the terrain.",
-      "th": ""
+      "en": "Changes into a different move based on the user’s surroundings.",
+      "th": "เปลี่ยนเป็นท่าโจมตีอื่นตามสภาพสนามต่อสู้ในขณะนั้น"
     },
     "champions": {
       "available": true
@@ -6757,7 +6757,7 @@
     "pp": 15,
     "description": {
       "en": "Inflicts damage equal to the user’s level.",
-      "th": ""
+      "th": "สร้างความเสียหายเท่ากับระดับ Level ของผู้ใช้"
     },
     "champions": {
       "available": true
@@ -6776,7 +6776,7 @@
     "pp": 15,
     "description": {
       "en": "Has an increased chance for a critical hit.",
-      "th": ""
+      "th": "มีโอกาสสูงที่จะโจมตีติดคริติคอล"
     },
     "champions": {
       "available": true
@@ -6813,8 +6813,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Has a 100% chance to paralyze the target.",
-      "th": ""
+      "en": "Paralyzes the target.",
+      "th": "ทำให้เป้าหมายติดอาการเป็นอัมพาต (Paralyze) แน่นอน"
     },
     "champions": {
       "available": true
@@ -6851,8 +6851,8 @@
     "accuracy": 100,
     "pp": 5,
     "description": {
-      "en": "Has a 10% chance to raise all of the user’s stats by one stage.",
-      "th": ""
+      "en": "Has a 10% chance to raise all the user’s stats by one stage.",
+      "th": "มีโอกาส 10% ที่จะเพิ่มค่าพลังทุกอย่างของผู้ใช้ขึ้นอย่างละ 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -6870,8 +6870,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Hits every turn for 2-3 turns, then confuses the user.",
-      "th": ""
+      "en": "User attacks for 2-3 turns, then becomes confused.",
+      "th": "โจมตีรุนแรงต่อเนื่อง 2-3 เทิร์น และจะติดอาการสับสนเมื่อจบลง"
     },
     "champions": {
       "available": true
@@ -6890,7 +6890,7 @@
     "pp": 5,
     "description": {
       "en": "Lowers the user’s Special Attack by two stages after inflicting damage.",
-      "th": ""
+      "th": "หลังจากโจมตี จะลดพลังโจมตีพิเศษ (Sp. Atk) ของผู้ใช้ลง 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -6908,8 +6908,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Sets the user’s and targets’s HP to the average of their current HP.",
-      "th": ""
+      "en": "Averages the HP of the user and target.",
+      "th": "นำ HP ปัจจุบันของผู้ใช้และเป้าหมายมาเฉลี่ยรวมกันและแบ่งให้เท่ากัน"
     },
     "champions": {
       "available": true
@@ -6927,8 +6927,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Heals the user for half the total damage dealt to all targets.",
-      "th": ""
+      "en": "Drains half the damage inflicted to heal the user.",
+      "th": "ฟื้นฟู HP ให้ผู้ใช้ครึ่งหนึ่งของความเสียหายที่ทำได้"
     },
     "champions": {
       "available": true
@@ -6946,8 +6946,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Lowers all targets’ Attack and Special Attack by one stage. Makes the user switch out.",
-      "th": ""
+      "en": "Lowers the target’s Attack and Special Attack by one stage each and switches the user out immediately.",
+      "th": "ลด Attack และ Sp. Atk เป้าหมายอย่างละ 1 ระดับ และสลับตัวผู้ใช้ออกทันที"
     },
     "champions": {
       "available": true
@@ -6965,8 +6965,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Scatters money on the ground worth five times the user’s level.",
-      "th": ""
+      "en": "Trainer collects money at the end of battle.",
+      "th": "โปรยเงินลงบนพื้นเพื่อเก็บเป็นเงินรางวัลหลังจบการต่อสู้"
     },
     "champions": {
       "available": true
@@ -6984,8 +6984,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Power is doubled if the target has already moved this turn.",
-      "th": ""
+      "en": "Power is doubled if the user attacks after the target.",
+      "th": "พลังโจมตีจะแรงเป็น 2 เท่า หากผู้ใช้ถูกโจมตีก่อนในเทิร์นนี้"
     },
     "champions": {
       "available": true
@@ -7004,7 +7004,7 @@
     "pp": 35,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -7022,8 +7022,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "User and target both faint after three turns.",
-      "th": ""
+      "en": "Faints all Pokémon in battle after three turns.",
+      "th": "โปเกมอนทุกตัวที่ได้ยินเพลงนี้จะหมดสภาพภายใน 3 เทิร์น (ยกเว้นสลับตัวออก)"
     },
     "champions": {
       "available": true
@@ -7079,8 +7079,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "User vanishes, dodging all attacks, and hits next turn. Hits through Protect and Detect.",
-      "th": ""
+      "en": "User vanishes, dodging all attacks, and hits next turn through Protect.",
+      "th": "หายตัวไปในเทิร์นแรกและโผล่มาโจมตีในเทิร์นถัดไป (ทะลุ Protect ได้)"
     },
     "champions": {
       "available": true
@@ -7099,7 +7099,7 @@
     "pp": 20,
     "description": {
       "en": "Hits 2-5 times in one turn.",
-      "th": ""
+      "th": "โจมตีต่อเนื่อง 2-5 ครั้งในเทิร์นเดียว"
     },
     "champions": {
       "available": true
@@ -7118,7 +7118,7 @@
     "pp": 20,
     "description": {
       "en": "Lowers the target’s Attack by one stage.",
-      "th": ""
+      "th": "ลดพลังโจมตี (Attack) ของเป้าหมายลง 1 ระดับ (ไม่มีวันพลาด)"
     },
     "champions": {
       "available": true
@@ -7137,7 +7137,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 10% chance to lower the target’s Attack by one stage.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะลดพลังโจมตี (Attack) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -7156,7 +7156,7 @@
     "pp": 20,
     "description": {
       "en": "If target has a berry, inflicts double damage and uses the berry.",
-      "th": ""
+      "th": "หากเป้าหมายถือเบอร์รี่ จะสร้างความเสียหายแรงขึ้นและผู้ใช้จะกินเบอร์รี่นั้นแทน"
     },
     "champions": {
       "available": true
@@ -7175,7 +7175,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 50% chance to badly poison the target.",
-      "th": ""
+      "th": "มีโอกาส 50% ที่จะทำให้เป้าหมายติดยาพิษร้ายแรง (Badly Poisoned)"
     },
     "champions": {
       "available": true
@@ -7194,7 +7194,7 @@
     "pp": 40,
     "description": {
       "en": "Poisons the target.",
-      "th": ""
+      "th": "ทำให้เป้าหมายติดยาพิษ (Poison)"
     },
     "champions": {
       "available": true
@@ -7213,7 +7213,7 @@
     "pp": 20,
     "description": {
       "en": "Has a 30% chance to poison the target.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดยาพิษ (Poison)"
     },
     "champions": {
       "available": true
@@ -7232,7 +7232,7 @@
     "pp": 35,
     "description": {
       "en": "Poisons the target.",
-      "th": ""
+      "th": "ทำให้เป้าหมายติดยาพิษ (Poison)"
     },
     "champions": {
       "available": true
@@ -7251,7 +7251,7 @@
     "pp": 35,
     "description": {
       "en": "Has a 30% chance to poison the target.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดยาพิษ (Poison)"
     },
     "champions": {
       "available": true
@@ -7270,7 +7270,7 @@
     "pp": 25,
     "description": {
       "en": "Has an increased chance for a critical hit and a 10% chance to poison the target.",
-      "th": ""
+      "th": "มีโอกาสสูงที่จะติดคริติคอล และมีโอกาส 10% ทำให้ติดยาพิษ"
     },
     "champions": {
       "available": true
@@ -7346,7 +7346,7 @@
     "pp": 35,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -7384,7 +7384,7 @@
     "pp": 25,
     "description": {
       "en": "Has a 10% chance to freeze the target.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดสภาวะเยือกแข็ง (Freeze)"
     },
     "champions": {
       "available": true
@@ -7403,7 +7403,7 @@
     "pp": 20,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -7440,8 +7440,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Averages Attack and Special Attack with the target.",
-      "th": ""
+      "en": "Averages the Attack and Special Attack of the user and target.",
+      "th": "เฉลี่ยค่า Attack และ Sp. Atk ของผู้ใช้และเป้าหมายและแบ่งให้เท่ากัน"
     },
     "champions": {
       "available": true
@@ -7459,8 +7459,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "User swaps Attack and Special Attack changes with the target.",
-      "th": ""
+      "en": "Swaps the Attack and Special Attack modifiers of the user and target.",
+      "th": "สลับการเปลี่ยนแปลงค่า Attack และ Sp. Atk ระหว่างผู้ใช้และเป้าหมาย"
     },
     "champions": {
       "available": true
@@ -7478,8 +7478,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "User swaps Attack and Defense.",
-      "th": ""
+      "en": "Swaps the user’s Attack and Defense.",
+      "th": "สลับค่าพลังโจมตี (Attack) และพลังป้องกัน (Defense) ของตัวเอง"
     },
     "champions": {
       "available": true
@@ -7536,7 +7536,7 @@
     "pp": 10,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -7554,8 +7554,8 @@
     "accuracy": 90,
     "pp": 15,
     "description": {
-      "en": "Randomly inflicts damage with power from 40 to 120 or heals the target for 1/4 its max HP.",
-      "th": ""
+      "en": "Inflicts damage or heals the target.",
+      "th": "สุ่มว่าจะฟื้นฟู HP ให้เป้าหมาย หรือโจมตีด้วยความแรงที่ต่างกัน"
     },
     "champions": {
       "available": true
@@ -7573,8 +7573,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Prevents any moves from hitting the user this turn.",
-      "th": ""
+      "en": "Prevents any attacks from hitting the user this turn.",
+      "th": "ป้องกันการโจมตีทั้งหมดในเทิร์นนี้ (โอกาสสำเร็จจะลดลงถ้าใช้ติดต่อกัน)"
     },
     "champions": {
       "available": true
@@ -7593,7 +7593,7 @@
     "pp": 20,
     "description": {
       "en": "Has a 10% chance to confuse the target.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดอาการสับสน (Confusion)"
     },
     "champions": {
       "available": true
@@ -7611,8 +7611,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Discards the user’s stat changes and copies the target’s.",
-      "th": ""
+      "en": "Copies the target’s stat modifiers.",
+      "th": "เลียนแบบการเปลี่ยนแปลงค่า Stat ทั้งหมดของเป้าหมายมาเป็นของตัวเอง"
     },
     "champions": {
       "available": true
@@ -7631,7 +7631,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 10% chance to lower the target’s Special Defense by one stage.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะลดพลังป้องกันพิเศษ (Sp. Def) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -7650,7 +7650,7 @@
     "pp": 10,
     "description": {
       "en": "Destroys Reflect and Light Screen.",
-      "th": ""
+      "th": "โจมตีและทำลายผลของท่า Reflect และ Light Screen"
     },
     "champions": {
       "available": true
@@ -7687,8 +7687,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Protects Pokémon on the ground from priority moves and increases the power of their Psychic moves by 50%.",
-      "th": ""
+      "en": "Prevents priority moves and increases the power of Psychic moves for five turns.",
+      "th": "สร้างสนามพลังจิต 5 เทิร์น เพิ่มพลังท่าพลังจิตและป้องกันท่าที่ความไวสูง"
     },
     "champions": {
       "available": true
@@ -7707,7 +7707,7 @@
     "pp": 20,
     "description": {
       "en": "Has an increased chance for a critical hit.",
-      "th": ""
+      "th": "มีโอกาสสูงที่จะโจมตีติดคริติคอล"
     },
     "champions": {
       "available": true
@@ -7725,8 +7725,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Inflicts damage based on the target’s Defense, not Special Defense.",
-      "th": ""
+      "en": "Inflicts damage based on the target’s Defense.",
+      "th": "สร้างความเสียหายพิเศษ แต่คำนวณจากค่าพลังป้องกัน (Defense) ของเป้าหมาย"
     },
     "champions": {
       "available": true
@@ -7744,8 +7744,8 @@
     "accuracy": 100,
     "pp": 15,
     "description": {
-      "en": "Inflicts damage between 50% and 150% of the user’s level.",
-      "th": ""
+      "en": "Inflicts damage equal to 0.5-1.5x the user’s level.",
+      "th": "สร้างความเสียหายแบบสุ่ม (ขึ้นอยู่กับ Level ของผู้ใช้)"
     },
     "champions": {
       "available": true
@@ -7763,8 +7763,8 @@
     "accuracy": 100,
     "pp": 5,
     "description": {
-      "en": "Power increases against targets with more raised stats, up to a maximum of 200.",
-      "th": ""
+      "en": "Power is higher the more the target’s stats are raised.",
+      "th": "พลังโจมตีจะแรงขึ้นตามจำนวนการเพิ่ม Stat ของเป้าหมาย"
     },
     "champions": {
       "available": true
@@ -7782,8 +7782,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Has double power against, and can hit, Pokémon attempting to switch out.",
-      "th": ""
+      "en": "Power is doubled if used against a target switching out.",
+      "th": "พลังโจมตีจะแรงเป็น 2 เท่า หากใช้ใส่เป้าหมายที่กำลังจะสลับตัวออก"
     },
     "champions": {
       "available": true
@@ -7821,7 +7821,7 @@
     "pp": 30,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "ท่าโจมตีที่มีลำดับความสำคัญสูง (ออกท่าได้เร็ว)"
     },
     "champions": {
       "available": true
@@ -7839,8 +7839,8 @@
     "accuracy": null,
     "pp": 15,
     "description": {
-      "en": "Prevents any priority moves from hitting friendly Pokémon this turn.",
-      "th": ""
+      "en": "Prevents priority moves from hitting the user’s team this turn.",
+      "th": "ป้องกันท่าโจมตีที่มีลำดับความสำคัญสูงจากคู่ต่อสู้ให้กับฝ่ายเราทุกคน"
     },
     "champions": {
       "available": true
@@ -7859,7 +7859,7 @@
     "pp": 20,
     "description": {
       "en": "Raises the user’s Special Attack, Special Defense, and Speed by one stage each.",
-      "th": ""
+      "th": "เพิ่ม Sp. Atk, Sp. Def และ Speed อย่างละ 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -7877,8 +7877,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "If the user is hit after using this move, its Attack rises by one stage.",
-      "th": ""
+      "en": "Raises the user’s Attack each time it’s hit.",
+      "th": "พลังโจมตีจะเพิ่มขึ้นทุกครั้งที่ผู้ใช้ได้รับความเสียหาย"
     },
     "champions": {
       "available": true
@@ -7896,8 +7896,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Redirects the target’s single-target effects to the user for this turn.",
-      "th": ""
+      "en": "User attracts all opposing Pokémon’s moves.",
+      "th": "โปรยผงเพื่อดึงดูดการโจมตีของคู่ต่อสู้มาที่ผู้ใช้แทนเพื่อนร่วมทีม"
     },
     "champions": {
       "available": true
@@ -7953,8 +7953,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "Changes the weather to rain for five turns.",
-      "th": ""
+      "en": "Summons rain for five turns.",
+      "th": "เรียกฝนเป็นเวลา 5 เทิร์น เพิ่มพลังท่าธาตุน้ำและลดพลังท่าธาตุไฟ"
     },
     "champions": {
       "available": true
@@ -7972,8 +7972,8 @@
     "accuracy": 100,
     "pp": 40,
     "description": {
-      "en": "Frees the user from binding moves, removes Leech Seed, and blows away Spikes.",
-      "th": ""
+      "en": "Removes binding moves and hazards from the user’s team and raises the user’s Speed by one stage.",
+      "th": "โจมตีเพื่อกำจัดหนาม, กับดัก หรือท่ากักขัง และเพิ่ม Speed 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -7992,7 +7992,7 @@
     "pp": 25,
     "description": {
       "en": "Has an increased chance for a critical hit.",
-      "th": ""
+      "th": "มีโอกาสสูงที่จะโจมตีติดคริติคอล"
     },
     "champions": {
       "available": true
@@ -8011,7 +8011,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 50% chance to lower the target’s Defense by one stage.",
-      "th": ""
+      "th": "มีโอกาส 50% ที่จะลดพลังป้องกัน (Defense) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -8048,8 +8048,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "Heals the user by half its max HP.",
-      "th": ""
+      "en": "Restores half the user’s max HP.",
+      "th": "ฟื้นฟู HP ให้ผู้ใช้ครึ่งหนึ่งของค่าสูงสุด"
     },
     "champions": {
       "available": true
@@ -8067,8 +8067,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "User recovers the item it last used up.",
-      "th": ""
+      "en": "Restores the user’s used held item.",
+      "th": "นำไอเทมประเภทใช้แล้วหมดไป (เช่น เบอร์รี่) กลับมาถือใหม่อีกครั้ง"
     },
     "champions": {
       "available": true
@@ -8086,8 +8086,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Reduces damage from physical attacks by half.",
-      "th": ""
+      "en": "Halves the damage Pokémon on the user’s team take from physical attacks for five turns.",
+      "th": "สร้างกำแพงสะท้อนเพื่อลดความเสียหายทางกายภาพเป็นเวลา 5 เทิร์น"
     },
     "champions": {
       "available": true
@@ -8105,8 +8105,8 @@
     "accuracy": null,
     "pp": 15,
     "description": {
-      "en": "User becomes the target’s type.",
-      "th": ""
+      "en": "Changes the user’s type to match the target’s.",
+      "th": "เปลี่ยนธาตุของผู้ใช้ให้เหมือนกับธาตุของเป้าหมาย"
     },
     "champions": {
       "available": true
@@ -8124,8 +8124,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Cleanses the user of a burn, paralysis, or poison.",
-      "th": ""
+      "en": "Cures the user of burn, paralysis, or poison.",
+      "th": "รักษาอาการผิดปกติ (ไหม้, อัมพาต หรือยาพิษ) ของผู้ใช้"
     },
     "champions": {
       "available": true
@@ -8143,8 +8143,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "User sleeps for two turns, completely healing itself.",
-      "th": ""
+      "en": "User sleeps for two turns to fully heal HP and status conditions.",
+      "th": "หลับเป็นเวลา 2 เทิร์นเพื่อฟื้นฟู HP และรักษาอาการผิดปกติทั้งหมด"
     },
     "champions": {
       "available": true
@@ -8162,8 +8162,8 @@
     "accuracy": 100,
     "pp": 5,
     "description": {
-      "en": "Has double power if a friendly Pokémon fainted last turn.",
-      "th": ""
+      "en": "Power is doubled if a teammate fainted last turn.",
+      "th": "พลังโจมตีจะแรงขึ้นหากมีเพื่อนร่วมทีมหมดสภาพไปในเทิร์นก่อนหน้า"
     },
     "champions": {
       "available": true
@@ -8181,8 +8181,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Power increases with happiness, up to a maximum of 102.",
-      "th": ""
+      "en": "Power is higher the more the user likes its trainer.",
+      "th": "พลังโจมตีจะแรงขึ้นตามค่าความสนิทสนมของผู้ฝึกสอน"
     },
     "champions": {
       "available": true
@@ -8257,8 +8257,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Immediately ends wild battles. Forces trainers to switch Pokémon.",
-      "th": ""
+      "en": "Ends wild battles. Forces trainers to switch Pokémon.",
+      "th": "จบการต่อสู้กับโปเกมอนป่า หรือบังคับให้อีกฝ่ายสลับตัวโปเกมอน"
     },
     "champions": {
       "available": true
@@ -8277,7 +8277,7 @@
     "pp": 10,
     "description": {
       "en": "Hits 2-5 times in one turn.",
-      "th": ""
+      "th": "โจมตีต่อเนื่อง 2-5 ครั้งในเทิร์นเดียว"
     },
     "champions": {
       "available": true
@@ -8315,7 +8315,7 @@
     "pp": 20,
     "description": {
       "en": "Raises the user’s Speed by two stages.",
-      "th": ""
+      "th": "เพิ่มความเร็ว (Speed) ของผู้ใช้ขึ้น 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -8334,7 +8334,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 30% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดอาการชะงัก (Flinch)"
     },
     "champions": {
       "available": true
@@ -8390,8 +8390,8 @@
     "accuracy": 95,
     "pp": 15,
     "description": {
-      "en": "Has a 100% chance to lower the target’s Speed by one stage.",
-      "th": ""
+      "en": "Lowers the target’s Speed by one stage.",
+      "th": "ลดความเร็ว (Speed) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -8447,8 +8447,8 @@
     "accuracy": 90,
     "pp": 20,
     "description": {
-      "en": "Power doubles every turn this move is used in succession after the first, resetting after five turns.",
-      "th": ""
+      "en": "Power doubles each turn it hits consecutively for 5 turns.",
+      "th": "โจมตีต่อเนื่อง 5 เทิร์นและพลังจะแรงขึ้นเท่าตัวในทุกครั้งที่โจมตีโดน"
     },
     "champions": {
       "available": true
@@ -8466,8 +8466,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "Heals the user by half its max HP.",
-      "th": ""
+      "en": "Restores half the user’s max HP and removes the Flying type for the turn.",
+      "th": "ฟื้นฟู HP ครึ่งหนึ่ง และเสียธาตุบินไปชั่วคราวในเทิร์นที่ใช้"
     },
     "champions": {
       "available": true
@@ -8524,7 +8524,7 @@
     "pp": 15,
     "description": {
       "en": "Ignores the target’s stat modifiers.",
-      "th": ""
+      "th": "โจมตีโดยไม่สนใจการเปลี่ยนแปลงค่า Stat ของเป้าหมาย"
     },
     "champions": {
       "available": true
@@ -8542,8 +8542,8 @@
     "accuracy": null,
     "pp": 25,
     "description": {
-      "en": "Protects the user’s field from major status ailments and confusion for five turns.",
-      "th": ""
+      "en": "Prevents Pokémon on the user’s team from gaining major status conditions for five turns.",
+      "th": "ป้องกันอาการผิดปกติให้กับคนในทีมเป็นเวลา 5 เทิร์น"
     },
     "champions": {
       "available": true
@@ -8562,7 +8562,7 @@
     "pp": 15,
     "description": {
       "en": "Lowers the target’s accuracy by one stage.",
-      "th": ""
+      "th": "ลดความแม่นยำ (Accuracy) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -8599,8 +8599,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Changes the weather to a sandstorm for five turns.",
-      "th": ""
+      "en": "Summons a sandstorm for five turns.",
+      "th": "เรียกพายุทราย 5 เทิร์น สร้างความเสียหายแก่ตัวที่ไม่ใช่ธาตุหิน, ดิน หรือเหล็ก"
     },
     "champions": {
       "available": true
@@ -8619,7 +8619,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 30% chance to burn the target.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดอาการไหม้ (Burn)"
     },
     "champions": {
       "available": true
@@ -8657,7 +8657,7 @@
     "pp": 10,
     "description": {
       "en": "Lowers the target’s Speed by two stages.",
-      "th": ""
+      "th": "ลดความเร็ว (Speed) ของเป้าหมายลง 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -8695,7 +8695,7 @@
     "pp": 35,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -8714,7 +8714,7 @@
     "pp": 40,
     "description": {
       "en": "Lowers the target’s Defense by two stages.",
-      "th": ""
+      "th": "ลดพลังป้องกัน (Defense) ของเป้าหมายลง 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -8752,7 +8752,7 @@
     "pp": 15,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -8771,7 +8771,7 @@
     "pp": 20,
     "description": {
       "en": "Inflicts damage equal to the user’s level.",
-      "th": ""
+      "th": "สร้างความเสียหายเท่ากับระดับ Level ของผู้ใช้"
     },
     "champions": {
       "available": true
@@ -8789,8 +8789,8 @@
     "accuracy": 100,
     "pp": 5,
     "description": {
-      "en": "User faints.",
-      "th": ""
+      "en": "User faints after inflicting damage.",
+      "th": "ผู้ใช้ระเบิดตัวเองจนหมดสภาพเพื่อสร้างความเสียหายอย่างรุนแรง"
     },
     "champions": {
       "available": true
@@ -8809,7 +8809,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 20% chance to lower the target’s Special Defense by one stage.",
-      "th": ""
+      "th": "มีโอกาส 20% ที่จะลดพลังป้องกันพิเศษ (Sp. Def) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -8828,7 +8828,7 @@
     "pp": 15,
     "description": {
       "en": "Has an increased chance for a critical hit.",
-      "th": ""
+      "th": "มีโอกาสสูงที่จะโจมตีติดคริติคอล"
     },
     "champions": {
       "available": true
@@ -8847,7 +8847,7 @@
     "pp": 20,
     "description": {
       "en": "Never misses.",
-      "th": ""
+      "th": "การโจมตีที่ไม่มีวันพลาดเป้า"
     },
     "champions": {
       "available": true
@@ -8866,7 +8866,7 @@
     "pp": 30,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "ท่าโจมตีที่มีลำดับความสำคัญสูง (ออกท่าได้เร็ว)"
     },
     "champions": {
       "available": true
@@ -8885,7 +8885,7 @@
     "pp": 30,
     "description": {
       "en": "Raises the user’s Attack by one stage.",
-      "th": ""
+      "th": "เพิ่มพลังโจมตี (Attack) ของผู้ใช้ขึ้น 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -8941,8 +8941,8 @@
     "accuracy": null,
     "pp": 15,
     "description": {
-      "en": "Raises user’s Attack, Special Attack, and Speed by two stages. Lower user’s Defense and Special Defense by one stage.",
-      "th": ""
+      "en": "Lowers Defense and Special Defense to raise Attack, Special Attack, and Speed by two stages each.",
+      "th": "ยอมลดพลังป้องกันเพื่อเพิ่ม Attack, Sp. Atk และ Speed อย่างละ 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -8980,7 +8980,7 @@
     "pp": 20,
     "description": {
       "en": "Never misses.",
-      "th": ""
+      "th": "การโจมตีที่ไม่มีวันพลาดเป้า"
     },
     "champions": {
       "available": true
@@ -8999,7 +8999,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 10% chance to confuse the target.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดอาการสับสน (Confusion)"
     },
     "champions": {
       "available": true
@@ -9018,7 +9018,7 @@
     "pp": 5,
     "description": {
       "en": "Has a 10% chance to raise all of the user’s stats by one stage.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะเพิ่มค่าพลังทุกอย่างของผู้ใช้ขึ้นอย่างละ 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -9056,7 +9056,7 @@
     "pp": 15,
     "description": {
       "en": "Puts the target to sleep.",
-      "th": ""
+      "th": "ทำให้เป้าหมายหลับ (Sleep)"
     },
     "champions": {
       "available": true
@@ -9074,8 +9074,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "User and target swap abilities.",
-      "th": ""
+      "en": "Swaps abilities with the target.",
+      "th": "สลับความสามารถ (Ability) ระหว่างผู้ใช้และเป้าหมาย"
     },
     "champions": {
       "available": true
@@ -9112,8 +9112,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Raises the user’s Defense by one stage. User charges for one turn before attacking.",
-      "th": ""
+      "en": "User raises its Defense, then hits next turn.",
+      "th": "เพิ่มพลังป้องกันในเทิร์นแรกและพุ่งโจมตีในเทิร์นถัดไป"
     },
     "champions": {
       "available": true
@@ -9131,8 +9131,8 @@
     "accuracy": 90,
     "pp": 5,
     "description": {
-      "en": "User charges for one turn before attacking. Has a 30% chance to make the target flinch.",
-      "th": ""
+      "en": "Has an increased chance for a critical hit and a 30% chance to make the target flinch. Hits next turn.",
+      "th": "ชาร์จพลังและโจมตีในเทิร์นถัดไป มีโอกาสติดคริติคอลสูงและทำให้ชะงัก"
     },
     "champions": {
       "available": true
@@ -9150,8 +9150,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Carries the target high into the air, dodging all attacks against either, and drops it next turn.",
-      "th": ""
+      "en": "User takes the target into the air, dodging all attacks, and hits next turn.",
+      "th": "พาเป้าหมายบินขึ้นฟ้าและทุ่มลงมาในเทิร์นถัดไป"
     },
     "champions": {
       "available": true
@@ -9169,8 +9169,8 @@
     "accuracy": 90,
     "pp": 15,
     "description": {
-      "en": "Inflicts regular damage and can hit Bounce and Fly users.",
-      "th": ""
+      "en": "Inflicts regular damage with no additional effect.",
+      "th": "โจมตีใส่เป้าหมายที่อยู่บนฟ้าได้ (เช่น ท่า Fly หรือ Bounce)"
     },
     "champions": {
       "available": true
@@ -9188,8 +9188,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "Heals the user by half its max HP.",
-      "th": ""
+      "en": "Restores half the user’s max HP.",
+      "th": "ฟื้นฟู HP ให้ผู้ใช้ครึ่งหนึ่งของค่าสูงสุด"
     },
     "champions": {
       "available": true
@@ -9208,7 +9208,7 @@
     "pp": 20,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -9227,7 +9227,7 @@
     "pp": 20,
     "description": {
       "en": "Has an increased chance for a critical hit.",
-      "th": ""
+      "th": "มีโอกาสสูงที่จะโจมตีติดคริติคอล"
     },
     "champions": {
       "available": true
@@ -9246,7 +9246,7 @@
     "pp": 15,
     "description": {
       "en": "Puts the target to sleep.",
-      "th": ""
+      "th": "ทำให้เป้าหมายหลับ (Sleep)"
     },
     "champions": {
       "available": true
@@ -9264,8 +9264,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Randomly uses one of the user’s other three moves. Only works if the user is sleeping.",
-      "th": ""
+      "en": "Uses one of the user’s other moves at random while asleep.",
+      "th": "สุ่มใช้ท่าโจมตีอื่นที่มีอยู่ขณะที่กำลังหลับ"
     },
     "champions": {
       "available": true
@@ -9284,7 +9284,7 @@
     "pp": 20,
     "description": {
       "en": "Has a 30% chance to poison the target.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดยาพิษ (Poison)"
     },
     "champions": {
       "available": true
@@ -9303,7 +9303,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 30% chance to poison the target.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดยาพิษ (Poison)"
     },
     "champions": {
       "available": true
@@ -9322,7 +9322,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 10% chance to poison the target.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดยาพิษ (Poison)"
     },
     "champions": {
       "available": true
@@ -9340,8 +9340,8 @@
     "accuracy": 100,
     "pp": 15,
     "description": {
-      "en": "Removes any immunity to Ground damage.",
-      "th": ""
+      "en": "Knocks Flying-type and Levitating Pokémon to the ground.",
+      "th": "สอยโปเกมอนที่บินหรือลอยอยู่ให้ตกลงมาบนพื้น"
     },
     "champions": {
       "available": true
@@ -9360,7 +9360,7 @@
     "pp": 10,
     "description": {
       "en": "Never misses.",
-      "th": ""
+      "th": "การโจมตีที่ไม่มีวันพลาดเป้า"
     },
     "champions": {
       "available": true
@@ -9379,7 +9379,7 @@
     "pp": 20,
     "description": {
       "en": "Has a 40% chance to poison the target.",
-      "th": ""
+      "th": "มีโอกาส 40% ที่จะทำให้เป้าหมายติดยาพิษ (Poison)"
     },
     "champions": {
       "available": true
@@ -9398,7 +9398,7 @@
     "pp": 20,
     "description": {
       "en": "Lowers the target’s accuracy by one stage.",
-      "th": ""
+      "th": "ลดความแม่นยำ (Accuracy) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -9435,8 +9435,8 @@
     "accuracy": 95,
     "pp": 15,
     "description": {
-      "en": "Has a 100% chance to lower the target’s Special Attack by one stage.",
-      "th": ""
+      "en": "Lowers the target’s Special Attack by one stage after inflicting damage.",
+      "th": "ลดพลังโจมตีพิเศษ (Sp. Atk) ของเป้าหมายลง 1 ระดับหลังจากโจมตี"
     },
     "champions": {
       "available": true
@@ -9454,8 +9454,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Steals the target’s move, if it’s self-targeted.",
-      "th": ""
+      "en": "Steals the effect of the target’s next status move.",
+      "th": "ขโมยผลของท่าจำพวกเพิ่มพลังหรือฟื้นฟูที่เป้าหมายกำลังจะใช้"
     },
     "champions": {
       "available": true
@@ -9473,8 +9473,8 @@
     "accuracy": 100,
     "pp": 15,
     "description": {
-      "en": "Has a 30% chance to make the target flinch. Only works if the user is sleeping.",
-      "th": ""
+      "en": "Has a 30% chance to make the target flinch. Only works while asleep.",
+      "th": "โจมตีขณะหลับ มีโอกาส 30% ทำให้ชะงัก"
     },
     "champions": {
       "available": true
@@ -9512,7 +9512,7 @@
     "pp": 20,
     "description": {
       "en": "Changes the target’s type to Water.",
-      "th": ""
+      "th": "เปลี่ยนธาตุของเป้าหมายให้กลายเป็นธาตุน้ำ"
     },
     "champions": {
       "available": true
@@ -9530,8 +9530,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "Heals the user by half its max HP.",
-      "th": ""
+      "en": "Restores half the user’s max HP.",
+      "th": "ฟื้นฟู HP ให้ผู้ใช้ครึ่งหนึ่งของค่าสูงสุด"
     },
     "champions": {
       "available": true
@@ -9549,8 +9549,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Requires a turn to charge before attacking.",
-      "th": ""
+      "en": "User charges its next turn, then hits. Works instantly in sunshine.",
+      "th": "ชาร์จพลังในเทิร์นแรกและโจมตีในเทิร์นถัดไป (โจมตีทันทีถ้าแดดจัด)"
     },
     "champions": {
       "available": true
@@ -9588,7 +9588,7 @@
     "pp": 20,
     "description": {
       "en": "Has a 30% chance to paralyze the target.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดอาการเป็นอัมพาต (Paralyze)"
     },
     "champions": {
       "available": true
@@ -9815,8 +9815,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Causes damage when opposing Pokémon switch in.",
-      "th": ""
+      "en": "Scatters stones that damage Pokémon switching into battle.",
+      "th": "วางกับดักหินที่จะสร้างความเสียหายแก่โปเกมอนที่สลับตัวเข้ามา"
     },
     "champions": {
       "available": true
@@ -9873,7 +9873,7 @@
     "pp": 25,
     "description": {
       "en": "Has a 10% chance to raise the user’s Defense by one stage.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะเพิ่มพลังป้องกัน (Defense) ของผู้ใช้ขึ้น 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -9891,8 +9891,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Covers the opposing field, lowering opponents’ Speed by one stage upon switching in.",
-      "th": ""
+      "en": "Scatters a web that lowers the Speed of Pokémon switching into battle.",
+      "th": "วางใยแมงมุมที่จะลดความเร็วของโปเกมอนที่สลับตัวเข้ามา"
     },
     "champions": {
       "available": true
@@ -9910,8 +9910,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Stores energy up to three times for use with Spit Up and Swallow.",
-      "th": ""
+      "en": "User stores energy up to three times to raise Defense and Special Defense.",
+      "th": "สะสมพลังเพื่อเพิ่มพลังป้องกันทั้งสองด้าน (สูงสุด 3 ครั้ง)"
     },
     "champions": {
       "available": true
@@ -9930,7 +9930,7 @@
     "pp": 20,
     "description": {
       "en": "Has a 30% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดอาการชะงัก (Flinch)"
     },
     "champions": {
       "available": true
@@ -9968,7 +9968,7 @@
     "pp": 5,
     "description": {
       "en": "Has an increased chance for a critical hit.",
-      "th": ""
+      "th": "มีโอกาสสูงที่จะโจมตีติดคริติคอล"
     },
     "champions": {
       "available": true
@@ -10025,7 +10025,7 @@
     "pp": 15,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -10081,8 +10081,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Has a 100% chance to lower the target’s Special Attack by one stage.",
-      "th": ""
+      "en": "Lowers the target’s Special Attack by one stage after inflicting damage.",
+      "th": "ลดพลังโจมตีพิเศษ (Sp. Atk) ของเป้าหมายลง 1 ระดับหลังจากโจมตี"
     },
     "champions": {
       "available": true
@@ -10101,7 +10101,7 @@
     "pp": 30,
     "description": {
       "en": "Paralyzes the target.",
-      "th": ""
+      "th": "ทำให้เป้าหมายติดอาการเป็นอัมพาต (Paralyze)"
     },
     "champions": {
       "available": true
@@ -10138,8 +10138,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Transfers 1/4 of the user’s max HP into a doll, protecting the user from further damage or status changes until it breaks.",
-      "th": ""
+      "en": "User pays 1/4 its max HP to create a substitute that takes hits for it.",
+      "th": "แบ่ง HP 1/4 เพื่อสร้างตัวตายตัวแทนออกมารับการโจมตีแทน"
     },
     "champions": {
       "available": true
@@ -10157,8 +10157,8 @@
     "accuracy": 100,
     "pp": 5,
     "description": {
-      "en": "Only works if the target is about to use a damaging move.",
-      "th": ""
+      "en": "Only works if the target is preparing an attack.",
+      "th": "ท่าโจมตีที่จะออกก่อนเสมอ แต่จะใช้ได้เฉพาะเมื่อเป้าหมายกำลังจะโจมตีเท่านั้น"
     },
     "champions": {
       "available": true
@@ -10176,8 +10176,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "Changes the weather to sunny for five turns.",
-      "th": ""
+      "en": "Summons sunshine for five turns.",
+      "th": "เรียกแดดจัด 5 เทิร์น เพิ่มพลังท่าธาตุไฟและลดพลังท่าธาตุน้ำ"
     },
     "champions": {
       "available": true
@@ -10271,8 +10271,8 @@
     "accuracy": 100,
     "pp": 15,
     "description": {
-      "en": "Inflicts regular damage and can hit Dive users.",
-      "th": ""
+      "en": "Inflicts regular damage.",
+      "th": "โจมตีสร้างความเสียหายปกติแก่โปเกมอนทุกตัวรอบข้าง"
     },
     "champions": {
       "available": true
@@ -10290,8 +10290,8 @@
     "accuracy": 85,
     "pp": 15,
     "description": {
-      "en": "Raises the target’s Attack by two stages and confuses the target.",
-      "th": ""
+      "en": "Confuses the target and raises its Attack by two stages.",
+      "th": "ทำให้เป้าหมายสับสน แต่จะเพิ่มพลังโจมตี (Attack) ให้เป้าหมาย 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -10309,8 +10309,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "Recovers 1/4 HP after one Stockpile, 1/2 HP after two Stockpiles, or full HP after three Stockpiles.",
-      "th": ""
+      "en": "Consumes stockpiled energy to heal the user.",
+      "th": "กลืนพลังที่สะสมไว้จากท่า Stockpile เพื่อฟื้นฟู HP"
     },
     "champions": {
       "available": true
@@ -10329,7 +10329,7 @@
     "pp": 10,
     "description": {
       "en": "Confuses the target.",
-      "th": ""
+      "th": "ทำให้เป้าหมายติดอาการสับสน (Confusion)"
     },
     "champions": {
       "available": true
@@ -10347,8 +10347,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Lowers the target’s evasion by one stage.",
-      "th": ""
+      "en": "Lowers the target’s evasion by two stages.",
+      "th": "ลดค่าการหลบหลีก (Evasiveness) ของเป้าหมายลง 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -10367,7 +10367,7 @@
     "pp": 20,
     "description": {
       "en": "Never misses.",
-      "th": ""
+      "th": "การโจมตีที่ไม่มีวันพลาดเป้า"
     },
     "champions": {
       "available": true
@@ -10405,7 +10405,7 @@
     "pp": 20,
     "description": {
       "en": "Raises the user’s Attack by two stages.",
-      "th": ""
+      "th": "เพิ่มพลังโจมตี (Attack) ของผู้ใช้ขึ้น 2 ระดับ"
     },
     "champions": {
       "available": true
@@ -10442,8 +10442,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "Heals the user by half its max HP. Affected by weather.",
-      "th": ""
+      "en": "Restores the user’s HP.",
+      "th": "ฟื้นฟู HP (ปริมาณขึ้นอยู่กับสภาพอากาศ)"
     },
     "champions": {
       "available": true
@@ -10462,7 +10462,7 @@
     "pp": 35,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "พุ่งชนสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -10481,7 +10481,7 @@
     "pp": 10,
     "description": {
       "en": "Hits 2-5 times in one turn.",
-      "th": ""
+      "th": "โจมตีต่อเนื่อง 2-5 ครั้งในเทิร์นเดียว"
     },
     "champions": {
       "available": true
@@ -10500,7 +10500,7 @@
     "pp": 30,
     "description": {
       "en": "Lowers the target’s Defense by one stage.",
-      "th": ""
+      "th": "ลดพลังป้องกัน (Defense) ของเป้าหมายลง 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -10518,8 +10518,8 @@
     "accuracy": null,
     "pp": 15,
     "description": {
-      "en": "For three turns, friendly Pokémon have doubled Speed.",
-      "th": ""
+      "en": "Doubles the Speed of Pokémon on the user’s team for four turns.",
+      "th": "เพิ่มความเร็ว (Speed) ให้กับคนในทีมเป็น 2 เท่า เป็นเวลา 4 เทิร์น"
     },
     "champions": {
       "available": true
@@ -10537,8 +10537,8 @@
     "accuracy": 85,
     "pp": 20,
     "description": {
-      "en": "User receives 1/4 the damage it inflicts in recoil.",
-      "th": ""
+      "en": "User receives 1/4 the damage inflicted in recoil.",
+      "th": "ผู้ใช้จะได้รับความเสียหายสะท้อนกลับ 1/4 ของความเสียหายที่ทำได้"
     },
     "champions": {
       "available": true
@@ -10556,8 +10556,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "For the next few turns, the target can only use damaging moves.",
-      "th": ""
+      "en": "Target can only use damaging moves for 3 turns.",
+      "th": "บังคับให้เป้าหมายใช้ได้เฉพาะท่าโจมตีเท่านั้นเป็นเวลา 3 เทิร์น"
     },
     "champions": {
       "available": true
@@ -10613,8 +10613,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Immediately ends wild battles. No effect otherwise.",
-      "th": ""
+      "en": "User switches out.",
+      "th": "สลับตัวผู้ใช้ออกจากการต่อสู้ทันที"
     },
     "champions": {
       "available": true
@@ -10690,7 +10690,7 @@
     "pp": 25,
     "description": {
       "en": "Takes the target’s item.",
-      "th": ""
+      "th": "โจมตีและขโมยไอเทมที่เป้าหมายถืออยู่ (หากผู้ใช้ไม่ได้ถือไอเทม)"
     },
     "champions": {
       "available": true
@@ -10708,8 +10708,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Hits every turn for 2-3 turns, then confuses the user.",
-      "th": ""
+      "en": "User attacks for 2-3 turns, then becomes confused.",
+      "th": "โจมตีรุนแรงต่อเนื่อง 2-3 เทิร์น และจะติดอาการสับสนเมื่อจบลง"
     },
     "champions": {
       "available": true
@@ -10746,8 +10746,8 @@
     "accuracy": 70,
     "pp": 10,
     "description": {
-      "en": "Has a 30% chance to paralyze the target.",
-      "th": ""
+      "en": "Has a 30% chance to paralyze the target. Never misses in rain.",
+      "th": "มีโอกาส 30% ทำให้เป็นอัมพาต และโจมตีโดนแน่นอนในช่วงฝนตก"
     },
     "champions": {
       "available": true
@@ -10766,7 +10766,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 10% chance to paralyze the target and a 10% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 10% ทำให้ชะงัก และอีก 10% ทำให้ติดอาการเป็นอัมพาต"
     },
     "champions": {
       "available": true
@@ -10784,8 +10784,8 @@
     "accuracy": 100,
     "pp": 15,
     "description": {
-      "en": "Has a 10% chance to paralyze the target.",
-      "th": ""
+      "en": "Has a 30% chance to paralyze the target.",
+      "th": "มีโอกาส 30% ที่จะทำให้เป้าหมายติดอาการเป็นอัมพาต (Paralyze)"
     },
     "champions": {
       "available": true
@@ -10804,7 +10804,7 @@
     "pp": 30,
     "description": {
       "en": "Has a 10% chance to paralyze the target.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดอาการเป็นอัมพาต (Paralyze)"
     },
     "champions": {
       "available": true
@@ -10823,7 +10823,7 @@
     "pp": 20,
     "description": {
       "en": "Paralyzes the target.",
-      "th": ""
+      "th": "ทำให้เป้าหมายติดอาการเป็นอัมพาต (Paralyze) แน่นอน"
     },
     "champions": {
       "available": true
@@ -10842,7 +10842,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 10% chance to paralyze the target.",
-      "th": ""
+      "th": "มีโอกาส 10% ที่จะทำให้เป้าหมายติดอาการเป็นอัมพาต (Paralyze)"
     },
     "champions": {
       "available": true
@@ -10860,8 +10860,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "Lowers the target’s Attack and Defense by one stage.",
-      "th": ""
+      "en": "Lowers the target’s Attack and Defense by one stage each.",
+      "th": "ลดพลังโจมตี (Attack) และพลังป้องกัน (Defense) ของเป้าหมายอย่างละ 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -10898,8 +10898,8 @@
     "accuracy": 90,
     "pp": 10,
     "description": {
-      "en": "Badly poisons the target, inflicting more damage every turn.",
-      "th": ""
+      "en": "Badly poisons the target.",
+      "th": "ทำให้เป้าหมายติดยาพิษร้ายแรง (Badly Poisoned)"
     },
     "champions": {
       "available": true
@@ -10917,8 +10917,8 @@
     "accuracy": null,
     "pp": 20,
     "description": {
-      "en": "Scatters poisoned spikes, poisoning opposing Pokémon that switch in.",
-      "th": ""
+      "en": "Scatters spikes that poison Pokémon switching into battle.",
+      "th": "วางหนามพิษที่จะทำให้โปเกมอนที่สลับตัวเข้ามาติดพิษ"
     },
     "champions": {
       "available": true
@@ -10974,8 +10974,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "User becomes a copy of the target until it leaves battle.",
-      "th": ""
+      "en": "User copies the target’s stats and moves.",
+      "th": "แปลงร่างเป็นเป้าหมายและเลียนแบบค่าพลังรวมถึงท่าโจมตีทั้งหมด"
     },
     "champions": {
       "available": true
@@ -10994,7 +10994,7 @@
     "pp": 10,
     "description": {
       "en": "Has a 20% chance to burn, freeze, or paralyze the target.",
-      "th": ""
+      "th": "มีโอกาส 20% ที่จะทำให้ติดอาการไหม้, เยือกแข็ง หรืออัมพาต"
     },
     "champions": {
       "available": true
@@ -11012,8 +11012,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "User and target swap items.",
-      "th": ""
+      "en": "Swaps items with the target.",
+      "th": "สลับไอเทมที่ถืออยู่กับเป้าหมาย"
     },
     "champions": {
       "available": true
@@ -11050,8 +11050,8 @@
     "accuracy": null,
     "pp": 5,
     "description": {
-      "en": "For five turns, slower Pokémon will act before faster Pokémon.",
-      "th": ""
+      "en": "Slower Pokémon act first for five turns.",
+      "th": "บิดเบือนมิติ 5 เทิร์น ทำให้โปเกมอนที่ช้ากว่าได้ออกท่าก่อน"
     },
     "champions": {
       "available": true
@@ -11146,7 +11146,7 @@
     "pp": 20,
     "description": {
       "en": "Has a 20% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 20% ที่จะทำให้เป้าหมายติดอาการชะงัก (Flinch)"
     },
     "champions": {
       "available": true
@@ -11164,8 +11164,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "User must switch out after attacking.",
-      "th": ""
+      "en": "User switches out after inflicting damage.",
+      "th": "โจมตีและสลับตัวผู้ใช้ออกจากการต่อสู้ทันที"
     },
     "champions": {
       "available": true
@@ -11202,8 +11202,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Forced to use this move for several turns. Pokémon cannot fall asleep in that time.",
-      "th": ""
+      "en": "User attacks for 3 turns and prevents Pokémon from falling asleep.",
+      "th": "ส่งเสียงคำรามโจมตีต่อเนื่อง 3 เทิร์น และป้องกันการหลับ"
     },
     "champions": {
       "available": true
@@ -11222,7 +11222,7 @@
     "pp": 30,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "ท่าโจมตีที่มีลำดับความสำคัญสูง (ออกท่าได้เร็ว)"
     },
     "champions": {
       "available": true
@@ -11259,8 +11259,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "Inflicts double damage if the target is Poisoned.",
-      "th": ""
+      "en": "Inflicts double damage if the target is poisoned.",
+      "th": "พลังโจมตีจะแรงขึ้น 2 เท่า หากเป้าหมายติดยาพิษอยู่"
     },
     "champions": {
       "available": true
@@ -11335,8 +11335,8 @@
     "accuracy": 100,
     "pp": 20,
     "description": {
-      "en": "User must switch out after attacking.",
-      "th": ""
+      "en": "User switches out after inflicting damage.",
+      "th": "โจมตีและสลับตัวผู้ใช้ออกจากการต่อสู้ทันที"
     },
     "champions": {
       "available": true
@@ -11354,8 +11354,8 @@
     "accuracy": 100,
     "pp": 15,
     "description": {
-      "en": "User takes 1/3 the damage inflicted in recoil. Has a 10% chance to paralyze the target.",
-      "th": ""
+      "en": "User receives 1/3 the damage inflicted in recoil and has a 10% chance to paralyze the target.",
+      "th": "ผู้ใช้ได้รับความเสียหายสะท้อนกลับ 1/3 และมีโอกาส 10% ทำให้ติดอัมพาต"
     },
     "champions": {
       "available": true
@@ -11393,7 +11393,7 @@
     "pp": 25,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "พ่นน้ำสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -11431,7 +11431,7 @@
     "pp": 20,
     "description": {
       "en": "Has a 20% chance to confuse the target.",
-      "th": ""
+      "th": "มีโอกาส 20% ที่จะทำให้เป้าหมายติดอาการสับสน (Confusion)"
     },
     "champions": {
       "available": true
@@ -11487,8 +11487,8 @@
     "accuracy": 100,
     "pp": 5,
     "description": {
-      "en": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power.",
-      "th": ""
+      "en": "Power is higher the more HP the user has.",
+      "th": "พลังโจมตีจะยิ่งแรงขึ้นตามจำนวน HP ที่เหลืออยู่ของผู้ใช้"
     },
     "champions": {
       "available": true
@@ -11507,7 +11507,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 20% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 20% ที่จะทำให้เป้าหมายติดอาการชะงัก (Flinch)"
     },
     "champions": {
       "available": true
@@ -11544,8 +11544,8 @@
     "accuracy": 100,
     "pp": 10,
     "description": {
-      "en": "If there be weather, this move has doubled power and the weather’s type.",
-      "th": ""
+      "en": "Power and type vary according to the weather.",
+      "th": "พลังและธาตุของท่าจะเปลี่ยนไปตามสภาพอากาศ"
     },
     "champions": {
       "available": true
@@ -11620,8 +11620,8 @@
     "accuracy": 100,
     "pp": 15,
     "description": {
-      "en": "User receives 1/4 the damage it inflicts in recoil.",
-      "th": ""
+      "en": "User receives 1/4 the damage inflicted in recoil.",
+      "th": "ผู้ใช้จะได้รับความเสียหายสะท้อนกลับ 1/4 ของความเสียหายที่ทำได้"
     },
     "champions": {
       "available": true
@@ -11640,7 +11640,7 @@
     "pp": 15,
     "description": {
       "en": "Burns the target.",
-      "th": ""
+      "th": "ทำให้เป้าหมายติดอาการไหม้ (Burn) แน่นอน"
     },
     "champions": {
       "available": true
@@ -11659,7 +11659,7 @@
     "pp": 35,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -11677,8 +11677,8 @@
     "accuracy": null,
     "pp": 10,
     "description": {
-      "en": "User will recover half its max HP at the end of the next turn.",
-      "th": ""
+      "en": "User restores half its max HP at the end of the next turn.",
+      "th": "อธิษฐานเพื่อฟื้นฟู HP ครึ่งหนึ่งเมื่อจบเทิร์นถัดไป"
     },
     "champions": {
       "available": true
@@ -11697,7 +11697,7 @@
     "pp": 40,
     "description": {
       "en": "Raises the user’s Defense by one stage.",
-      "th": ""
+      "th": "เพิ่มพลังป้องกัน (Defense) ของผู้ใช้ขึ้น 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -11735,7 +11735,7 @@
     "pp": 15,
     "description": {
       "en": "User receives 1/3 the damage inflicted in recoil.",
-      "th": ""
+      "th": "ผู้ใช้จะได้รับความเสียหายสะท้อนกลับ 1/3 ของความเสียหายที่ทำได้"
     },
     "champions": {
       "available": true
@@ -11754,7 +11754,7 @@
     "pp": 30,
     "description": {
       "en": "Raises the user’s Attack and Special Attack by one stage each.",
-      "th": ""
+      "th": "เพิ่มพลังโจมตี (Attack) และพลังโจมตีพิเศษ (Sp. Atk) อย่างละ 1 ระดับ"
     },
     "champions": {
       "available": true
@@ -11773,7 +11773,7 @@
     "pp": 10,
     "description": {
       "en": "Changes the target’s ability to Insomnia.",
-      "th": ""
+      "th": "เปลี่ยนความสามารถของเป้าหมายให้เป็น Insomnia (ป้องกันการหลับ)"
     },
     "champions": {
       "available": true
@@ -11791,8 +11791,8 @@
     "accuracy": 90,
     "pp": 20,
     "description": {
-      "en": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
-      "th": ""
+      "en": "Traps the target and inflicts damage for 2-5 turns.",
+      "th": "รัดเป้าหมายให้หนีไม่ได้และสร้างความเสียหายต่อเนื่อง 2-5 เทิร์น"
     },
     "champions": {
       "available": true
@@ -11810,8 +11810,8 @@
     "accuracy": 100,
     "pp": 5,
     "description": {
-      "en": "Power increases against targets with more HP remaining, up to a maximum of 121 power.",
-      "th": ""
+      "en": "Power is higher the more HP the target has.",
+      "th": "พลังโจมตีจะยิ่งแรงขึ้นตามจำนวน HP ที่เหลืออยู่ของเป้าหมาย"
     },
     "champions": {
       "available": true
@@ -11830,7 +11830,7 @@
     "pp": 15,
     "description": {
       "en": "Inflicts regular damage with no additional effect.",
-      "th": ""
+      "th": "โจมตีสร้างความเสียหายปกติ"
     },
     "champions": {
       "available": true
@@ -11849,7 +11849,7 @@
     "pp": 10,
     "description": {
       "en": "Target sleeps at the end of the next turn.",
-      "th": ""
+      "th": "ทำให้เป้าหมายหาวและจะหลับไปเมื่อจบเทิร์นถัดไป"
     },
     "champions": {
       "available": true
@@ -11868,7 +11868,7 @@
     "pp": 5,
     "description": {
       "en": "Has a 100% chance to paralyze the target.",
-      "th": ""
+      "th": "ทำให้เป้าหมายติดอาการเป็นอัมพาต (Paralyze) แน่นอนหากโจมตีโดน"
     },
     "champions": {
       "available": true
@@ -11887,7 +11887,7 @@
     "pp": 15,
     "description": {
       "en": "Has a 20% chance to make the target flinch.",
-      "th": ""
+      "th": "มีโอกาส 20% ที่จะทำให้เป้าหมายติดอาการชะงัก (Flinch)"
     },
     "champions": {
       "available": true
