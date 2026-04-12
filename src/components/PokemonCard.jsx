@@ -15,15 +15,21 @@ function PokemonCard({ pokemon }) {
   const stats = getStats(pokemon);
 
   const typesDisplay = getTypesDisplay(pokemon);
-  const types = typeof typesDisplay === "string" ? typesDisplay.split(" / ") : [];
+  const types =
+    typeof typesDisplay === "string"
+      ? typesDisplay
+          .split(/,|\/|\|/)
+          .map((t) => t.trim())
+          .filter(Boolean)
+      : [];
 
   const cardStats = [
-    { label: "HP", value: stats.hp ?? "—" },
-    { label: "Atk", value: stats.attack ?? "—" },
-    { label: "Def", value: stats.defense ?? "—" },
-    { label: "SpA", value: stats.spAttack ?? "—" },
-    { label: "SpD", value: stats.spDefense ?? "—" },
-    { label: "Spe", value: stats.speed ?? "—" },
+    { label: "HP", value: stats.hp ?? "—", cls: "hp" },
+    { label: "Atk", value: stats.attack ?? "—", cls: "attack" },
+    { label: "Def", value: stats.defense ?? "—", cls: "defense" },
+    { label: "SpA", value: stats.spAttack ?? "—", cls: "spatk" },
+    { label: "SpD", value: stats.spDefense ?? "—", cls: "spdef" },
+    { label: "Spe", value: stats.speed ?? "—", cls: "speed" },
   ];
 
   return (
@@ -61,7 +67,7 @@ function PokemonCard({ pokemon }) {
         <div className="meta-label">Base Stats</div>
         <div className="card-stats">
           {cardStats.map((stat) => (
-            <div key={stat.label} className="card-stat-chip">
+            <div key={stat.label} className={`card-stat-chip ${stat.cls}`}>
               <span>{stat.label}</span>
               <strong>{stat.value}</strong>
             </div>
