@@ -1,45 +1,33 @@
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import abilitiesData from "../data/abilities.json";
 import {
-  getAbilities,
   getDexNo,
   getDisplayName,
   getEnglishName,
   getImageSrc,
   getStats,
-  SAFE_PLACEHOLDER_IMAGE,
-  getTypes,
+  getTypesDisplay,
 } from "../utils/pokemonDisplay";
 
 function PokemonCard({ pokemon }) {
-  const stats = getStats(pokemon);
-  const compactStats = [
-    { key: "hp", label: "HP" },
-    { key: "attack", label: "ATK" },
-    { key: "defense", label: "DEF" },
-    { key: "spAttack", label: "SpA" },
-    { key: "spDefense", label: "SpD" },
-    { key: "speed", label: "SPD" },
-  ];
-  const abilityNames = getAbilities(pokemon)
-    .map((abilityId) => {
-      const ability = abilitiesData.find((ab) => ab.id === abilityId);
-      return ability ? ability.name.en : abilityId;
-    })
-    .filter(Boolean);
-
   const displayName = getDisplayName(pokemon);
   const englishName = getEnglishName(pokemon);
-  const types = getTypes(pokemon);
-  const [imageSrc, setImageSrc] = useState(getImageSrc(pokemon));
+  const imageSrc = getImageSrc(pokemon);
+  const stats = getStats(pokemon);
 
-  useEffect(() => {
-    setImageSrc(getImageSrc(pokemon));
-  }, [pokemon]);
+  const typesDisplay = getTypesDisplay(pokemon);
+  const types = typeof typesDisplay === "string" ? typesDisplay.split(" / ") : [];
+
+  const cardStats = [
+    { label: "HP", value: stats.hp ?? "—" },
+    { label: "Atk", value: stats.attack ?? "—" },
+    { label: "Def", value: stats.defense ?? "—" },
+    { label: "SpA", value: stats.spAttack ?? "—" },
+    { label: "SpD", value: stats.spDefense ?? "—" },
+    { label: "Spe", value: stats.speed ?? "—" },
+  ];
 
   return (
-    <Link to={`/pokemon/${pokemon.id}`} className="pokemon-card-link">
+    <Link className="pokemon-card-link" to={`/pokemon/${pokemon.id}`}>
       <article className="pokemon-card">
         <div className="pokemon-card__top">
           <h3>
@@ -55,33 +43,27 @@ function PokemonCard({ pokemon }) {
             alt={englishName}
             className="pokemon-card__image"
             loading="lazy"
-            onError={() => setImageSrc(SAFE_PLACEHOLDER_IMAGE)}
           />
         </div>
 
-        <p className="meta-label">Type</p>
+        <div className="meta-label">Type</div>
         <div className="type-badge-row">
-          {types.length ? (
-            types.map((type) => (
-              <span key={type} className={`type-badge type-badge--${type.toLowerCase()}`}>
-                {type}
-              </span>
-            ))
-          ) : (
-            <span className="meta-value">TBD</span>
-          )}
+          {types.map((type) => (
+            <span
+              key={type}
+              className={`type-badge type-${type.toLowerCase()}`}
+            >
+              {type}
+            </span>
+          ))}
         </div>
 
-        <p className="meta-label">Ability</p>
-        <p className="meta-value">
-          {abilityNames.length ? abilityNames.join(", ") : "TBD"}
-        </p>
-
+        <div className="meta-label">Base Stats</div>
         <div className="card-stats">
-          {compactStats.map((stat) => (
-            <div key={stat.key} className="card-stat-chip">
+          {cardStats.map((stat) => (
+            <div key={stat.label} className="card-stat-chip">
               <span>{stat.label}</span>
-              <strong>{stats[stat.key] ?? "-"}</strong>
+              <strong>{stat.value}</strong>
             </div>
           ))}
         </div>
