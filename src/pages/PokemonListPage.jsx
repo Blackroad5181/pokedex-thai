@@ -50,8 +50,7 @@ function PokemonListPage() {
         displayName.includes(keyword) ||
         englishName.includes(keyword);
 
-      const matchesType =
-        !selectedType || getTypes(p).includes(selectedType);
+      const matchesType = !selectedType || getTypes(p).includes(selectedType);
 
       const matchesAbility =
         !selectedAbility || getAbilities(p).includes(selectedAbility);
@@ -74,44 +73,29 @@ function PokemonListPage() {
   }, [currentPage, totalPages]);
 
   return (
-    <div>
-      <h2>Pokemon List</h2>
+    <section>
+      <h2 className="page-title">Pokemon List</h2>
 
-      <div style={{ marginBottom: "16px" }}>
+      <div className="filter-panel">
         <SearchBar value={inputSearchTerm} onChange={setInputSearchTerm} />
 
         <button
           type="button"
+          className="button"
           onClick={() => {
             setSearchTerm(inputSearchTerm);
             setCurrentPage(1);
-          }}
-          style={{
-            width: "100%",
-            maxWidth: "220px",
-            padding: "10px",
-            fontSize: "16px",
-            borderRadius: "8px",
-            marginBottom: "12px",
           }}
         >
           ค้นหา
         </button>
 
-        <br />
-
         <select
+          className="select"
           value={selectedType}
           onChange={(e) => {
             setSelectedType(e.target.value);
             setCurrentPage(1);
-          }}
-          style={{
-            width: "100%",
-            maxWidth: "220px",
-            padding: "10px",
-            fontSize: "16px",
-            borderRadius: "8px",
           }}
         >
           <option value="">ทุกประเภท</option>
@@ -122,21 +106,12 @@ function PokemonListPage() {
           ))}
         </select>
 
-        <br />
-
         <select
+          className="select"
           value={selectedAbility}
           onChange={(e) => {
             setSelectedAbility(e.target.value);
             setCurrentPage(1);
-          }}
-          style={{
-            width: "100%",
-            maxWidth: "220px",
-            padding: "10px",
-            fontSize: "16px",
-            borderRadius: "8px",
-            marginTop: "10px",
           }}
         >
           <option value="">ทุกความสามารถ</option>
@@ -154,16 +129,22 @@ function PokemonListPage() {
 
       {filteredPokemon.length > 0 ? (
         <>
-          {paginatedPokemon.map((p) => (
-            <PokemonCard key={p.id} pokemon={p} />
-          ))}
+          <p className="results-meta">
+            แสดงผล {paginatedPokemon.length} จาก {filteredPokemon.length} ตัว
+          </p>
 
-          <div style={{ marginTop: "16px" }}>
+          <div className="pokemon-grid">
+            {paginatedPokemon.map((p) => (
+              <PokemonCard key={p.id} pokemon={p} />
+            ))}
+          </div>
+
+          <div className="pagination">
             <button
               type="button"
+              className="pagination-button"
               onClick={() => setCurrentPage((page) => Math.max(1, page - 1))}
               disabled={currentPage === 1}
-              style={{ marginRight: "8px" }}
             >
               ก่อนหน้า
             </button>
@@ -172,20 +153,20 @@ function PokemonListPage() {
             </span>
             <button
               type="button"
+              className="pagination-button"
               onClick={() =>
                 setCurrentPage((page) => Math.min(totalPages, page + 1))
               }
               disabled={currentPage === totalPages}
-              style={{ marginLeft: "8px" }}
             >
               ถัดไป
             </button>
           </div>
         </>
       ) : (
-        <p>ไม่พบโปเกมอนที่ค้นหา</p>
+        <p className="empty-state">ไม่พบโปเกมอนที่ค้นหา</p>
       )}
-    </div>
+    </section>
   );
 }
 
