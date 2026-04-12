@@ -20,30 +20,24 @@ function PokemonCard({ pokemon }) {
   const englishName = getEnglishName(pokemon);
 
   return (
-    <Link
-      to={`/pokemon/${pokemon.id}`}
-      style={{
-        textDecoration: "none",
-        color: "inherit",
-      }}
-    >
-      <div
-        style={{
-          border: "1px solid gray",
-          margin: 8,
-          padding: 8,
-          cursor: "pointer",
-          borderRadius: "12px",
-        }}
-      >
-        <h3>
-          {displayName}
-          {displayName !== englishName ? ` (${englishName})` : ""}
-        </h3>
-        <p>#{getDexNo(pokemon)}</p>
-        <p>Type: {getTypesDisplay(pokemon)}</p>
-        <p>Ability: {abilityNames.length ? abilityNames.join(", ") : "TBD"}</p>
-      </div>
+    <Link to={`/pokemon/${pokemon.id}`} className="pokemon-card-link">
+      <article className="pokemon-card">
+        <div className="pokemon-card__top">
+          <h3>
+            {displayName}
+            {displayName !== englishName ? ` (${englishName})` : ""}
+          </h3>
+          <span className="dex-badge">#{getDexNo(pokemon)}</span>
+        </div>
+
+        <p className="meta-label">Type</p>
+        <p className="meta-value">{getTypesDisplay(pokemon)}</p>
+
+        <p className="meta-label">Ability</p>
+        <p className="meta-value">
+          {abilityNames.length ? abilityNames.join(", ") : "TBD"}
+        </p>
+      </article>
     </Link>
   );
 }
