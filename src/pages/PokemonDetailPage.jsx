@@ -74,17 +74,27 @@ function PokemonDetailPage() {
     );
   };
 
-  const abilityNames = getAbilities(pokemon)
-    .map((abilityId) => {
-      const ability = getAbilityDetails(abilityId);
+const abilityRows = getAbilities(pokemon)
+  .map((abilityId) => {
+    const ability = getAbilityDetails(abilityId);
 
-      if (!ability) return formatLabel(abilityId);
-      if (typeof ability.name === "string") return ability.name;
-      if (ability.name?.en) return ability.name.en;
+    const name =
+      typeof ability?.name === "string"
+        ? ability.name
+        : ability?.name?.en || formatLabel(abilityId);
 
-      return formatLabel(abilityId);
-    })
-    .filter(Boolean);
+    const description =
+      typeof ability?.description === "string"
+        ? ability.description
+        : ability?.description?.en || "No description available.";
+
+    return {
+      id: abilityId,
+      name,
+      description,
+    };
+  })
+  .filter(Boolean);
 
   const getMoveDetails = (moveName) => {
     if (!moveName) return null;
@@ -186,10 +196,23 @@ function PokemonDetailPage() {
                 <dd>{getTypesDisplay(pokemon)}</dd>
               </div>
 
-              <div className="overview-item">
-                <dt>Ability</dt>
-                <dd>{abilityNames.length ? abilityNames.join(", ") : "TBD"}</dd>
-              </div>
+<div className="overview-item">
+  <dt>Ability</dt>
+  <dd>
+    {abilityRows.length ? (
+      <div className="ability-list">
+        {abilityRows.map((ability) => (
+          <div key={ability.id} className="ability-item">
+            <strong>{ability.name}</strong>
+            <div className="ability-description">{ability.description}</div>
+          </div>
+        ))}
+      </div>
+    ) : (
+      "TBD"
+    )}
+  </dd>
+</div>
 
               <div className="overview-item">
                 <dt>Moves Available</dt>
