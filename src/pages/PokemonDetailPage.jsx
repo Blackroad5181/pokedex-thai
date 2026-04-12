@@ -197,7 +197,7 @@ const abilityRows = getAbilities(pokemon)
               </div>
 
 <div className="overview-item">
-  <dt>Ability</dt>
+  <dt>Abilitys</dt>
   <dd>
     {abilityRows.length ? (
       <div className="ability-list">
