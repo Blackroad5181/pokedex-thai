@@ -51,48 +51,101 @@ function PokemonDetailPage() {
   };
   const displayName = getDisplayName(pokemon);
   const englishName = getEnglishName(pokemon);
-  const formatMove = (move) =>
-    move
-      .split("-")
+  const formatLabel = (value) =>
+    String(value)
+      .replace(/[_-]/g, " ")
+      .split(" ")
+      .filter(Boolean)
       .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
       .join(" ");
 
+  const moveRows = moves.map((move, index) => {
+    if (typeof move === "string") {
+      return {
+        key: `${move}-${index}`,
+        name: formatLabel(move),
+        type: "—",
+        category: "—",
+        power: "—",
+        accuracy: "—",
+        level: "—",
+      };
+    }
+
+    if (move && typeof move === "object") {
+      const baseName = move.name || move.move || `move-${index + 1}`;
+      return {
+        key: `${baseName}-${index}`,
+        name: formatLabel(baseName),
+        type: move.type ? formatLabel(move.type) : "—",
+        category: move.category ? formatLabel(move.category) : "—",
+        power: move.power ?? "—",
+        accuracy: move.accuracy ?? "—",
+        level: move.level ?? move.levelLearnedAt ?? "—",
+      };
+    }
+
+    return {
+      key: `move-${index}`,
+      name: `Move ${index + 1}`,
+      type: "—",
+      category: "—",
+      power: "—",
+      accuracy: "—",
+      level: "—",
+    };
+  });
+
   return (
-    <section>
+    <section className="pokemon-detail-page">
       <Link className="detail-back" to="/">
         ← กลับไปหน้า List
       </Link>
 
       <div className="detail-card">
-        <aside className="detail-sidebar">
-          <img src={getImageSrc(pokemon)} alt={englishName} className="detail-image" />
-
-          <h2 className="detail-name">
-            {displayName}
-            {displayName !== englishName ? ` (${englishName})` : ""}
-          </h2>
-
-          <p className="meta-value">Dex No: #{getDexNo(pokemon)}</p>
-        </aside>
-
-        <div>
-          <div className="detail-section">
-            <h3>Metadata</h3>
-            <p>
-              <strong>Type:</strong> {getTypesDisplay(pokemon)}
-            </p>
-            <p>
-              <strong>Ability:</strong>{" "}
-              {abilityNames.length ? abilityNames.join(", ") : "TBD"}
-            </p>
-            <p>
-              <strong>Description:</strong> {getDescriptionDisplay(pokemon)}
-            </p>
+        <header className="detail-hero">
+          <div className="detail-hero__image-wrap">
+            <img src={getImageSrc(pokemon)} alt={englishName} className="detail-image" />
           </div>
+          <div className="detail-hero__content">
+            <p className="detail-hero__kicker">Pokemon Database</p>
+            <h2 className="detail-name">
+              {displayName}
+              {displayName !== englishName ? ` (${englishName})` : ""}
+            </h2>
+            <div className="detail-tag-row">
+              <span className="detail-tag">Dex #{getDexNo(pokemon)}</span>
+              <span className="detail-tag">{getTypesDisplay(pokemon)}</span>
+            </div>
+            <p className="detail-description">{getDescriptionDisplay(pokemon)}</p>
+          </div>
+        </header>
 
-          <div className="detail-section">
-            <h3>Stats</h3>
+        <div className="detail-sections">
+          <section className="detail-section">
+            <h3>Overview</h3>
+            <dl className="overview-grid">
+              <div className="overview-item">
+                <dt>Type</dt>
+                <dd>{getTypesDisplay(pokemon)}</dd>
+              </div>
+              <div className="overview-item">
+                <dt>Ability</dt>
+                <dd>{abilityNames.length ? abilityNames.join(", ") : "TBD"}</dd>
+              </div>
+              <div className="overview-item">
+                <dt>Moves Available</dt>
+                <dd>{moves.length}</dd>
+              </div>
+              <div className="overview-item">
+                <dt>Source</dt>
+                <dd>Pokemon Champions</dd>
+              </div>
+            </dl>
+          </section>
 
+          <section className="detail-section">
+            <h3>Base Stats</h3>
             <div className="stats-grid">
               {Object.entries(getStats(pokemon)).map(([key, value]) => (
                 <div key={key} className="stat-row">
@@ -109,20 +162,41 @@ function PokemonDetailPage() {
                 </div>
               ))}
             </div>
-          </div>
+          </section>
 
-          {moves.length > 0 ? (
-            <div className="detail-section">
+          <section className="detail-section">
               <h3>Moves</h3>
-              <div className="moves-list">
-                {moves.map((move) => (
-                  <span key={move} className="move-chip">
-                    {formatMove(move)}
-                  </span>
-                ))}
-              </div>
-            </div>
-          ) : null}
+              {moveRows.length > 0 ? (
+                <div className="moves-table-wrap">
+                  <table className="moves-table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Category</th>
+                        <th>Power</th>
+                        <th>Accuracy</th>
+                        <th>Level</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {moveRows.map((move) => (
+                        <tr key={move.key}>
+                          <td>{move.name}</td>
+                          <td>{move.type}</td>
+                          <td>{move.category}</td>
+                          <td>{move.power}</td>
+                          <td>{move.accuracy}</td>
+                          <td>{move.level}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              ) : (
+                <p className="meta-value">No move data available.</p>
+              )}
+          </section>
         </div>
       </div>
 
