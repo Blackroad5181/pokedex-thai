@@ -1,13 +1,18 @@
 import { Link, useParams } from "react-router-dom";
 import pokemonData from "../data/pokemon.json";
 import abilitiesData from "../data/abilities.json";
+import {
+  getDescriptionDisplay,
+  getDisplayName,
+  getEnglishName,
+  getImageSrc,
+  getTypesDisplay,
+} from "../utils/pokemonDisplay";
 
 function PokemonDetailPage() {
   const { id } = useParams();
 
-  const pokemonIndex = pokemonData.findIndex(
-    (p) => String(p.id) === id
-  );
+  const pokemonIndex = pokemonData.findIndex((p) => String(p.id) === id);
 
   const pokemon = pokemonData[pokemonIndex];
 
@@ -19,22 +24,26 @@ function PokemonDetailPage() {
       </div>
     );
   }
-  
-  const abilityNames = pokemon.abilities.map((abilityId) => {
-  const ability = abilitiesData.find((ab) => ab.id === abilityId);
-  return ability ? ability.name.en : abilityId;
-  });
-  
+
+  const abilityNames = (pokemon.abilities || [])
+    .map((abilityId) => {
+      const ability = abilitiesData.find((ab) => ab.id === abilityId);
+      return ability ? ability.name.en : abilityId;
+    })
+    .filter(Boolean);
+
   const prev = pokemonData[pokemonIndex - 1];
   const next = pokemonData[pokemonIndex + 1];
   const statLabels = {
-  hp: "HP",
-  attack: "Attack",
-  defense: "Defense",
-  spAttack: "Sp. Attack",
-  spDefense: "Sp. Defense",
-  speed: "Speed",
-};
+    hp: "HP",
+    attack: "Attack",
+    defense: "Defense",
+    spAttack: "Sp. Attack",
+    spDefense: "Sp. Defense",
+    speed: "Speed",
+  };
+  const displayName = getDisplayName(pokemon);
+  const englishName = getEnglishName(pokemon);
 
   return (
     <div style={{ marginTop: "24px" }}>
@@ -53,13 +62,14 @@ function PokemonDetailPage() {
         {/* LEFT */}
         <div style={{ flex: 1, textAlign: "center" }}>
           <img
-            src={pokemon.image}
-            alt={pokemon.name.en}
+            src={getImageSrc(pokemon)}
+            alt={englishName}
             style={{ width: "150px" }}
           />
 
           <h2>
-            {pokemon.name.th} ({pokemon.name.en})
+            {displayName}
+            {displayName !== englishName ? ` (${englishName})` : ""}
           </h2>
 
           <p>Dex No: #{pokemon.dexNo}</p>
@@ -68,25 +78,24 @@ function PokemonDetailPage() {
         {/* RIGHT */}
         <div style={{ flex: 2 }}>
           <p>
-            <strong>Type:</strong> {pokemon.types.join(", ")}
+            <strong>Type:</strong> {getTypesDisplay(pokemon)}
           </p>
 
           <p>
-            <strong>Ability:</strong>{" "}
-            {abilityNames.join(", ")}
+            <strong>Ability:</strong> {abilityNames.length ? abilityNames.join(", ") : "TBD"}
           </p>
 
           <p>
-            <strong>Description:</strong> {pokemon.description}
+            <strong>Description:</strong> {getDescriptionDisplay(pokemon)}
           </p>
 
           <h3>Stats</h3>
 
-            {Object.entries(pokemon.stats).map(([key, value]) => (
-              <div key={key} style={{ marginBottom: "12px" }}>
-                <div style={{ fontSize: "12px", marginBottom: "4px" }}>
-                  {statLabels[key] || key} : {value}
-                </div>
+          {Object.entries(pokemon.stats || {}).map(([key, value]) => (
+            <div key={key} style={{ marginBottom: "12px" }}>
+              <div style={{ fontSize: "12px", marginBottom: "4px" }}>
+                {statLabels[key] || key} : {value}
+              </div>
               <div
                 style={{
                   height: "8px",
@@ -116,19 +125,9 @@ function PokemonDetailPage() {
           justifyContent: "space-between",
         }}
       >
-        {prev ? (
-          <Link to={`/pokemon/${prev.id}`}>
-            ← {prev.name.en}
-          </Link>
-        ) : (
-          <div />
-        )}
+        {prev ? <Link to={`/pokemon/${prev.id}`}>← {getEnglishName(prev)}</Link> : <div />}
 
-        {next ? (
-          <Link to={`/pokemon/${next.id}`}>
-            {next.name.en} →
-          </Link>
-        ) : null}
+        {next ? <Link to={`/pokemon/${next.id}`}>{getEnglishName(next)} →</Link> : null}
       </div>
     </div>
   );
