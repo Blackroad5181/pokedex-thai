@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import pokemonData from "../data/pokemon.json";
 import abilitiesData from "../data/abilities.json";
+import movesData from "../data/moves.json";
 import {
   getAbilities,
   getDescriptionDisplay,
@@ -17,7 +18,6 @@ function PokemonDetailPage() {
   const { id } = useParams();
 
   const pokemonIndex = pokemonData.findIndex((p) => String(p.id) === id);
-
   const pokemon = pokemonData[pokemonIndex];
 
   if (!pokemon) {
@@ -34,13 +34,14 @@ function PokemonDetailPage() {
   const abilityNames = getAbilities(pokemon)
     .map((abilityId) => {
       const ability = abilitiesData.find((ab) => ab.id === abilityId);
-      return ability ? ability.name.en : abilityId;
+      return ability ? ability.name : abilityId;
     })
     .filter(Boolean);
 
   const prev = pokemonData[pokemonIndex - 1];
   const next = pokemonData[pokemonIndex + 1];
   const moves = getMoves(pokemon);
+
   const statLabels = {
     hp: "HP",
     attack: "Attack",
@@ -49,8 +50,10 @@ function PokemonDetailPage() {
     spDefense: "Sp. Defense",
     speed: "Speed",
   };
+
   const displayName = getDisplayName(pokemon);
   const englishName = getEnglishName(pokemon);
+
   const formatLabel = (value) =>
     String(value)
       .replace(/[_-]/g, " ")
@@ -59,40 +62,37 @@ function PokemonDetailPage() {
       .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
       .join(" ");
 
-  const moveRows = moves.map((move, index) => {
-    if (typeof move === "string") {
-      return {
-        key: `${move}-${index}`,
-        name: formatLabel(move),
-        type: "—",
-        category: "—",
-        power: "—",
-        accuracy: "—",
-        level: "—",
-      };
-    }
+  const getMoveDetails = (moveName) => {
+    if (!moveName) return null;
 
-    if (move && typeof move === "object") {
-      const baseName = move.name || move.move || `move-${index + 1}`;
-      return {
-        key: `${baseName}-${index}`,
-        name: formatLabel(baseName),
-        type: move.type ? formatLabel(move.type) : "—",
-        category: move.category ? formatLabel(move.category) : "—",
-        power: move.power ?? "—",
-        accuracy: move.accuracy ?? "—",
-        level: move.level ?? move.levelLearnedAt ?? "—",
-      };
-    }
+    return (
+      movesData.find(
+        (m) =>
+          m.name === moveName ||
+          m.id === moveName ||
+          String(m.name).toLowerCase() === String(moveName).toLowerCase()
+      ) || null
+    );
+  };
+
+  const moveRows = moves.map((move, index) => {
+    const moveName =
+      typeof move === "string"
+        ? move
+        : move?.name || move?.move || `move-${index + 1}`;
+
+    const details = getMoveDetails(moveName);
 
     return {
-      key: `move-${index}`,
-      name: `Move ${index + 1}`,
-      type: "—",
-      category: "—",
-      power: "—",
-      accuracy: "—",
-      level: "—",
+      key: `${moveName}-${index}`,
+      name: details?.name || formatLabel(moveName),
+      type: details?.type || move?.type || "—",
+      category: details?.category || move?.category || "—",
+      power: details?.power ?? move?.power ?? "—",
+      accuracy: details?.accuracy ?? move?.accuracy ?? "—",
+      pp: details?.pp ?? move?.pp ?? "—",
+      level: move?.level ?? move?.levelLearnedAt ?? "—",
+      description: details?.description || "—",
     };
   });
 
@@ -165,37 +165,42 @@ function PokemonDetailPage() {
           </section>
 
           <section className="detail-section">
-              <h3>Moves</h3>
-              {moveRows.length > 0 ? (
-                <div className="moves-table-wrap">
-                  <table className="moves-table">
-                    <thead>
-                      <tr>
-                        <th>Name</th>
-                        <th>Type</th>
-                        <th>Category</th>
-                        <th>Power</th>
-                        <th>Accuracy</th>
-                        <th>Level</th>
+            <h3>Moves</h3>
+            {moveRows.length > 0 ? (
+              <div className="moves-table-wrap">
+                <table className="moves-table">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Type</th>
+                      <th>Category</th>
+                      <th>Power</th>
+                      <th>Accuracy</th>
+                      <th>PP</th>
+                      <th>Level</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {moveRows.map((move) => (
+                      <tr key={move.key}>
+                        <td>
+                          <div>{move.name}</div>
+                          <small style={{ opacity: 0.7 }}>{move.description}</small>
+                        </td>
+                        <td>{move.type}</td>
+                        <td>{move.category}</td>
+                        <td>{move.power}</td>
+                        <td>{move.accuracy}</td>
+                        <td>{move.pp}</td>
+                        <td>{move.level}</td>
                       </tr>
-                    </thead>
-                    <tbody>
-                      {moveRows.map((move) => (
-                        <tr key={move.key}>
-                          <td>{move.name}</td>
-                          <td>{move.type}</td>
-                          <td>{move.category}</td>
-                          <td>{move.power}</td>
-                          <td>{move.accuracy}</td>
-                          <td>{move.level}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              ) : (
-                <p className="meta-value">No move data available.</p>
-              )}
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ) : (
+              <p className="meta-value">No move data available.</p>
+            )}
           </section>
         </div>
       </div>
