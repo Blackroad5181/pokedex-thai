@@ -128,10 +128,10 @@ const abilityRows = getAbilities(pokemon)
         ? details.name
         : details?.name?.en || formatLabel(moveName);
 
-    const detailDescription =
-      typeof details?.description === "string"
-        ? details.description
-        : details?.description?.en || "—";
+const detailDescription =
+  typeof details?.description === "string"
+    ? details.description
+    : details?.description?.th || details?.description?.en || "—";
 
     return {
       key: `${moveName}-${index}`,
@@ -281,11 +281,11 @@ const abilityRows = getAbilities(pokemon)
                     {moveRows.map((move) => (
                       <tr key={move.key}>
                         <td>
-                          <div>{move.name}</div>
-                          <small style={{ opacity: 0.7 }}>
-                            {move.description?.th || move.description?.en || "-"}
-                          </small>
-                        </td>
+  <div>{move.name}</div>
+  <small style={{ opacity: 0.7 }}>
+    {move.description}
+  </small>
+</td>
                         <td>{move.type}</td>
                         <td>{move.category}</td>
                         <td>{move.power}</td>
