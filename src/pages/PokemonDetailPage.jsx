@@ -2,10 +2,13 @@ import { Link, useParams } from "react-router-dom";
 import pokemonData from "../data/pokemon.json";
 import abilitiesData from "../data/abilities.json";
 import {
+  getAbilities,
   getDescriptionDisplay,
+  getDexNo,
   getDisplayName,
   getEnglishName,
   getImageSrc,
+  getStats,
   getTypesDisplay,
 } from "../utils/pokemonDisplay";
 
@@ -25,7 +28,7 @@ function PokemonDetailPage() {
     );
   }
 
-  const abilityNames = (pokemon.abilities || [])
+  const abilityNames = getAbilities(pokemon)
     .map((abilityId) => {
       const ability = abilitiesData.find((ab) => ab.id === abilityId);
       return ability ? ability.name.en : abilityId;
@@ -72,7 +75,7 @@ function PokemonDetailPage() {
             {displayName !== englishName ? ` (${englishName})` : ""}
           </h2>
 
-          <p>Dex No: #{pokemon.dexNo}</p>
+          <p>Dex No: #{getDexNo(pokemon)}</p>
         </div>
 
         {/* RIGHT */}
@@ -91,7 +94,7 @@ function PokemonDetailPage() {
 
           <h3>Stats</h3>
 
-          {Object.entries(pokemon.stats || {}).map(([key, value]) => (
+          {Object.entries(getStats(pokemon)).map(([key, value]) => (
             <div key={key} style={{ marginBottom: "12px" }}>
               <div style={{ fontSize: "12px", marginBottom: "4px" }}>
                 {statLabels[key] || key} : {value}
