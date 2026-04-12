@@ -283,7 +283,7 @@ const abilityRows = getAbilities(pokemon)
                         <td>
                           <div>{move.name}</div>
                           <small style={{ opacity: 0.7 }}>
-                            {move.description}
+                            {move.description?.th || move.description?.en || "-"}
                           </small>
                         </td>
                         <td>{move.type}</td>
