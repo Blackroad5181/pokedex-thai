@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import pokemonData from "../data/pokemon.json";
 import PokemonCard from "../components/PokemonCard";
 import SearchBar from "../components/SearchBar";
@@ -11,9 +11,12 @@ import {
 } from "../utils/pokemonDisplay";
 
 function PokemonListPage() {
+  const PAGE_SIZE = 20;
+  const [inputSearchTerm, setInputSearchTerm] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedType, setSelectedType] = useState("");
   const [selectedAbility, setSelectedAbility] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
 
   const allTypes = useMemo(() => {
     const typeSet = new Set();
@@ -57,18 +60,52 @@ function PokemonListPage() {
     });
   }, [searchTerm, selectedType, selectedAbility]);
 
+  const totalPages = Math.max(1, Math.ceil(filteredPokemon.length / PAGE_SIZE));
+
+  const paginatedPokemon = useMemo(() => {
+    const start = (currentPage - 1) * PAGE_SIZE;
+    return filteredPokemon.slice(start, start + PAGE_SIZE);
+  }, [currentPage, filteredPokemon, PAGE_SIZE]);
+
+  useEffect(() => {
+    if (currentPage > totalPages) {
+      setCurrentPage(totalPages);
+    }
+  }, [currentPage, totalPages]);
+
   return (
     <div>
       <h2>Pokemon List</h2>
 
       <div style={{ marginBottom: "16px" }}>
-        <SearchBar value={searchTerm} onChange={setSearchTerm} />
+        <SearchBar value={inputSearchTerm} onChange={setInputSearchTerm} />
+
+        <button
+          type="button"
+          onClick={() => {
+            setSearchTerm(inputSearchTerm);
+            setCurrentPage(1);
+          }}
+          style={{
+            width: "100%",
+            maxWidth: "220px",
+            padding: "10px",
+            fontSize: "16px",
+            borderRadius: "8px",
+            marginBottom: "12px",
+          }}
+        >
+          ค้นหา
+        </button>
 
         <br />
 
         <select
           value={selectedType}
-          onChange={(e) => setSelectedType(e.target.value)}
+          onChange={(e) => {
+            setSelectedType(e.target.value);
+            setCurrentPage(1);
+          }}
           style={{
             width: "100%",
             maxWidth: "220px",
@@ -89,7 +126,10 @@ function PokemonListPage() {
 
         <select
           value={selectedAbility}
-          onChange={(e) => setSelectedAbility(e.target.value)}
+          onChange={(e) => {
+            setSelectedAbility(e.target.value);
+            setCurrentPage(1);
+          }}
           style={{
             width: "100%",
             maxWidth: "220px",
@@ -113,7 +153,35 @@ function PokemonListPage() {
       </div>
 
       {filteredPokemon.length > 0 ? (
-        filteredPokemon.map((p) => <PokemonCard key={p.id} pokemon={p} />)
+        <>
+          {paginatedPokemon.map((p) => (
+            <PokemonCard key={p.id} pokemon={p} />
+          ))}
+
+          <div style={{ marginTop: "16px" }}>
+            <button
+              type="button"
+              onClick={() => setCurrentPage((page) => Math.max(1, page - 1))}
+              disabled={currentPage === 1}
+              style={{ marginRight: "8px" }}
+            >
+              ก่อนหน้า
+            </button>
+            <span>
+              หน้า {currentPage} / {totalPages}
+            </span>
+            <button
+              type="button"
+              onClick={() =>
+                setCurrentPage((page) => Math.min(totalPages, page + 1))
+              }
+              disabled={currentPage === totalPages}
+              style={{ marginLeft: "8px" }}
+            >
+              ถัดไป
+            </button>
+          </div>
+        </>
       ) : (
         <p>ไม่พบโปเกมอนที่ค้นหา</p>
       )}
