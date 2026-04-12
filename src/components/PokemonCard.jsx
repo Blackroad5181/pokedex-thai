@@ -5,10 +5,20 @@ import {
   getDexNo,
   getDisplayName,
   getEnglishName,
+  getStats,
   getTypesDisplay,
 } from "../utils/pokemonDisplay";
 
 function PokemonCard({ pokemon }) {
+  const stats = getStats(pokemon);
+  const compactStats = [
+    { key: "hp", label: "HP" },
+    { key: "attack", label: "ATK" },
+    { key: "defense", label: "DEF" },
+    { key: "spAttack", label: "SpA" },
+    { key: "spDefense", label: "SpD" },
+    { key: "speed", label: "SPD" },
+  ];
   const abilityNames = getAbilities(pokemon)
     .map((abilityId) => {
       const ability = abilitiesData.find((ab) => ab.id === abilityId);
@@ -37,6 +47,15 @@ function PokemonCard({ pokemon }) {
         <p className="meta-value">
           {abilityNames.length ? abilityNames.join(", ") : "TBD"}
         </p>
+
+        <div className="card-stats">
+          {compactStats.map((stat) => (
+            <div key={stat.key} className="card-stat-chip">
+              <span>{stat.label}</span>
+              <strong>{stats[stat.key] ?? "-"}</strong>
+            </div>
+          ))}
+        </div>
       </article>
     </Link>
   );

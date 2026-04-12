@@ -8,6 +8,7 @@ import {
   getDisplayName,
   getEnglishName,
   getImageSrc,
+  getMoves,
   getStats,
   getTypesDisplay,
 } from "../utils/pokemonDisplay";
@@ -39,6 +40,7 @@ function PokemonDetailPage() {
 
   const prev = pokemonData[pokemonIndex - 1];
   const next = pokemonData[pokemonIndex + 1];
+  const moves = getMoves(pokemon);
   const statLabels = {
     hp: "HP",
     attack: "Attack",
@@ -49,6 +51,11 @@ function PokemonDetailPage() {
   };
   const displayName = getDisplayName(pokemon);
   const englishName = getEnglishName(pokemon);
+  const formatMove = (move) =>
+    move
+      .split("-")
+      .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+      .join(" ");
 
   return (
     <section>
@@ -103,6 +110,19 @@ function PokemonDetailPage() {
               ))}
             </div>
           </div>
+
+          {moves.length > 0 ? (
+            <div className="detail-section">
+              <h3>Moves</h3>
+              <div className="moves-list">
+                {moves.map((move) => (
+                  <span key={move} className="move-chip">
+                    {formatMove(move)}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ) : null}
         </div>
       </div>
 

@@ -62,6 +62,11 @@ export function getStats(pokemon) {
     : {};
 }
 
+export function getMoves(pokemon) {
+  const champion = getChampionInfo(pokemon);
+  return Array.isArray(champion?.moves) ? champion.moves : [];
+}
+
 export function getTypesDisplay(pokemon) {
   const types = getTypes(pokemon);
   return types.length ? types.join(", ") : "TBD";

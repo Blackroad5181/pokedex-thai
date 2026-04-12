@@ -172,6 +172,30 @@
   margin-bottom: 10px;
 }
 
+.card-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.card-stat-chip {
+  border: 1px solid rgba(122, 156, 216, 0.34);
+  border-radius: 8px;
+  background: rgba(11, 18, 34, 0.65);
+  padding: 5px 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+}
+
+.card-stat-chip strong {
+  color: var(--text-primary);
+  font-size: 0.76rem;
+}
+
 .pagination {
   margin-top: 24px;
   display: flex;
@@ -291,6 +315,21 @@
   height: 100%;
   border-radius: 999px;
   background: linear-gradient(90deg, #44d597, #68b8ff);
+}
+
+.moves-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.move-chip {
+  border: 1px solid rgba(117, 152, 213, 0.42);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  background: rgba(14, 23, 42, 0.8);
 }
 
 .detail-nav {

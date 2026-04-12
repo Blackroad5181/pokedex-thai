@@ -7,15 +7,27 @@ import {
   getAbilities,
   getDisplayName,
   getEnglishName,
+  getStats,
   getTypes,
 } from "../utils/pokemonDisplay";
 
 function PokemonListPage() {
   const PAGE_SIZE = 20;
+  const statOptions = [
+    { value: "hp", label: "HP" },
+    { value: "attack", label: "Attack" },
+    { value: "defense", label: "Defense" },
+    { value: "spAttack", label: "Sp. Attack" },
+    { value: "spDefense", label: "Sp. Defense" },
+    { value: "speed", label: "Speed" },
+  ];
   const [inputSearchTerm, setInputSearchTerm] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedType, setSelectedType] = useState("");
   const [selectedAbility, setSelectedAbility] = useState("");
+  const [selectedStat, setSelectedStat] = useState("hp");
+  const [statOperator, setStatOperator] = useState(">");
+  const [statValue, setStatValue] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
 
   const allTypes = useMemo(() => {
@@ -55,9 +67,20 @@ function PokemonListPage() {
       const matchesAbility =
         !selectedAbility || getAbilities(p).includes(selectedAbility);
 
-      return matchesSearch && matchesType && matchesAbility;
+      const numericStatValue = Number(statValue);
+      const hasStatFilter = statValue !== "" && Number.isFinite(numericStatValue);
+      const currentStatValue = Number(getStats(p)[selectedStat] ?? 0);
+      const matchesStat = !hasStatFilter
+        ? true
+        : statOperator === ">"
+          ? currentStatValue > numericStatValue
+          : statOperator === "<"
+            ? currentStatValue < numericStatValue
+            : currentStatValue === numericStatValue;
+
+      return matchesSearch && matchesType && matchesAbility && matchesStat;
     });
-  }, [searchTerm, selectedType, selectedAbility]);
+  }, [searchTerm, selectedType, selectedAbility, selectedStat, statOperator, statValue]);
 
   const totalPages = Math.max(1, Math.ceil(filteredPokemon.length / PAGE_SIZE));
 
@@ -125,6 +148,46 @@ function PokemonListPage() {
             );
           })}
         </select>
+
+        <select
+          className="select"
+          value={selectedStat}
+          onChange={(e) => {
+            setSelectedStat(e.target.value);
+            setCurrentPage(1);
+          }}
+        >
+          {statOptions.map((option) => (
+            <option key={option.value} value={option.value}>
+              สเตตัส: {option.label}
+            </option>
+          ))}
+        </select>
+
+        <select
+          className="select"
+          value={statOperator}
+          onChange={(e) => {
+            setStatOperator(e.target.value);
+            setCurrentPage(1);
+          }}
+        >
+          <option value=">">สเตตัส &gt;</option>
+          <option value="<">สเตตัส &lt;</option>
+          <option value="=">สเตตัส =</option>
+        </select>
+
+        <input
+          className="input"
+          type="number"
+          min="0"
+          placeholder="ค่าสเตตัส"
+          value={statValue}
+          onChange={(e) => {
+            setStatValue(e.target.value);
+            setCurrentPage(1);
+          }}
+        />
       </div>
 
       {filteredPokemon.length > 0 ? (
