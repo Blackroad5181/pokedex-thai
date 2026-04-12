@@ -1,266 +1,3770 @@
 [
   {
-    "id": "overgrow",
-    "name": {
-      "en": "Overgrow",
-      "th": "โอเวอร์โกรว์"
-    },
-    "description": {
-      "en": "Powers up Grass-type moves when HP is low.",
-      "th": "เพิ่มพลังท่า Grass เมื่อ HP ต่ำ"
-    }
-  },
-  {
-    "id": "chlorophyll",
-    "name": {
-      "en": "Chlorophyll",
-      "th": "คลอโรฟิลล์"
-    },
-    "description": {
-      "en": "Boosts Speed in sunshine.",
-      "th": "เพิ่มความเร็วเมื่ออยู่กลางแดด"
-    }
-  },
-  {
-    "id": "blaze",
-    "name": {
-      "en": "Blaze",
-      "th": "เบลซ"
-    },
-    "description": {
-      "en": "Powers up Fire-type moves when HP is low.",
-      "th": "เพิ่มพลังท่า Fire เมื่อ HP ต่ำ"
-    }
-  },
-  {
-    "id": "solar-power",
-    "name": {
-      "en": "Solar Power",
-      "th": "โซลาร์พาวเวอร์"
-    },
-    "description": {
-      "en": "Boosts Sp. Atk in sunshine, but HP decreases.",
-      "th": "เพิ่มพลังโจมตีพิเศษกลางแดด แต่ HP ลดลง"
-    }
-  },
-  {
-    "id": "torrent",
-    "name": {
-      "en": "Torrent",
-      "th": "ทอร์เรนต์"
-    },
-    "description": {
-      "en": "Powers up Water-type moves when HP is low.",
-      "th": "เพิ่มพลังท่า Water เมื่อ HP ต่ำ"
-    }
-  },
-  {
-    "id": "rain-dish",
-    "name": {
-      "en": "Rain Dish",
-      "th": "เรนดิช"
-    },
-    "description": {
-      "en": "Restores HP in rain.",
-      "th": "ฟื้น HP เมื่ออยู่กลางฝน"
-    }
-  },
-  {
-    "id": "static",
-    "name": {
-      "en": "Static",
-      "th": "สแตติก"
-    },
-    "description": {
-      "en": "May paralyze on contact.",
-      "th": "มีโอกาสทำให้เป็นอัมพาตเมื่อสัมผัสตัว"
-    }
-  },
-  {
-    "id": "lightning-rod",
-    "name": {
-      "en": "Lightning Rod",
-      "th": "ไลท์นิงร็อด"
-    },
-    "description": {
-      "en": "Draws in Electric-type moves to boost Sp. Atk.",
-      "th": "ดึงดูดท่าไฟฟ้าและเพิ่มพลังโจมตีพิเศษ"
-    }
-  },
-  {
-    "id": "cute-charm",
-    "name": {
-      "en": "Cute Charm",
-      "th": "คิวท์ชาร์ม"
-    },
-    "description": {
-      "en": "May infatuate on contact.",
-      "th": "มีโอกาสทำให้หลงใหลเมื่อสัมผัสตัว"
-    }
-  },
-  {
-    "id": "competitive",
-    "name": {
-      "en": "Competitive",
-      "th": "คอมเพทิทีฟ"
-    },
-    "description": {
-      "en": "Raises Sp. Atk when a stat is lowered.",
-      "th": "เพิ่มพลังโจมตีพิเศษเมื่อค่าสถานะถูกลด"
-    }
-  },
-  {
-    "id": "friend-guard",
-    "name": {
-      "en": "Friend Guard",
-      "th": "เฟรนด์การ์ด"
-    },
-    "description": {
-      "en": "Reduces damage done to allies.",
-      "th": "ลดความเสียหายที่เพื่อนร่วมทีมได้รับ"
-    }
-  },
-  {
-    "id": "pickup",
-    "name": {
-      "en": "Pickup",
-      "th": "พิคอัพ"
-    },
-    "description": {
-      "en": "May pick up items.",
-      "th": "อาจเก็บไอเทมได้หลังการต่อสู้"
-    }
-  },
-  {
-    "id": "technician",
-    "name": {
-      "en": "Technician",
-      "th": "เทคนิคเชียน"
-    },
-    "description": {
-      "en": "Boosts weaker moves.",
-      "th": "เพิ่มพลังท่าที่มีพลังต่ำ"
-    }
-  },
-  {
-    "id": "unnerve",
-    "name": {
-      "en": "Unnerve",
-      "th": "อันเนิร์ฟ"
-    },
-    "description": {
-      "en": "Prevents opponents from eating Berries.",
-      "th": "ทำให้คู่ต่อสู้ใช้เบอร์รีไม่ได้"
-    }
-  },
-  {
-    "id": "damp",
-    "name": {
-      "en": "Damp",
-      "th": "แดมป์"
-    },
-    "description": {
-      "en": "Prevents self-destruction moves.",
-      "th": "ป้องกันท่าระเบิดตัวเอง"
-    }
-  },
-  {
-    "id": "cloud-nine",
-    "name": {
-      "en": "Cloud Nine",
-      "th": "คลาวด์ไนน์"
-    },
-    "description": {
-      "en": "Eliminates the effects of weather.",
-      "th": "ยกเลิกผลของสภาพอากาศ"
-    }
-  },
-  {
-    "id": "swift-swim",
-    "name": {
-      "en": "Swift Swim",
-      "th": "สวิฟต์สวิม"
-    },
-    "description": {
-      "en": "Boosts Speed in rain.",
-      "th": "เพิ่มความเร็วเมื่ออยู่กลางฝน"
-    }
-  },
-  {
-    "id": "run-away",
-    "name": {
-      "en": "Run Away",
-      "th": "รันอเวย์"
-    },
-    "description": {
-      "en": "Enables a sure getaway from wild Pokémon.",
-      "th": "หนีจากโปเกมอนป่าได้แน่นอน"
-    }
-  },
-  {
     "id": "adaptability",
     "name": {
       "en": "Adaptability",
-      "th": "อะแดปทาบิลิตี"
+      "th": ""
     },
     "description": {
-      "en": "Powers up same-type moves.",
-      "th": "เพิ่มพลังท่าที่ธาตุตรงกับตัวเอง"
+      "en": "Increases the same-type attack bonus from 1.5× to 2×.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Mega Beedrill",
+        "Mega Lucario",
+        "Mega Glimmora"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "aerilate",
+    "name": {
+      "en": "Aerilate",
+      "th": ""
+    },
+    "description": {
+      "en": "Turns the bearer's moves into moves and strengthens them to 1.3× their power.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Mega Pinsir"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "aftermath",
+    "name": {
+      "en": "Aftermath",
+      "th": ""
+    },
+    "description": {
+      "en": "Damages the attacker for 1/4 its max HP when knocked out by a contact move.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Garbodor"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "analytic",
+    "name": {
+      "en": "Analytic",
+      "th": ""
+    },
+    "description": {
+      "en": "Strengthens moves to 1.3× their power when moving last.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Starmie",
+        "Watchog"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "anger-point",
+    "name": {
+      "en": "Anger Point",
+      "th": ""
+    },
+    "description": {
+      "en": "Raises Attack to the maximum of six stages upon receiving a critical hit.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 7,
+      "pokemonList": [
+        "Tauros",
+        "Tauros (Paldean Combat)",
+        "Tauros (Paldean Blaze)",
+        "Tauros (Paldean Aqua)",
+        "Camerupt",
+        "Krookodile",
+        "Crabominable"
+      ],
+      "source": "pokemon_champions_abilities.csv"
     }
   },
   {
     "id": "anticipation",
     "name": {
       "en": "Anticipation",
-      "th": "แอนทิซิเพชัน"
+      "th": ""
     },
     "description": {
-      "en": "Senses dangerous moves.",
-      "th": "รับรู้ท่าอันตรายของคู่ต่อสู้"
+      "en": "Notifies all trainers upon entering battle if an opponent has a super-effective move, , , or a one-hit KO move.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Toxicroak"
+      ],
+      "source": "pokemon_champions_abilities.csv"
     }
   },
   {
-    "id": "immunity",
+    "id": "aroma-veil",
     "name": {
-      "en": "Immunity",
-      "th": "อิมมูนิตี"
+      "en": "Aroma Veil",
+      "th": ""
     },
     "description": {
-      "en": "Prevents poisoning.",
-      "th": "ป้องกันการติดพิษ"
+      "en": "Protects allies against moves that affect their mental state.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Aromatisse"
+      ],
+      "source": "pokemon_champions_abilities.csv"
     }
   },
   {
-    "id": "thick-fat",
+    "id": "berserk",
     "name": {
-      "en": "Thick Fat",
-      "th": "ธิคแฟต"
+      "en": "Berserk",
+      "th": ""
     },
     "description": {
-      "en": "Reduces damage from Fire- and Ice-type moves.",
-      "th": "ลดความเสียหายจากท่า Fire และ Ice"
+      "en": "Raises this Pokémon's Special Attack by one stage every time its HP drops below half.",
+      "th": ""
+    },
+    "generation": 7,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Drampa",
+        "Mega Drampa"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "big-pecks",
+    "name": {
+      "en": "Big Pecks",
+      "th": ""
+    },
+    "description": {
+      "en": "Protects against Defense drops.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Pidgeot"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "blaze",
+    "name": {
+      "en": "Blaze",
+      "th": ""
+    },
+    "description": {
+      "en": "Strengthens moves to inflict 1.5× damage at 1/3 max HP or less.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 8,
+      "pokemonList": [
+        "Charizard",
+        "Typhlosion",
+        "Typhlosion (Hisuian)",
+        "Infernape",
+        "Emboar",
+        "Simisear",
+        "Delphox",
+        "Incineroar"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "bulletproof",
+    "name": {
+      "en": "Bulletproof",
+      "th": ""
+    },
+    "description": {
+      "en": "Protects against bullet, ball, and bomb-based moves.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Chesnaught",
+        "Mega Chesnaught"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "cheek-pouch",
+    "name": {
+      "en": "Cheek Pouch",
+      "th": ""
+    },
+    "description": {
+      "en": "Restores HP upon eating a Berry, in addition to the Berry's effect.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Diggersby",
+        "Dedenne"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "chlorophyll",
+    "name": {
+      "en": "Chlorophyll",
+      "th": ""
+    },
+    "description": {
+      "en": "Doubles Speed during strong sunlight.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 5,
+      "pokemonList": [
+        "Venusaur",
+        "Victreebel",
+        "Leafeon",
+        "Whimsicott",
+        "Scovillain"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "cloud-nine",
+    "name": {
+      "en": "Cloud Nine",
+      "th": ""
+    },
+    "description": {
+      "en": "Negates all effects of weather, but does not prevent the weather itself.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Altaria",
+        "Drampa"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "competitive",
+    "name": {
+      "en": "Competitive",
+      "th": ""
+    },
+    "description": {
+      "en": "Raises Special Attack by two stages upon having any stat lowered.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Milotic",
+        "Empoleon",
+        "Meowstic (Female)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "compound-eyes",
+    "name": {
+      "en": "Compound Eyes",
+      "th": ""
+    },
+    "description": {
+      "en": "Increases moves' accuracy to 1.3×.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Vivillon"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "contrary",
+    "name": {
+      "en": "Contrary",
+      "th": ""
+    },
+    "description": {
+      "en": "Inverts stat changes.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Serperior"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "corrosion",
+    "name": {
+      "en": "Corrosion",
+      "th": ""
+    },
+    "description": {
+      "en": "This Pokémon can inflict poison on Poison and Steel Pokémon.",
+      "th": ""
+    },
+    "generation": 7,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Glimmora"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "cud-chew",
+    "name": {
+      "en": "Cud Chew",
+      "th": ""
+    },
+    "description": {
+      "en": "Causes the Pokémon to reuse an already consumed Berry at the end of the next turn.",
+      "th": ""
+    },
+    "generation": 9,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Tauros (Paldean Combat)",
+        "Tauros (Paldean Blaze)",
+        "Tauros (Paldean Aqua)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "curious-medicine",
+    "name": {
+      "en": "Curious Medicine",
+      "th": ""
+    },
+    "description": {
+      "en": "Resets all stat changes upon entering battlefield.",
+      "th": ""
+    },
+    "generation": 8,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Slowking (Galarian)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "cursed-body",
+    "name": {
+      "en": "Cursed Body",
+      "th": ""
+    },
+    "description": {
+      "en": "Has a 30% chance of Disabling any move that hits the Pokémon.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Gengar",
+        "Banette",
+        "Froslass"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "cute-charm",
+    "name": {
+      "en": "Cute Charm",
+      "th": ""
+    },
+    "description": {
+      "en": "Has a 30% chance of infatuating attacking Pokémon on contact.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 4,
+      "pokemonList": [
+        "Clefable",
+        "Milotic",
+        "Lopunny",
+        "Sylveon"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "damp",
+    "name": {
+      "en": "Damp",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents , , and from working while the Pokémon is in battle.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Politoed"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "dragonize",
+    "name": {
+      "en": "Dragonize",
+      "th": ""
+    },
+    "description": {
+      "en": "The Pokémon's Normal-type moves become Dragon-type moves and their power is boosted by 20%.",
+      "th": ""
+    },
+    "generation": 9,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Mega Feraligatr"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "drizzle",
+    "name": {
+      "en": "Drizzle",
+      "th": ""
+    },
+    "description": {
+      "en": "Summons rain that lasts indefinitely upon entering battle.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Politoed",
+        "Pelipper"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "drought",
+    "name": {
+      "en": "Drought",
+      "th": ""
+    },
+    "description": {
+      "en": "Summons strong sunlight that lasts indefinitely upon entering battle.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Ninetales",
+        "Torkoal",
+        "Mega Charizard Y"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "dry-skin",
+    "name": {
+      "en": "Dry Skin",
+      "th": ""
+    },
+    "description": {
+      "en": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain. Increases damage from moves to 1.25×, but absorbs moves, healing for 1/4 max HP.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Toxicroak",
+        "Heliolisk"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "early-bird",
+    "name": {
+      "en": "Early Bird",
+      "th": ""
+    },
+    "description": {
+      "en": "Makes sleep pass twice as quickly.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Kangaskhan",
+        "Houndoom"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "fairy-aura",
+    "name": {
+      "en": "Fairy Aura",
+      "th": ""
+    },
+    "description": {
+      "en": "Strengthens moves to 1.33× their power for all friendly and opposing Pokémon.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Mega Floette (Eternal)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "filter",
+    "name": {
+      "en": "Filter",
+      "th": ""
+    },
+    "description": {
+      "en": "Decreases damage taken from super-effective moves by 1/4.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Mega Aggron"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "flame-body",
+    "name": {
+      "en": "Flame Body",
+      "th": ""
+    },
+    "description": {
+      "en": "Has a 30% chance of burning attacking Pokémon on contact.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Chandelure",
+        "Volcarona",
+        "Talonflame"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "flash-fire",
+    "name": {
+      "en": "Flash Fire",
+      "th": ""
+    },
+    "description": {
+      "en": "Protects against moves. Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 7,
+      "pokemonList": [
+        "Ninetales",
+        "Arcanine",
+        "Arcanine (Hisuian)",
+        "Flareon",
+        "Typhlosion",
+        "Houndoom",
+        "Chandelure"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "flower-veil",
+    "name": {
+      "en": "Flower Veil",
+      "th": ""
+    },
+    "description": {
+      "en": "Protects friendly Pokémon from having their stats lowered by other Pokémon.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Floette (Eternal Flower)",
+        "Florges"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "forecast",
+    "name": {
+      "en": "Forecast",
+      "th": ""
+    },
+    "description": {
+      "en": "Changes 's type and form to match the weather.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Castform"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "friend-guard",
+    "name": {
+      "en": "Friend Guard",
+      "th": ""
+    },
+    "description": {
+      "en": "Decreases all direct damage taken by friendly Pokémon to 0.75×.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Vivillon"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "frisk",
+    "name": {
+      "en": "Frisk",
+      "th": ""
+    },
+    "description": {
+      "en": "Reveals an opponent's held item upon entering battle.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 8,
+      "pokemonList": [
+        "Typhlosion (Hisuian)",
+        "Banette",
+        "Trevenant",
+        "Gourgeist (Small)",
+        "Gourgeist (Medium)",
+        "Gourgeist (Large)",
+        "Gourgeist (Jumbo)",
+        "Noivern"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "fur-coat",
+    "name": {
+      "en": "Fur Coat",
+      "th": ""
+    },
+    "description": {
+      "en": "Halves damage from physical attacks.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Furfrou"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "gale-wings",
+    "name": {
+      "en": "Gale Wings",
+      "th": ""
+    },
+    "description": {
+      "en": "Raises moves' priority by one stage.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Talonflame"
+      ],
+      "source": "pokemon_champions_abilities.csv"
     }
   },
   {
     "id": "gluttony",
     "name": {
       "en": "Gluttony",
-      "th": "กลัตโตนี"
+      "th": ""
     },
     "description": {
-      "en": "Uses a held Berry earlier than usual.",
-      "th": "ใช้เบอร์รีเร็วกว่าปกติ"
+      "en": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 5,
+      "pokemonList": [
+        "Victreebel",
+        "Snorlax",
+        "Simisage",
+        "Simisear",
+        "Simipour"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "gooey",
+    "name": {
+      "en": "Gooey",
+      "th": ""
+    },
+    "description": {
+      "en": "Lowers attacking Pokémon's Speed by one stage on contact.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Goodra",
+        "Goodra (Hisuian)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "guts",
+    "name": {
+      "en": "Guts",
+      "th": ""
+    },
+    "description": {
+      "en": "Increases Attack to 1.5× with a major status ailment.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 5,
+      "pokemonList": [
+        "Machamp",
+        "Flareon",
+        "Heracross",
+        "Luxray",
+        "Conkeldurr"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "harvest",
+    "name": {
+      "en": "Harvest",
+      "th": ""
+    },
+    "description": {
+      "en": "Has a 50% chance of restoring a used Berry after each turn if the Pokémon has held no items in the meantime.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Trevenant"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "healer",
+    "name": {
+      "en": "Healer",
+      "th": ""
+    },
+    "description": {
+      "en": "Has a 30% chance of curing each adjacent ally of any major status ailment after each turn.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Audino",
+        "Aromatisse",
+        "Mega Audino"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "heavy-metal",
+    "name": {
+      "en": "Heavy Metal",
+      "th": ""
+    },
+    "description": {
+      "en": "Doubles the Pokémon's weight.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Aggron"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "huge-power",
+    "name": {
+      "en": "Huge Power",
+      "th": ""
+    },
+    "description": {
+      "en": "Doubles Attack in battle.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Azumarill",
+        "Diggersby",
+        "Mega Starmie"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "hydration",
+    "name": {
+      "en": "Hydration",
+      "th": ""
+    },
+    "description": {
+      "en": "Cures any major status ailment after each turn during rain.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Vaporeon",
+        "Goodra"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "hyper-cutter",
+    "name": {
+      "en": "Hyper Cutter",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents Attack from being lowered by other Pokémon.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Pinsir",
+        "Gliscor",
+        "Crabominable"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "ice-body",
+    "name": {
+      "en": "Ice Body",
+      "th": ""
+    },
+    "description": {
+      "en": "Heals for 1/16 max HP after each turn during hail. Protects against hail damage.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 5,
+      "pokemonList": [
+        "Glalie",
+        "Glaceon",
+        "Vanilluxe",
+        "Avalugg",
+        "Avalugg (Hisuian)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "illuminate",
+    "name": {
+      "en": "Illuminate",
+      "th": ""
+    },
+    "description": {
+      "en": "Doubles the wild encounter rate.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Starmie",
+        "Watchog"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "illusion",
+    "name": {
+      "en": "Illusion",
+      "th": ""
+    },
+    "description": {
+      "en": "Takes the appearance of the last conscious party Pokémon upon being sent out until hit by a damaging move.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Zoroark",
+        "Zoroark (Hisuian)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "immunity",
+    "name": {
+      "en": "Immunity",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents poison.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Snorlax"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "imposter",
+    "name": {
+      "en": "Imposter",
+      "th": ""
+    },
+    "description": {
+      "en": "Transforms upon entering battle.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Ditto"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "infiltrator",
+    "name": {
+      "en": "Infiltrator",
+      "th": ""
+    },
+    "description": {
+      "en": "Bypasses , , and .",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 7,
+      "pokemonList": [
+        "Spiritomb",
+        "Whimsicott",
+        "Chandelure",
+        "Meowstic (Male)",
+        "Meowstic (Female)",
+        "Noivern",
+        "Mega Chandelure"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "innards-out",
+    "name": {
+      "en": "Innards Out",
+      "th": ""
+    },
+    "description": {
+      "en": "When this Pokémon faints from an opponent's move, that opponent takes damage equal to the HP this Pokémon had remaining.",
+      "th": ""
+    },
+    "generation": 7,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Mega Victreebel"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "inner-focus",
+    "name": {
+      "en": "Inner Focus",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents flinching.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 7,
+      "pokemonList": [
+        "Alakazam",
+        "Kangaskhan",
+        "Dragonite",
+        "Umbreon",
+        "Glalie",
+        "Lucario",
+        "Mega Gallade"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "insomnia",
+    "name": {
+      "en": "Insomnia",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents sleep.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 7,
+      "pokemonList": [
+        "Ariados",
+        "Banette",
+        "Gourgeist (Small)",
+        "Gourgeist (Medium)",
+        "Gourgeist (Large)",
+        "Gourgeist (Jumbo)",
+        "Scovillain"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "intimidate",
+    "name": {
+      "en": "Intimidate",
+      "th": ""
+    },
+    "description": {
+      "en": "Lowers opponents' Attack one stage upon entering battle.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 12,
+      "pokemonList": [
+        "Arbok",
+        "Arcanine",
+        "Arcanine (Hisuian)",
+        "Tauros",
+        "Tauros (Paldean Combat)",
+        "Tauros (Paldean Blaze)",
+        "Tauros (Paldean Aqua)",
+        "Gyarados",
+        "Luxray",
+        "Krookodile",
+        "Incineroar",
+        "Mega Manectric"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "iron-fist",
+    "name": {
+      "en": "Iron Fist",
+      "th": ""
+    },
+    "description": {
+      "en": "Strengthens punch-based moves to 1.2× their power.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 6,
+      "pokemonList": [
+        "Infernape",
+        "Conkeldurr",
+        "Golurk",
+        "Pangoro",
+        "Crabominable",
+        "Mega Crabominable"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "justified",
+    "name": {
+      "en": "Justified",
+      "th": ""
+    },
+    "description": {
+      "en": "Raises Attack one stage upon taking damage from a move.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 4,
+      "pokemonList": [
+        "Arcanine",
+        "Absol",
+        "Lucario",
+        "Gallade"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "keen-eye",
+    "name": {
+      "en": "Keen Eye",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents accuracy from being lowered.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 10,
+      "pokemonList": [
+        "Pidgeot",
+        "Skarmory",
+        "Pelipper",
+        "Sableye",
+        "Watchog",
+        "Meowstic (Male)",
+        "Meowstic (Female)",
+        "Toucannon",
+        "Lycanroc (Midday)",
+        "Lycanroc (Midnight)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "klutz",
+    "name": {
+      "en": "Klutz",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents the Pokémon from using its held item in battle.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Lopunny",
+        "Audino",
+        "Golurk"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "leaf-guard",
+    "name": {
+      "en": "Leaf Guard",
+      "th": ""
+    },
+    "description": {
+      "en": "Protects against major status ailments during strong sunlight.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Meganium",
+        "Leafeon"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "levitate",
+    "name": {
+      "en": "Levitate",
+      "th": ""
+    },
+    "description": {
+      "en": "Evades moves.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 10,
+      "pokemonList": [
+        "Chimecho",
+        "Rotom",
+        "Rotom (Heat)",
+        "Rotom (Wash)",
+        "Rotom (Frost)",
+        "Rotom (Fan)",
+        "Rotom (Mow)",
+        "Hydreigon",
+        "Mega Chimecho",
+        "Mega Delphox"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "light-metal",
+    "name": {
+      "en": "Light Metal",
+      "th": ""
+    },
+    "description": {
+      "en": "Halves the Pokémon's weight.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Scizor"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "lightning-rod",
+    "name": {
+      "en": "Lightning Rod",
+      "th": ""
+    },
+    "description": {
+      "en": "Redirects single-target moves to this Pokémon where possible. Absorbs Electric moves, raising Special Attack one stage.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 4,
+      "pokemonList": [
+        "Pikachu",
+        "Raichu",
+        "Manectric",
+        "Rhyperior"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "limber",
+    "name": {
+      "en": "Limber",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents paralysis.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 5,
+      "pokemonList": [
+        "Ditto",
+        "Lopunny",
+        "Liepard",
+        "Stunfisk",
+        "Hawlucha"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "liquid-voice",
+    "name": {
+      "en": "Liquid Voice",
+      "th": ""
+    },
+    "description": {
+      "en": "Sound-based moves become Water-type.",
+      "th": ""
+    },
+    "generation": 7,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Primarina"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "long-reach",
+    "name": {
+      "en": "Long Reach",
+      "th": ""
+    },
+    "description": {
+      "en": "This Pokémon's moves do not make contact.",
+      "th": ""
+    },
+    "generation": 7,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Decidueye"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "magic-bounce",
+    "name": {
+      "en": "Magic Bounce",
+      "th": ""
+    },
+    "description": {
+      "en": "Reflects most non-damaging moves back at their user.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 4,
+      "pokemonList": [
+        "Espeon",
+        "Mega Sableye",
+        "Mega Absol",
+        "Mega Clefable"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "magic-guard",
+    "name": {
+      "en": "Magic Guard",
+      "th": ""
+    },
+    "description": {
+      "en": "Protects against damage not directly caused by a move.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Clefable",
+        "Alakazam",
+        "Reuniclus"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "magician",
+    "name": {
+      "en": "Magician",
+      "th": ""
+    },
+    "description": {
+      "en": "Steals the target's held item when the bearer uses a damaging move.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Delphox",
+        "Klefki"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "magma-armor",
+    "name": {
+      "en": "Magma Armor",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents freezing.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Camerupt"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "marvel-scale",
+    "name": {
+      "en": "Marvel Scale",
+      "th": ""
+    },
+    "description": {
+      "en": "Increases Defense to 1.5× with a major status ailment.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Milotic"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "mega-launcher",
+    "name": {
+      "en": "Mega Launcher",
+      "th": ""
+    },
+    "description": {
+      "en": "Strengthens aura and pulse moves to 1.5× their power.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Clawitzer",
+        "Mega Blastoise"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "mega-sol",
+    "name": {
+      "en": "Mega Sol",
+      "th": ""
+    },
+    "description": {
+      "en": "The Pokémon can use its moves as if the weather were harsh sunlight.",
+      "th": ""
+    },
+    "generation": 9,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Mega Meganium"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "mimicry",
+    "name": {
+      "en": "Mimicry",
+      "th": ""
+    },
+    "description": {
+      "en": "Changes type depending on the terrain.",
+      "th": ""
+    },
+    "generation": 8,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Stunfisk (Galarian)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "minus",
+    "name": {
+      "en": "Minus",
+      "th": ""
+    },
+    "description": {
+      "en": "Increases Special Attack to 1.5× when a friendly Pokémon has or .",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Manectric"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "mold-breaker",
+    "name": {
+      "en": "Mold Breaker",
+      "th": ""
+    },
+    "description": {
+      "en": "Bypasses targets' abilities if they could hinder or prevent a move.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 8,
+      "pokemonList": [
+        "Pinsir",
+        "Rampardos",
+        "Excadrill",
+        "Pangoro",
+        "Hawlucha",
+        "Mega Gyarados",
+        "Mega Ampharos",
+        "Mega Emboar"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "moody",
+    "name": {
+      "en": "Moody",
+      "th": ""
+    },
+    "description": {
+      "en": "Raises a random stat two stages and lowers another one stage after each turn.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Glalie",
+        "Scovillain"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "motor-drive",
+    "name": {
+      "en": "Motor Drive",
+      "th": ""
+    },
+    "description": {
+      "en": "Absorbs moves, raising Speed one stage.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Emolga"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "moxie",
+    "name": {
+      "en": "Moxie",
+      "th": ""
+    },
+    "description": {
+      "en": "Raises Attack one stage upon KOing a Pokémon.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 4,
+      "pokemonList": [
+        "Pinsir",
+        "Gyarados",
+        "Heracross",
+        "Krookodile"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "multiscale",
+    "name": {
+      "en": "Multiscale",
+      "th": ""
+    },
+    "description": {
+      "en": "Halves damage taken from full HP.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Dragonite",
+        "Mega Dragonite"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "mummy",
+    "name": {
+      "en": "Mummy",
+      "th": ""
+    },
+    "description": {
+      "en": "Changes attacking Pokémon's abilities to Mummy on contact.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Cofagrigus"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "natural-cure",
+    "name": {
+      "en": "Natural Cure",
+      "th": ""
+    },
+    "description": {
+      "en": "Cures any major status ailment upon switching out.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 4,
+      "pokemonList": [
+        "Starmie",
+        "Altaria",
+        "Roserade",
+        "Trevenant"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "no-guard",
+    "name": {
+      "en": "No Guard",
+      "th": ""
+    },
+    "description": {
+      "en": "Ensures all moves used by and against the Pokémon hit.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 5,
+      "pokemonList": [
+        "Machamp",
+        "Golurk",
+        "Lycanroc (Midnight)",
+        "Mega Pidgeot",
+        "Mega Hawlucha"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "oblivious",
+    "name": {
+      "en": "Oblivious",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents infatuation and protects against .",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Slowbro",
+        "Slowking",
+        "Mamoswine"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "overcoat",
+    "name": {
+      "en": "Overcoat",
+      "th": ""
+    },
+    "description": {
+      "en": "Protects against damage from weather.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Forretress",
+        "Reuniclus"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "overgrow",
+    "name": {
+      "en": "Overgrow",
+      "th": ""
+    },
+    "description": {
+      "en": "Strengthens moves to inflict 1.5× damage at 1/3 max HP or less.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 8,
+      "pokemonList": [
+        "Venusaur",
+        "Meganium",
+        "Torterra",
+        "Serperior",
+        "Simisage",
+        "Chesnaught",
+        "Decidueye",
+        "Decidueye (Hisuian)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "own-tempo",
+    "name": {
+      "en": "Own Tempo",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents confusion.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 5,
+      "pokemonList": [
+        "Slowbro",
+        "Slowbro (Galarian)",
+        "Slowking",
+        "Slowking (Galarian)",
+        "Avalugg"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "parental-bond",
+    "name": {
+      "en": "Parental Bond",
+      "th": ""
+    },
+    "description": {
+      "en": "Lets the bearer hit twice with damaging moves. The second hit has half power.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Mega Kangaskhan"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "pickpocket",
+    "name": {
+      "en": "Pickpocket",
+      "th": ""
+    },
+    "description": {
+      "en": "Steals attacking Pokémon's held items on contact.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Weavile"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "pickup",
+    "name": {
+      "en": "Pickup",
+      "th": ""
+    },
+    "description": {
+      "en": "Picks up other Pokémon's used and Flung held items. May also pick up an item after battle.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 6,
+      "pokemonList": [
+        "Diggersby",
+        "Dedenne",
+        "Gourgeist (Small)",
+        "Gourgeist (Medium)",
+        "Gourgeist (Large)",
+        "Gourgeist (Jumbo)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "piercing-drill",
+    "name": {
+      "en": "Piercing Drill",
+      "th": ""
+    },
+    "description": {
+      "en": "When the Pokémon uses contact moves, it can hit even targets that are protecting themselves.",
+      "th": ""
+    },
+    "generation": 9,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Mega Excadrill"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "pixilate",
+    "name": {
+      "en": "Pixilate",
+      "th": ""
+    },
+    "description": {
+      "en": "Turns the bearer's moves into moves and strengthens them to 1.3× their power.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Sylveon",
+        "Mega Gardevoir",
+        "Mega Altaria"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "plus",
+    "name": {
+      "en": "Plus",
+      "th": ""
+    },
+    "description": {
+      "en": "Increases Special Attack to 1.5× when a friendly Pokémon has or .",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Ampharos",
+        "Dedenne"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "poison-heal",
+    "name": {
+      "en": "Poison Heal",
+      "th": ""
+    },
+    "description": {
+      "en": "Heals for 1/8 max HP after each turn when poisoned in place of damage.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Gliscor"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "poison-point",
+    "name": {
+      "en": "Poison Point",
+      "th": ""
+    },
+    "description": {
+      "en": "Has a 30% chance of poisoning attacking Pokémon on contact.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Roserade"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "poison-touch",
+    "name": {
+      "en": "Poison Touch",
+      "th": ""
+    },
+    "description": {
+      "en": "Has a 30% chance of poisoning target Pokémon upon contact.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Toxicroak"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "prankster",
+    "name": {
+      "en": "Prankster",
+      "th": ""
+    },
+    "description": {
+      "en": "Raises non-damaging moves' priority by one stage.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 6,
+      "pokemonList": [
+        "Sableye",
+        "Liepard",
+        "Whimsicott",
+        "Meowstic (Male)",
+        "Klefki",
+        "Mega Banette"
+      ],
+      "source": "pokemon_champions_abilities.csv"
     }
   },
   {
     "id": "pressure",
     "name": {
       "en": "Pressure",
-      "th": "เพรสเชอร์"
+      "th": ""
     },
     "description": {
-      "en": "Raises the foe's PP usage.",
-      "th": "ทำให้คู่ต่อสู้ใช้ PP มากขึ้น"
+      "en": "Increases the PP cost of moves targetting the Pokémon by one.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 4,
+      "pokemonList": [
+        "Aerodactyl",
+        "Absol",
+        "Spiritomb",
+        "Weavile"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "protean",
+    "name": {
+      "en": "Protean",
+      "th": ""
+    },
+    "description": {
+      "en": "Changes the bearer's type to match each move it uses.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Greninja",
+        "Mega Greninja"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "pure-power",
+    "name": {
+      "en": "Pure Power",
+      "th": ""
+    },
+    "description": {
+      "en": "Doubles Attack in battle.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Medicham",
+        "Mega Medicham"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "quick-draw",
+    "name": {
+      "en": "Quick Draw",
+      "th": ""
+    },
+    "description": {
+      "en": "Enables the Pokémon to move first occasionally.",
+      "th": ""
+    },
+    "generation": 8,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Slowbro (Galarian)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "quick-feet",
+    "name": {
+      "en": "Quick Feet",
+      "th": ""
+    },
+    "description": {
+      "en": "Increases Speed to 1.5× with a major status ailment.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Jolteon"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "rain-dish",
+    "name": {
+      "en": "Rain Dish",
+      "th": ""
+    },
+    "description": {
+      "en": "Heals for 1/16 max HP after each turn during rain.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Blastoise",
+        "Pelipper"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "reckless",
+    "name": {
+      "en": "Reckless",
+      "th": ""
+    },
+    "description": {
+      "en": "Strengthens recoil moves to 1.2× their power.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Rhyperior",
+        "Emboar"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "refrigerate",
+    "name": {
+      "en": "Refrigerate",
+      "th": ""
+    },
+    "description": {
+      "en": "Turns the bearer's moves into moves and strengthens them to 1.3× their power.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Aurorus",
+        "Mega Glalie"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "regenerator",
+    "name": {
+      "en": "Regenerator",
+      "th": ""
+    },
+    "description": {
+      "en": "Heals for 1/3 max HP upon switching out.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 6,
+      "pokemonList": [
+        "Slowbro",
+        "Slowbro (Galarian)",
+        "Slowking",
+        "Slowking (Galarian)",
+        "Audino",
+        "Reuniclus"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "rivalry",
+    "name": {
+      "en": "Rivalry",
+      "th": ""
+    },
+    "description": {
+      "en": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Luxray"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "rock-head",
+    "name": {
+      "en": "Rock Head",
+      "th": ""
+    },
+    "description": {
+      "en": "Protects against recoil damage.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 5,
+      "pokemonList": [
+        "Arcanine (Hisuian)",
+        "Aerodactyl",
+        "Steelix",
+        "Aggron",
+        "Tyrantrum"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "rough-skin",
+    "name": {
+      "en": "Rough Skin",
+      "th": ""
+    },
+    "description": {
+      "en": "Damages attacking Pokémon for 1/8 their max HP on contact.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Sharpedo",
+        "Garchomp"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "sand-force",
+    "name": {
+      "en": "Sand Force",
+      "th": ""
+    },
+    "description": {
+      "en": "Strengthens , , and moves to 1.3× their power during a sandstorm. Protects against sandstorm damage.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 4,
+      "pokemonList": [
+        "Hippowdon",
+        "Excadrill",
+        "Mega Steelix",
+        "Mega Garchomp"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "sand-rush",
+    "name": {
+      "en": "Sand Rush",
+      "th": ""
+    },
+    "description": {
+      "en": "Doubles Speed during a sandstorm. Protects against sandstorm damage.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Excadrill",
+        "Lycanroc (Midday)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "sand-stream",
+    "name": {
+      "en": "Sand Stream",
+      "th": ""
+    },
+    "description": {
+      "en": "Summons a sandstorm that lasts indefinitely upon entering battle.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Tyranitar",
+        "Hippowdon",
+        "Mega Tyranitar"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "sand-veil",
+    "name": {
+      "en": "Sand Veil",
+      "th": ""
+    },
+    "description": {
+      "en": "Increases evasion to 1.25× during a sandstorm. Protects against sandstorm damage.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 4,
+      "pokemonList": [
+        "Garchomp",
+        "Gliscor",
+        "Stunfisk",
+        "Heliolisk"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "sap-sipper",
+    "name": {
+      "en": "Sap Sipper",
+      "th": ""
+    },
+    "description": {
+      "en": "Absorbs moves, raising Attack one stage.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 4,
+      "pokemonList": [
+        "Azumarill",
+        "Goodra",
+        "Goodra (Hisuian)",
+        "Drampa"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "scrappy",
+    "name": {
+      "en": "Scrappy",
+      "th": ""
+    },
+    "description": {
+      "en": "Lets the Pokémon's and moves hit Pokémon.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 4,
+      "pokemonList": [
+        "Kangaskhan",
+        "Pangoro",
+        "Decidueye (Hisuian)",
+        "Mega Lopunny"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "shadow-tag",
+    "name": {
+      "en": "Shadow Tag",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents opponents from fleeing or switching out.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Mega Gengar"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "sharpness",
+    "name": {
+      "en": "Sharpness",
+      "th": ""
+    },
+    "description": {
+      "en": "Powers up slicing moves.",
+      "th": ""
+    },
+    "generation": 9,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Gallade",
+        "Samurott (Hisuian)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "shed-skin",
+    "name": {
+      "en": "Shed Skin",
+      "th": ""
+    },
+    "description": {
+      "en": "Has a 33% chance of curing any major status ailment after each turn.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Arbok"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "sheer-force",
+    "name": {
+      "en": "Sheer Force",
+      "th": ""
+    },
+    "description": {
+      "en": "Strengthens moves with extra effects to 1.3× their power, but prevents their extra effects.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 7,
+      "pokemonList": [
+        "Tauros",
+        "Feraligatr",
+        "Steelix",
+        "Rampardos",
+        "Conkeldurr",
+        "Toucannon",
+        "Mega Camerupt"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "shell-armor",
+    "name": {
+      "en": "Shell Armor",
+      "th": ""
+    },
+    "description": {
+      "en": "Protects against critical hits.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 5,
+      "pokemonList": [
+        "Torkoal",
+        "Torterra",
+        "Samurott",
+        "Goodra (Hisuian)",
+        "Mega Slowbro"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "shield-dust",
+    "name": {
+      "en": "Shield Dust",
+      "th": ""
+    },
+    "description": {
+      "en": "Protects against incoming moves' extra effects.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Vivillon"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "skill-link",
+    "name": {
+      "en": "Skill Link",
+      "th": ""
+    },
+    "description": {
+      "en": "Extends two-to-five-hit moves and to their full length every time.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Toucannon",
+        "Mega Heracross"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "slush-rush",
+    "name": {
+      "en": "Slush Rush",
+      "th": ""
+    },
+    "description": {
+      "en": "During Hail, this Pokémon has double Speed.",
+      "th": ""
+    },
+    "generation": 7,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Beartic"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "sniper",
+    "name": {
+      "en": "Sniper",
+      "th": ""
+    },
+    "description": {
+      "en": "Strengthens critical hits to inflict 3× damage rather than 2×.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Beedrill",
+        "Ariados"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "snow-cloak",
+    "name": {
+      "en": "Snow Cloak",
+      "th": ""
+    },
+    "description": {
+      "en": "Increases evasion to 1.25× during hail. Protects against hail damage.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 5,
+      "pokemonList": [
+        "Ninetales (Alolan)",
+        "Glaceon",
+        "Mamoswine",
+        "Froslass",
+        "Beartic"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "snow-warning",
+    "name": {
+      "en": "Snow Warning",
+      "th": ""
+    },
+    "description": {
+      "en": "Summons hail that lasts indefinitely upon entering battle.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 6,
+      "pokemonList": [
+        "Ninetales (Alolan)",
+        "Abomasnow",
+        "Vanilluxe",
+        "Aurorus",
+        "Mega Abomasnow",
+        "Mega Froslass"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "solar-power",
+    "name": {
+      "en": "Solar Power",
+      "th": ""
+    },
+    "description": {
+      "en": "Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Charizard",
+        "Heliolisk",
+        "Mega Houndoom"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "solid-rock",
+    "name": {
+      "en": "Solid Rock",
+      "th": ""
+    },
+    "description": {
+      "en": "Decreases damage taken from super-effective moves by 1/4.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Camerupt",
+        "Rhyperior"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "soundproof",
+    "name": {
+      "en": "Soundproof",
+      "th": ""
+    },
+    "description": {
+      "en": "Protects against sound-based moves.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Bastiodon",
+        "Abomasnow"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "speed-boost",
+    "name": {
+      "en": "Speed Boost",
+      "th": ""
+    },
+    "description": {
+      "en": "Raises Speed one stage after each turn.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Sharpedo"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "spicy-spray",
+    "name": {
+      "en": "Spicy Spray",
+      "th": ""
+    },
+    "description": {
+      "en": "When the Pokémon takes damage from a move, it burns the attacker.",
+      "th": ""
+    },
+    "generation": 9,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Mega Scovillain"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "stall",
+    "name": {
+      "en": "Stall",
+      "th": ""
+    },
+    "description": {
+      "en": "Makes the Pokémon move last within its move's priority bracket.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Sableye"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "stalwart",
+    "name": {
+      "en": "Stalwart",
+      "th": ""
+    },
+    "description": {
+      "en": "Ignores moves and abilities that draw in moves.",
+      "th": ""
+    },
+    "generation": 8,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Mega Skarmory"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "stance-change",
+    "name": {
+      "en": "Stance Change",
+      "th": ""
+    },
+    "description": {
+      "en": "Changes to Blade Forme before using a damaging move, or Shield Forme before using .",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Aegislash"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "static",
+    "name": {
+      "en": "Static",
+      "th": ""
+    },
+    "description": {
+      "en": "Has a 30% chance of paralyzing attacking Pokémon on contact.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 6,
+      "pokemonList": [
+        "Pikachu",
+        "Raichu",
+        "Ampharos",
+        "Manectric",
+        "Emolga",
+        "Stunfisk"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "steadfast",
+    "name": {
+      "en": "Steadfast",
+      "th": ""
+    },
+    "description": {
+      "en": "Raises Speed one stage upon flinching.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 4,
+      "pokemonList": [
+        "Machamp",
+        "Lucario",
+        "Gallade",
+        "Lycanroc (Midday)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "stench",
+    "name": {
+      "en": "Stench",
+      "th": ""
+    },
+    "description": {
+      "en": "Has a 10% chance of making target Pokémon flinch with each hit.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Garbodor"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "strong-jaw",
+    "name": {
+      "en": "Strong Jaw",
+      "th": ""
+    },
+    "description": {
+      "en": "Strengthens biting moves to 1.5× their power.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Tyrantrum",
+        "Avalugg (Hisuian)",
+        "Mega Sharpedo"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "sturdy",
+    "name": {
+      "en": "Sturdy",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents being KOed from full HP, leaving 1 HP instead. Protects against the one-hit KO moves regardless of HP.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 7,
+      "pokemonList": [
+        "Forretress",
+        "Steelix",
+        "Skarmory",
+        "Aggron",
+        "Bastiodon",
+        "Avalugg",
+        "Avalugg (Hisuian)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "super-luck",
+    "name": {
+      "en": "Super Luck",
+      "th": ""
+    },
+    "description": {
+      "en": "Raises moves' critical hit rates one stage.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Absol"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "surge-surfer",
+    "name": {
+      "en": "Surge Surfer",
+      "th": ""
+    },
+    "description": {
+      "en": "Doubles this Pokémon's Speed on Electric Terrain.",
+      "th": ""
+    },
+    "generation": 7,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Raichu (Alolan)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "swarm",
+    "name": {
+      "en": "Swarm",
+      "th": ""
+    },
+    "description": {
+      "en": "Strengthens moves to inflict 1.5× damage at 1/3 max HP or less.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 5,
+      "pokemonList": [
+        "Beedrill",
+        "Ariados",
+        "Scizor",
+        "Heracross",
+        "Volcarona"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "sweet-veil",
+    "name": {
+      "en": "Sweet Veil",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents friendly Pokémon from sleeping.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Slurpuff"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "swift-swim",
+    "name": {
+      "en": "Swift Swim",
+      "th": ""
+    },
+    "description": {
+      "en": "Doubles Speed during rain.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Beartic"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "symbiosis",
+    "name": {
+      "en": "Symbiosis",
+      "th": ""
+    },
+    "description": {
+      "en": "Passes the bearer's held item to an ally when the ally uses up its item.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Floette (Eternal Flower)",
+        "Florges"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "synchronize",
+    "name": {
+      "en": "Synchronize",
+      "th": ""
+    },
+    "description": {
+      "en": "Copies burns, paralysis, and poison received onto the Pokémon that inflicted them.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 4,
+      "pokemonList": [
+        "Alakazam",
+        "Espeon",
+        "Umbreon",
+        "Gardevoir"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "tangled-feet",
+    "name": {
+      "en": "Tangled Feet",
+      "th": ""
+    },
+    "description": {
+      "en": "Doubles evasion when confused.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Pidgeot"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "technician",
+    "name": {
+      "en": "Technician",
+      "th": ""
+    },
+    "description": {
+      "en": "Strengthens moves of 60 base power or less to 1.5× their power.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Scizor",
+        "Roserade",
+        "Mega Scizor"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "telepathy",
+    "name": {
+      "en": "Telepathy",
+      "th": ""
+    },
+    "description": {
+      "en": "Protects against friendly Pokémon's damaging moves.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Gardevoir",
+        "Medicham",
+        "Noivern"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "thick-fat",
+    "name": {
+      "en": "Thick Fat",
+      "th": ""
+    },
+    "description": {
+      "en": "Halves damage from and moves.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 4,
+      "pokemonList": [
+        "Snorlax",
+        "Azumarill",
+        "Mamoswine",
+        "Mega Venusaur"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "torrent",
+    "name": {
+      "en": "Torrent",
+      "th": ""
+    },
+    "description": {
+      "en": "Strengthens moves to inflict 1.5× damage at 1/3 max HP or less.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 8,
+      "pokemonList": [
+        "Blastoise",
+        "Feraligatr",
+        "Empoleon",
+        "Samurott",
+        "Samurott (Hisuian)",
+        "Simipour",
+        "Greninja",
+        "Primarina"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "tough-claws",
+    "name": {
+      "en": "Tough Claws",
+      "th": ""
+    },
+    "description": {
+      "en": "Strengthens moves that make contact to 1.33× their power.",
+      "th": ""
+    },
+    "generation": 6,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Lycanroc (Dusk)",
+        "Mega Charizard X",
+        "Mega Aerodactyl"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "toxic-debris",
+    "name": {
+      "en": "Toxic Debris",
+      "th": ""
+    },
+    "description": {
+      "en": "Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.",
+      "th": ""
+    },
+    "generation": 9,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Glimmora"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "trace",
+    "name": {
+      "en": "Trace",
+      "th": ""
+    },
+    "description": {
+      "en": "Copies an opponent's ability upon entering battle.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Gardevoir",
+        "Mega Alakazam",
+        "Mega Meowstic"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "unaware",
+    "name": {
+      "en": "Unaware",
+      "th": ""
+    },
+    "description": {
+      "en": "Ignores other Pokémon's stat modifiers for damage and accuracy calculation.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Clefable"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "unburden",
+    "name": {
+      "en": "Unburden",
+      "th": ""
+    },
+    "description": {
+      "en": "Doubles Speed upon using or losing a held item.",
+      "th": ""
+    },
+    "generation": 4,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Liepard",
+        "Slurpuff",
+        "Hawlucha"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "unnerve",
+    "name": {
+      "en": "Unnerve",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents opposing Pokémon from eating held Berries.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 4,
+      "pokemonList": [
+        "Arbok",
+        "Aerodactyl",
+        "Houndoom",
+        "Tyranitar"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "unseen-fist",
+    "name": {
+      "en": "Unseen Fist",
+      "th": ""
+    },
+    "description": {
+      "en": "Contact moves can strike through Protect/Detect.",
+      "th": ""
+    },
+    "generation": 8,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Mega Golurk"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "vital-spirit",
+    "name": {
+      "en": "Vital Spirit",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents sleep.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Lycanroc (Midnight)"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "volt-absorb",
+    "name": {
+      "en": "Volt Absorb",
+      "th": ""
+    },
+    "description": {
+      "en": "Absorbs moves, healing for 1/4 max HP.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Jolteon"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "water-absorb",
+    "name": {
+      "en": "Water Absorb",
+      "th": ""
+    },
+    "description": {
+      "en": "Absorbs moves, healing for 1/4 max HP.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 2,
+      "pokemonList": [
+        "Vaporeon",
+        "Politoed"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "weak-armor",
+    "name": {
+      "en": "Weak Armor",
+      "th": ""
+    },
+    "description": {
+      "en": "Raises Speed and lowers Defense by one stage each upon being hit by a physical move.",
+      "th": ""
+    },
+    "generation": 5,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 3,
+      "pokemonList": [
+        "Skarmory",
+        "Garbodor",
+        "Vanilluxe"
+      ],
+      "source": "pokemon_champions_abilities.csv"
+    }
+  },
+  {
+    "id": "white-smoke",
+    "name": {
+      "en": "White Smoke",
+      "th": ""
+    },
+    "description": {
+      "en": "Prevents stats from being lowered by other Pokémon.",
+      "th": ""
+    },
+    "generation": 3,
+    "isMainSeries": true,
+    "champions": {
+      "available": true,
+      "pokemonCount": 1,
+      "pokemonList": [
+        "Torkoal"
+      ],
+      "source": "pokemon_champions_abilities.csv"
     }
   }
 ]
