@@ -9,7 +9,7 @@ import {
   getImageSrc,
   getStats,
   SAFE_PLACEHOLDER_IMAGE,
-  getTypesDisplay,
+  getTypes,
 } from "../utils/pokemonDisplay";
 
 function PokemonCard({ pokemon }) {
@@ -31,6 +31,7 @@ function PokemonCard({ pokemon }) {
 
   const displayName = getDisplayName(pokemon);
   const englishName = getEnglishName(pokemon);
+  const types = getTypes(pokemon);
   const [imageSrc, setImageSrc] = useState(getImageSrc(pokemon));
 
   useEffect(() => {
@@ -59,7 +60,17 @@ function PokemonCard({ pokemon }) {
         </div>
 
         <p className="meta-label">Type</p>
-        <p className="meta-value">{getTypesDisplay(pokemon)}</p>
+        <div className="type-badge-row">
+          {types.length ? (
+            types.map((type) => (
+              <span key={type} className={`type-badge type-badge--${type.toLowerCase()}`}>
+                {type}
+              </span>
+            ))
+          ) : (
+            <span className="meta-value">TBD</span>
+          )}
+        </div>
 
         <p className="meta-label">Ability</p>
         <p className="meta-value">
