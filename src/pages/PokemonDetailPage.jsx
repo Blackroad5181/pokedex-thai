@@ -31,13 +31,6 @@ function PokemonDetailPage() {
     );
   }
 
-  const abilityNames = getAbilities(pokemon)
-    .map((abilityId) => {
-      const ability = abilitiesData.find((ab) => ab.id === abilityId);
-      return ability ? ability.name : abilityId;
-    })
-    .filter(Boolean);
-
   const prev = pokemonData[pokemonIndex - 1];
   const next = pokemonData[pokemonIndex + 1];
   const moves = getMoves(pokemon);
@@ -62,20 +55,57 @@ function PokemonDetailPage() {
       .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
       .join(" ");
 
+  const getAbilityDetails = (abilityIdOrName) => {
+    if (!abilityIdOrName) return null;
+
+    return (
+      abilitiesData.find((ab) => {
+        const dbId = ab.id || "";
+        const dbName =
+          typeof ab.name === "string" ? ab.name : ab.name?.en || "";
+
+        return (
+          dbId === abilityIdOrName ||
+          dbName === abilityIdOrName ||
+          dbId.toLowerCase() === String(abilityIdOrName).toLowerCase() ||
+          dbName.toLowerCase() === String(abilityIdOrName).toLowerCase()
+        );
+      }) || null
+    );
+  };
+
+  const abilityNames = getAbilities(pokemon)
+    .map((abilityId) => {
+      const ability = getAbilityDetails(abilityId);
+
+      if (!ability) return formatLabel(abilityId);
+      if (typeof ability.name === "string") return ability.name;
+      if (ability.name?.en) return ability.name.en;
+
+      return formatLabel(abilityId);
+    })
+    .filter(Boolean);
+
   const getMoveDetails = (moveName) => {
     if (!moveName) return null;
 
     return (
-      movesData.find(
-        (m) =>
-          m.name === moveName ||
-          m.id === moveName ||
-          String(m.name).toLowerCase() === String(moveName).toLowerCase()
-      ) || null
+      movesData.find((m) => {
+        const dbId = m.id || "";
+        const dbName =
+          typeof m.name === "string" ? m.name : m.name?.en || "";
+
+        return (
+          dbId === moveName ||
+          dbName === moveName ||
+          dbId.toLowerCase() === String(moveName).toLowerCase() ||
+          dbName.toLowerCase() === String(moveName).toLowerCase()
+        );
+      }) || null
     );
   };
 
-  const moveRows = moves.map((move, index) => {
+  const moveRows = (Array.isArray(moves) ? moves : []).map((move, index) => {
     const moveName =
       typeof move === "string"
         ? move
@@ -83,18 +113,34 @@ function PokemonDetailPage() {
 
     const details = getMoveDetails(moveName);
 
+    const detailName =
+      typeof details?.name === "string"
+        ? details.name
+        : details?.name?.en || formatLabel(moveName);
+
+    const detailDescription =
+      typeof details?.description === "string"
+        ? details.description
+        : details?.description?.en || "—";
+
     return {
       key: `${moveName}-${index}`,
-      name: details?.name || formatLabel(moveName),
+      name: detailName,
       type: details?.type || move?.type || "—",
       category: details?.category || move?.category || "—",
       power: details?.power ?? move?.power ?? "—",
       accuracy: details?.accuracy ?? move?.accuracy ?? "—",
       pp: details?.pp ?? move?.pp ?? "—",
       level: move?.level ?? move?.levelLearnedAt ?? "—",
-      description: details?.description || "—",
+      description: detailDescription,
     };
   });
+
+  const stats = getStats(pokemon);
+  const totalStats = Object.values(stats).reduce(
+    (sum, value) => sum + (Number(value) || 0),
+    0
+  );
 
   return (
     <section className="pokemon-detail-page">
@@ -105,19 +151,29 @@ function PokemonDetailPage() {
       <div className="detail-card">
         <header className="detail-hero">
           <div className="detail-hero__image-wrap">
-            <img src={getImageSrc(pokemon)} alt={englishName} className="detail-image" />
+            <img
+              src={getImageSrc(pokemon)}
+              alt={englishName}
+              className="detail-image"
+            />
           </div>
+
           <div className="detail-hero__content">
             <p className="detail-hero__kicker">Pokemon Database</p>
+
             <h2 className="detail-name">
               {displayName}
               {displayName !== englishName ? ` (${englishName})` : ""}
             </h2>
+
             <div className="detail-tag-row">
               <span className="detail-tag">Dex #{getDexNo(pokemon)}</span>
               <span className="detail-tag">{getTypesDisplay(pokemon)}</span>
             </div>
-            <p className="detail-description">{getDescriptionDisplay(pokemon)}</p>
+
+            <p className="detail-description">
+              {getDescriptionDisplay(pokemon)}
+            </p>
           </div>
         </header>
 
@@ -129,14 +185,17 @@ function PokemonDetailPage() {
                 <dt>Type</dt>
                 <dd>{getTypesDisplay(pokemon)}</dd>
               </div>
+
               <div className="overview-item">
                 <dt>Ability</dt>
                 <dd>{abilityNames.length ? abilityNames.join(", ") : "TBD"}</dd>
               </div>
+
               <div className="overview-item">
                 <dt>Moves Available</dt>
-                <dd>{moves.length}</dd>
+                <dd>{moveRows.length}</dd>
               </div>
+
               <div className="overview-item">
                 <dt>Source</dt>
                 <dd>Pokemon Champions</dd>
@@ -147,7 +206,7 @@ function PokemonDetailPage() {
           <section className="detail-section">
             <h3>Base Stats</h3>
             <div className="stats-grid">
-              {Object.entries(getStats(pokemon)).map(([key, value]) => (
+              {Object.entries(stats).map(([key, value]) => (
                 <div key={key} className="stat-row">
                   <div className="stat-label">
                     <span>{statLabels[key] || key}</span>
@@ -161,11 +220,25 @@ function PokemonDetailPage() {
                   </div>
                 </div>
               ))}
+
+              <div className="stat-row">
+                <div className="stat-label">
+                  <span>Total</span>
+                  <span>{totalStats}</span>
+                </div>
+                <div className="stat-track">
+                  <div
+                    className="stat-fill"
+                    style={{ width: `${Math.min((totalStats / 720) * 100, 100)}%` }}
+                  />
+                </div>
+              </div>
             </div>
           </section>
 
           <section className="detail-section">
             <h3>Moves</h3>
+
             {moveRows.length > 0 ? (
               <div className="moves-table-wrap">
                 <table className="moves-table">
@@ -180,12 +253,15 @@ function PokemonDetailPage() {
                       <th>Level</th>
                     </tr>
                   </thead>
+
                   <tbody>
                     {moveRows.map((move) => (
                       <tr key={move.key}>
                         <td>
                           <div>{move.name}</div>
-                          <small style={{ opacity: 0.7 }}>{move.description}</small>
+                          <small style={{ opacity: 0.7 }}>
+                            {move.description}
+                          </small>
                         </td>
                         <td>{move.type}</td>
                         <td>{move.category}</td>
