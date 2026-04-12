@@ -621,3 +621,30 @@
 .type-dark { background: #705746; }
 .type-steel { background: #b7b7ce; color: #222; }
 .type-fairy { background: #d685ad; }
+
+.stat-fill.hp { background: linear-gradient(90deg, #4ade80, #22c55e); }
+.stat-fill.attack { background: linear-gradient(90deg, #f87171, #ef4444); }
+.stat-fill.defense { background: linear-gradient(90deg, #60a5fa, #3b82f6); }
+.stat-fill.spatk { background: linear-gradient(90deg, #facc15, #eab308); }
+.stat-fill.spdef { background: linear-gradient(90deg, #34d399, #10b981); }
+.stat-fill.speed { background: linear-gradient(90deg, #fb923c, #f97316); }
+
+.ability-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ability-item {
+  padding: 8px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.ability-description {
+  margin-top: 4px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  opacity: 0.8;
+}
