@@ -34,6 +34,7 @@ function PokemonDetailPage() {
   const prev = pokemonData[pokemonIndex - 1];
   const next = pokemonData[pokemonIndex + 1];
   const moves = getMoves(pokemon);
+  const stats = getStats(pokemon);
 
   const statLabels = {
     hp: "HP",
@@ -44,8 +45,19 @@ function PokemonDetailPage() {
     speed: "Speed",
   };
 
+  const statClassMap = {
+    hp: "hp",
+    attack: "attack",
+    defense: "defense",
+    spAttack: "spatk",
+    spDefense: "spdef",
+    speed: "speed",
+  };
+
   const displayName = getDisplayName(pokemon);
   const englishName = getEnglishName(pokemon);
+  const typesDisplay = getTypesDisplay(pokemon);
+  const types = typeof typesDisplay === "string" ? typesDisplay.split(" / ") : [];
 
   const formatLabel = (value) =>
     String(value)
@@ -74,27 +86,29 @@ function PokemonDetailPage() {
     );
   };
 
-const abilityRows = getAbilities(pokemon)
-  .map((abilityId) => {
-    const ability = getAbilityDetails(abilityId);
+  const abilityRows = getAbilities(pokemon)
+    .map((abilityId) => {
+      const ability = getAbilityDetails(abilityId);
 
-    const name =
-      typeof ability?.name === "string"
-        ? ability.name
-        : ability?.name?.en || formatLabel(abilityId);
+      const name =
+        typeof ability?.name === "string"
+          ? ability.name
+          : ability?.name?.en || formatLabel(abilityId);
 
-    const description =
-      typeof ability?.description === "string"
-        ? ability.description
-        : ability?.description?.en || "No description available.";
+      const description =
+        typeof ability?.description === "string"
+          ? ability.description
+          : ability?.description?.th ||
+            ability?.description?.en ||
+            "No description available.";
 
-    return {
-      id: abilityId,
-      name,
-      description,
-    };
-  })
-  .filter(Boolean);
+      return {
+        id: abilityId,
+        name,
+        description,
+      };
+    })
+    .filter(Boolean);
 
   const getMoveDetails = (moveName) => {
     if (!moveName) return null;
@@ -128,10 +142,10 @@ const abilityRows = getAbilities(pokemon)
         ? details.name
         : details?.name?.en || formatLabel(moveName);
 
-const detailDescription =
-  typeof details?.description === "string"
-    ? details.description
-    : details?.description?.th || details?.description?.en || "—";
+    const detailDescription =
+      typeof details?.description === "string"
+        ? details.description
+        : details?.description?.th || details?.description?.en || "—";
 
     return {
       key: `${moveName}-${index}`,
@@ -146,7 +160,6 @@ const detailDescription =
     };
   });
 
-  const stats = getStats(pokemon);
   const totalStats = Object.values(stats).reduce(
     (sum, value) => sum + (Number(value) || 0),
     0
@@ -178,7 +191,16 @@ const detailDescription =
 
             <div className="detail-tag-row">
               <span className="detail-tag">Dex #{getDexNo(pokemon)}</span>
-              <span className="detail-tag">{getTypesDisplay(pokemon)}</span>
+              <div className="type-badge-row">
+                {types.map((type) => (
+                  <span
+                    key={type}
+                    className={`type-badge type-${type.toLowerCase()}`}
+                  >
+                    {type}
+                  </span>
+                ))}
+              </div>
             </div>
 
             <p className="detail-description">
@@ -193,26 +215,39 @@ const detailDescription =
             <dl className="overview-grid">
               <div className="overview-item">
                 <dt>Type</dt>
-                <dd>{getTypesDisplay(pokemon)}</dd>
+                <dd>
+                  <div className="type-badge-row">
+                    {types.map((type) => (
+                      <span
+                        key={type}
+                        className={`type-badge type-${type.toLowerCase()}`}
+                      >
+                        {type}
+                      </span>
+                    ))}
+                  </div>
+                </dd>
               </div>
 
-<div className="overview-item">
-  <dt>Abilitys</dt>
-  <dd>
-    {abilityRows.length ? (
-      <div className="ability-list">
-        {abilityRows.map((ability) => (
-          <div key={ability.id} className="ability-item">
-            <strong>{ability.name}</strong>
-            <div className="ability-description">{ability.description}</div>
-          </div>
-        ))}
-      </div>
-    ) : (
-      "TBD"
-    )}
-  </dd>
-</div>
+              <div className="overview-item">
+                <dt>Abilities</dt>
+                <dd>
+                  {abilityRows.length ? (
+                    <div className="ability-list">
+                      {abilityRows.map((ability) => (
+                        <div key={ability.id} className="ability-item">
+                          <strong>{ability.name}</strong>
+                          <div className="ability-description">
+                            {ability.description}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    "TBD"
+                  )}
+                </dd>
+              </div>
 
               <div className="overview-item">
                 <dt>Moves Available</dt>
@@ -237,7 +272,7 @@ const detailDescription =
                   </div>
                   <div className="stat-track">
                     <div
-                      className="stat-fill"
+                      className={`stat-fill ${statClassMap[key] || ""}`}
                       style={{ width: `${Math.min((value / 160) * 100, 100)}%` }}
                     />
                   </div>
@@ -281,12 +316,22 @@ const detailDescription =
                     {moveRows.map((move) => (
                       <tr key={move.key}>
                         <td>
-  <div>{move.name}</div>
-  <small style={{ opacity: 0.7 }}>
-    {move.description}
-  </small>
-</td>
-                        <td>{move.type}</td>
+                          <div>{move.name}</div>
+                          <small style={{ opacity: 0.7 }}>
+                            {move.description}
+                          </small>
+                        </td>
+                        <td>
+                          {move.type !== "—" ? (
+                            <span
+                              className={`type-badge type-${String(move.type).toLowerCase()}`}
+                            >
+                              {move.type}
+                            </span>
+                          ) : (
+                            "—"
+                          )}
+                        </td>
                         <td>{move.category}</td>
                         <td>{move.power}</td>
                         <td>{move.accuracy}</td>
