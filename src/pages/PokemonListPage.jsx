@@ -3,7 +3,12 @@ import pokemonData from "../data/pokemon.json";
 import PokemonCard from "../components/PokemonCard";
 import SearchBar from "../components/SearchBar";
 import abilitiesData from "../data/abilities.json";
-import { getDisplayName, getEnglishName } from "../utils/pokemonDisplay";
+import {
+  getAbilities,
+  getDisplayName,
+  getEnglishName,
+  getTypes,
+} from "../utils/pokemonDisplay";
 
 function PokemonListPage() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -14,7 +19,7 @@ function PokemonListPage() {
     const typeSet = new Set();
 
     pokemonData.forEach((p) => {
-      (p.types || []).forEach((type) => typeSet.add(type));
+      getTypes(p).forEach((type) => typeSet.add(type));
     });
 
     return Array.from(typeSet).sort();
@@ -24,7 +29,7 @@ function PokemonListPage() {
     const abilitySet = new Set();
 
     pokemonData.forEach((p) => {
-      (p.abilities || []).forEach((ab) => abilitySet.add(ab));
+      getAbilities(p).forEach((ab) => abilitySet.add(ab));
     });
 
     return Array.from(abilitySet).sort();
@@ -43,10 +48,10 @@ function PokemonListPage() {
         englishName.includes(keyword);
 
       const matchesType =
-        !selectedType || (p.types || []).includes(selectedType);
+        !selectedType || getTypes(p).includes(selectedType);
 
       const matchesAbility =
-        !selectedAbility || (p.abilities || []).includes(selectedAbility);
+        !selectedAbility || getAbilities(p).includes(selectedAbility);
 
       return matchesSearch && matchesType && matchesAbility;
     });

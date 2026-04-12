@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
 import abilitiesData from "../data/abilities.json";
 import {
+  getAbilities,
+  getDexNo,
   getDisplayName,
   getEnglishName,
   getTypesDisplay,
 } from "../utils/pokemonDisplay";
 
 function PokemonCard({ pokemon }) {
-  const abilityNames = (pokemon.abilities || [])
+  const abilityNames = getAbilities(pokemon)
     .map((abilityId) => {
       const ability = abilitiesData.find((ab) => ab.id === abilityId);
       return ability ? ability.name.en : abilityId;
@@ -38,7 +40,7 @@ function PokemonCard({ pokemon }) {
           {displayName}
           {displayName !== englishName ? ` (${englishName})` : ""}
         </h3>
-        <p>#{pokemon.dexNo}</p>
+        <p>#{getDexNo(pokemon)}</p>
         <p>Type: {getTypesDisplay(pokemon)}</p>
         <p>Ability: {abilityNames.length ? abilityNames.join(", ") : "TBD"}</p>
       </div>
