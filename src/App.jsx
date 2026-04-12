@@ -4,14 +4,19 @@ import PokemonDetailPage from "./pages/PokemonDetailPage";
 
 function App() {
   return (
-    <div>
-      <h1>My Pokedex 🔥</h1>
+    <div className="app-shell">
+      <header className="app-header">
+        <p className="app-kicker">Pokémon Champion Database</p>
+        <h1>My Pokedex 🔥</h1>
+      </header>
 
-      <Routes>
-        <Route path="/" element={<PokemonListPage />} />
-        <Route path="/pokemon/:id" element={<PokemonDetailPage />} />
-        <Route path="*" element={<PokemonListPage />} />
-      </Routes>
+      <main className="page-container">
+        <Routes>
+          <Route path="/" element={<PokemonListPage />} />
+          <Route path="/pokemon/:id" element={<PokemonDetailPage />} />
+          <Route path="*" element={<PokemonListPage />} />
+        </Routes>
+      </main>
     </div>
   );
 }

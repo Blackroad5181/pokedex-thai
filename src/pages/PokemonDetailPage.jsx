@@ -6,7 +6,6 @@ import {
   getDisplayName,
   getEnglishName,
   getImageSrc,
-  getTypesDisplay,
 } from "../utils/pokemonDisplay";
 
 function PokemonDetailPage() {
@@ -18,9 +17,9 @@ function PokemonDetailPage() {
 
   if (!pokemon) {
     return (
-      <div>
+      <div className="detail-page">
         <h2>ไม่พบข้อมูลโปเกมอน</h2>
-        <Link to="/">← กลับ</Link>
+        <Link to="/" className="nav-link">← กลับ</Link>
       </div>
     );
   }
@@ -46,25 +45,15 @@ function PokemonDetailPage() {
   const englishName = getEnglishName(pokemon);
 
   return (
-    <div style={{ marginTop: "24px" }}>
-      <Link to="/">← กลับไปหน้า List</Link>
+    <section className="detail-page">
+      <Link to="/" className="nav-link">← กลับไปหน้า List</Link>
 
-      <div
-        style={{
-          marginTop: "16px",
-          padding: "20px",
-          border: "1px solid gray",
-          borderRadius: "16px",
-          display: "flex",
-          gap: "20px",
-        }}
-      >
-        {/* LEFT */}
-        <div style={{ flex: 1, textAlign: "center" }}>
+      <article className="detail-card">
+        <div className="detail-left">
           <img
             src={getImageSrc(pokemon)}
             alt={englishName}
-            style={{ width: "150px" }}
+            className="detail-image"
           />
 
           <h2>
@@ -72,64 +61,60 @@ function PokemonDetailPage() {
             {displayName !== englishName ? ` (${englishName})` : ""}
           </h2>
 
-          <p>Dex No: #{pokemon.dexNo}</p>
+          <p className="detail-subtle">Dex No: #{pokemon.dexNo}</p>
+
+          <div className="detail-types">
+            {(pokemon.types || []).map((type) => (
+              <span key={type} className="type-chip">
+                {type}
+              </span>
+            ))}
+          </div>
         </div>
 
-        {/* RIGHT */}
-        <div style={{ flex: 2 }}>
-          <p>
-            <strong>Type:</strong> {getTypesDisplay(pokemon)}
-          </p>
+        <div className="detail-right">
+          <div className="detail-meta-block">
+            <h3>Overview</h3>
+            <p>
+              <strong>Ability:</strong> {abilityNames.length ? abilityNames.join(", ") : "TBD"}
+            </p>
+            <p>
+              <strong>Description:</strong> {getDescriptionDisplay(pokemon)}
+            </p>
+          </div>
 
-          <p>
-            <strong>Ability:</strong> {abilityNames.length ? abilityNames.join(", ") : "TBD"}
-          </p>
-
-          <p>
-            <strong>Description:</strong> {getDescriptionDisplay(pokemon)}
-          </p>
-
-          <h3>Stats</h3>
-
-          {Object.entries(pokemon.stats || {}).map(([key, value]) => (
-            <div key={key} style={{ marginBottom: "12px" }}>
-              <div style={{ fontSize: "12px", marginBottom: "4px" }}>
-                {statLabels[key] || key} : {value}
+          <div className="detail-meta-block">
+            <h3>Base Stats</h3>
+            {(Object.entries(pokemon.stats || {})).map(([key, value]) => (
+              <div key={key} className="stat-row">
+                <div className="stat-row__label">
+                  <span>{statLabels[key] || key}</span>
+                  <span>{value}</span>
+                </div>
+                <div className="stat-row__track">
+                  <div
+                    className="stat-row__bar"
+                    style={{ width: `${Math.min((value / 160) * 100, 100)}%` }}
+                  />
+                </div>
               </div>
-              <div
-                style={{
-                  height: "8px",
-                  background: "#333",
-                  borderRadius: "4px",
-                }}
-              >
-                <div
-                  style={{
-                    width: `${Math.min((value / 160) * 100, 100)}%`,
-                    height: "100%",
-                    background: "#4CAF50",
-                    borderRadius: "4px",
-                  }}
-                />
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
+      </article>
 
-      {/* NAV */}
-      <div
-        style={{
-          marginTop: "16px",
-          display: "flex",
-          justifyContent: "space-between",
-        }}
-      >
-        {prev ? <Link to={`/pokemon/${prev.id}`}>← {getEnglishName(prev)}</Link> : <div />}
+      <div className="detail-nav">
+        {prev ? (
+          <Link to={`/pokemon/${prev.id}`} className="nav-link">← {getEnglishName(prev)}</Link>
+        ) : (
+          <span />
+        )}
 
-        {next ? <Link to={`/pokemon/${next.id}`}>{getEnglishName(next)} →</Link> : null}
+        {next ? (
+          <Link to={`/pokemon/${next.id}`} className="nav-link">{getEnglishName(next)} →</Link>
+        ) : null}
       </div>
-    </div>
+    </section>
   );
 }
 

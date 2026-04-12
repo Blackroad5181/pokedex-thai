@@ -53,66 +53,64 @@ function PokemonListPage() {
   }, [searchTerm, selectedType, selectedAbility]);
 
   return (
-    <div>
-      <h2>Pokemon List</h2>
+    <section className="list-page">
+      <div className="section-heading">
+        <h2>Pokémon List</h2>
+        <p>{filteredPokemon.length} champions found</p>
+      </div>
 
-      <div style={{ marginBottom: "16px" }}>
+      <div className="filters-panel">
         <SearchBar value={searchTerm} onChange={setSearchTerm} />
 
-        <br />
+        <div className="filters-grid">
+          <label className="field-group">
+            <span>Type</span>
+            <select
+              value={selectedType}
+              onChange={(e) => setSelectedType(e.target.value)}
+              className="filter-select"
+            >
+              <option value="">ทุกประเภท</option>
+              {allTypes.map((type) => (
+                <option key={type} value={type}>
+                  {type}
+                </option>
+              ))}
+            </select>
+          </label>
 
-        <select
-          value={selectedType}
-          onChange={(e) => setSelectedType(e.target.value)}
-          style={{
-            width: "100%",
-            maxWidth: "220px",
-            padding: "10px",
-            fontSize: "16px",
-            borderRadius: "8px",
-          }}
-        >
-          <option value="">ทุกประเภท</option>
-          {allTypes.map((type) => (
-            <option key={type} value={type}>
-              {type}
-            </option>
-          ))}
-        </select>
+          <label className="field-group">
+            <span>Ability</span>
+            <select
+              value={selectedAbility}
+              onChange={(e) => setSelectedAbility(e.target.value)}
+              className="filter-select"
+            >
+              <option value="">ทุกความสามารถ</option>
+              {allAbilities.map((abId) => {
+                const ability = abilitiesData.find((ab) => ab.id === abId);
 
-        <br />
-
-        <select
-          value={selectedAbility}
-          onChange={(e) => setSelectedAbility(e.target.value)}
-          style={{
-            width: "100%",
-            maxWidth: "220px",
-            padding: "10px",
-            fontSize: "16px",
-            borderRadius: "8px",
-            marginTop: "10px",
-          }}
-        >
-          <option value="">ทุกความสามารถ</option>
-          {allAbilities.map((abId) => {
-            const ability = abilitiesData.find((ab) => ab.id === abId);
-
-            return (
-              <option key={abId} value={abId}>
-                {ability ? ability.name.en : abId}
-              </option>
-            );
-          })}
-        </select>
+                return (
+                  <option key={abId} value={abId}>
+                    {ability ? ability.name.en : abId}
+                  </option>
+                );
+              })}
+            </select>
+          </label>
+        </div>
       </div>
 
       {filteredPokemon.length > 0 ? (
-        filteredPokemon.map((p) => <PokemonCard key={p.id} pokemon={p} />)
+        <div className="pokemon-grid">
+          {filteredPokemon.map((p) => (
+            <PokemonCard key={p.id} pokemon={p} />
+          ))}
+        </div>
       ) : (
-        <p>ไม่พบโปเกมอนที่ค้นหา</p>
+        <p className="empty-state">ไม่พบโปเกมอนที่ค้นหา</p>
       )}
-    </div>
+    </section>
   );
 }
 

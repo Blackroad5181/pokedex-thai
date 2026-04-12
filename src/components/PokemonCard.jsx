@@ -1,10 +1,6 @@
 import { Link } from "react-router-dom";
 import abilitiesData from "../data/abilities.json";
-import {
-  getDisplayName,
-  getEnglishName,
-  getTypesDisplay,
-} from "../utils/pokemonDisplay";
+import { getDisplayName, getEnglishName } from "../utils/pokemonDisplay";
 
 function PokemonCard({ pokemon }) {
   const abilityNames = (pokemon.abilities || [])
@@ -18,30 +14,30 @@ function PokemonCard({ pokemon }) {
   const englishName = getEnglishName(pokemon);
 
   return (
-    <Link
-      to={`/pokemon/${pokemon.id}`}
-      style={{
-        textDecoration: "none",
-        color: "inherit",
-      }}
-    >
-      <div
-        style={{
-          border: "1px solid gray",
-          margin: 8,
-          padding: 8,
-          cursor: "pointer",
-          borderRadius: "12px",
-        }}
-      >
+    <Link to={`/pokemon/${pokemon.id}`} className="pokemon-card-link">
+      <article className="pokemon-card">
+        <div className="pokemon-card__top">
+          <p className="pokemon-card__dex">#{pokemon.dexNo}</p>
+          <p className="pokemon-card__id">ID {pokemon.id}</p>
+        </div>
+
         <h3>
           {displayName}
           {displayName !== englishName ? ` (${englishName})` : ""}
         </h3>
-        <p>#{pokemon.dexNo}</p>
-        <p>Type: {getTypesDisplay(pokemon)}</p>
-        <p>Ability: {abilityNames.length ? abilityNames.join(", ") : "TBD"}</p>
-      </div>
+
+        <div className="pokemon-card__chips">
+          {(pokemon.types || []).map((type) => (
+            <span key={type} className="type-chip">
+              {type}
+            </span>
+          ))}
+        </div>
+
+        <p className="pokemon-card__abilities">
+          <span>Ability:</span> {abilityNames.length ? abilityNames.join(", ") : "TBD"}
+        </p>
+      </article>
     </Link>
   );
 }
