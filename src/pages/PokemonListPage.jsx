@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import pokemonData from "../data/pokemon.json";
+import pokemonData from "../data/pokemonSchema";
 import PokemonCard from "../components/PokemonCard";
 import SearchBar from "../components/SearchBar";
 import abilitiesData from "../data/abilities.json";

@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import pokemonData from "../data/pokemon.json";
+import pokemonData from "../data/pokemonSchema";
 import abilitiesData from "../data/abilities.json";
 
 function PokemonDetailPage() {
