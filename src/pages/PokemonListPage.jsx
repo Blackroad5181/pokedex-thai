@@ -21,13 +21,17 @@ function PokemonListPage() {
     { value: "spDefense", label: "Sp. Defense" },
     { value: "speed", label: "Speed" },
   ];
-  const [inputSearchTerm, setInputSearchTerm] = useState("");
-  const [searchTerm, setSearchTerm] = useState("");
-  const [selectedType, setSelectedType] = useState("");
-  const [selectedAbility, setSelectedAbility] = useState("");
-  const [selectedStat, setSelectedStat] = useState("hp");
-  const [statOperator, setStatOperator] = useState(">");
-  const [statValue, setStatValue] = useState("");
+  const initialFilters = {
+    searchTerm: "",
+    selectedType: "",
+    selectedAbility: "",
+    selectedStat: "hp",
+    statOperator: ">",
+    statValue: "",
+  };
+
+  const [pendingFilters, setPendingFilters] = useState(initialFilters);
+  const [appliedFilters, setAppliedFilters] = useState(initialFilters);
   const [currentPage, setCurrentPage] = useState(1);
 
   const allTypes = useMemo(() => {
@@ -51,7 +55,7 @@ function PokemonListPage() {
   }, []);
 
   const filteredPokemon = useMemo(() => {
-    const keyword = searchTerm.trim().toLowerCase();
+    const keyword = appliedFilters.searchTerm.trim().toLowerCase();
 
     return pokemonData.filter((p) => {
       const displayName = getDisplayName(p).toLowerCase();
@@ -62,25 +66,29 @@ function PokemonListPage() {
         displayName.includes(keyword) ||
         englishName.includes(keyword);
 
-      const matchesType = !selectedType || getTypes(p).includes(selectedType);
+      const matchesType =
+        !appliedFilters.selectedType ||
+        getTypes(p).includes(appliedFilters.selectedType);
 
       const matchesAbility =
-        !selectedAbility || getAbilities(p).includes(selectedAbility);
+        !appliedFilters.selectedAbility ||
+        getAbilities(p).includes(appliedFilters.selectedAbility);
 
-      const numericStatValue = Number(statValue);
-      const hasStatFilter = statValue !== "" && Number.isFinite(numericStatValue);
-      const currentStatValue = Number(getStats(p)[selectedStat] ?? 0);
+      const numericStatValue = Number(appliedFilters.statValue);
+      const hasStatFilter =
+        appliedFilters.statValue !== "" && Number.isFinite(numericStatValue);
+      const currentStatValue = Number(getStats(p)[appliedFilters.selectedStat] ?? 0);
       const matchesStat = !hasStatFilter
         ? true
-        : statOperator === ">"
+        : appliedFilters.statOperator === ">"
           ? currentStatValue > numericStatValue
-          : statOperator === "<"
+          : appliedFilters.statOperator === "<"
             ? currentStatValue < numericStatValue
             : currentStatValue === numericStatValue;
 
       return matchesSearch && matchesType && matchesAbility && matchesStat;
     });
-  }, [searchTerm, selectedType, selectedAbility, selectedStat, statOperator, statValue]);
+  }, [appliedFilters]);
 
   const totalPages = Math.max(1, Math.ceil(filteredPokemon.length / PAGE_SIZE));
 
@@ -95,31 +103,34 @@ function PokemonListPage() {
     }
   }, [currentPage, totalPages]);
 
+  const handleSearchSubmit = (event) => {
+    event.preventDefault();
+    setAppliedFilters(pendingFilters);
+    setCurrentPage(1);
+  };
+
   return (
     <section>
       <h2 className="page-title">Pokemon List</h2>
 
-      <div className="filter-panel">
-        <SearchBar value={inputSearchTerm} onChange={setInputSearchTerm} />
+      <form className="filter-panel" onSubmit={handleSearchSubmit}>
+        <SearchBar
+          value={pendingFilters.searchTerm}
+          onChange={(value) =>
+            setPendingFilters((prev) => ({ ...prev, searchTerm: value }))
+          }
+        />
 
-        <button
-          type="button"
-          className="button"
-          onClick={() => {
-            setSearchTerm(inputSearchTerm);
-            setCurrentPage(1);
-          }}
-        >
+        <button type="submit" className="button">
           ค้นหา
         </button>
 
         <select
           className="select"
-          value={selectedType}
-          onChange={(e) => {
-            setSelectedType(e.target.value);
-            setCurrentPage(1);
-          }}
+          value={pendingFilters.selectedType}
+          onChange={(e) =>
+            setPendingFilters((prev) => ({ ...prev, selectedType: e.target.value }))
+          }
         >
           <option value="">ทุกประเภท</option>
           {allTypes.map((type) => (
@@ -131,11 +142,10 @@ function PokemonListPage() {
 
         <select
           className="select"
-          value={selectedAbility}
-          onChange={(e) => {
-            setSelectedAbility(e.target.value);
-            setCurrentPage(1);
-          }}
+          value={pendingFilters.selectedAbility}
+          onChange={(e) =>
+            setPendingFilters((prev) => ({ ...prev, selectedAbility: e.target.value }))
+          }
         >
           <option value="">ทุกความสามารถ</option>
           {allAbilities.map((abId) => {
@@ -151,11 +161,10 @@ function PokemonListPage() {
 
         <select
           className="select"
-          value={selectedStat}
-          onChange={(e) => {
-            setSelectedStat(e.target.value);
-            setCurrentPage(1);
-          }}
+          value={pendingFilters.selectedStat}
+          onChange={(e) =>
+            setPendingFilters((prev) => ({ ...prev, selectedStat: e.target.value }))
+          }
         >
           {statOptions.map((option) => (
             <option key={option.value} value={option.value}>
@@ -166,11 +175,10 @@ function PokemonListPage() {
 
         <select
           className="select"
-          value={statOperator}
-          onChange={(e) => {
-            setStatOperator(e.target.value);
-            setCurrentPage(1);
-          }}
+          value={pendingFilters.statOperator}
+          onChange={(e) =>
+            setPendingFilters((prev) => ({ ...prev, statOperator: e.target.value }))
+          }
         >
           <option value=">">สเตตัส &gt;</option>
           <option value="<">สเตตัส &lt;</option>
@@ -182,13 +190,12 @@ function PokemonListPage() {
           type="number"
           min="0"
           placeholder="ค่าสเตตัส"
-          value={statValue}
-          onChange={(e) => {
-            setStatValue(e.target.value);
-            setCurrentPage(1);
-          }}
+          value={pendingFilters.statValue}
+          onChange={(e) =>
+            setPendingFilters((prev) => ({ ...prev, statValue: e.target.value }))
+          }
         />
-      </div>
+      </form>
 
       {filteredPokemon.length > 0 ? (
         <>

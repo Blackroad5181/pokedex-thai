@@ -158,6 +158,24 @@
   padding: 2px 9px;
 }
 
+
+.pokemon-card__image-wrap {
+  margin-bottom: 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(120, 155, 214, 0.35);
+  background: radial-gradient(circle at center, rgba(115, 180, 255, 0.16), rgba(8, 14, 28, 0.9));
+  min-height: 122px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.pokemon-card__image {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+}
 .meta-label {
   color: var(--text-muted);
   font-size: 0.72rem;

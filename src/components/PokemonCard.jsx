@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import abilitiesData from "../data/abilities.json";
 import {
@@ -5,7 +6,9 @@ import {
   getDexNo,
   getDisplayName,
   getEnglishName,
+  getImageSrc,
   getStats,
+  SAFE_PLACEHOLDER_IMAGE,
   getTypesDisplay,
 } from "../utils/pokemonDisplay";
 
@@ -28,6 +31,11 @@ function PokemonCard({ pokemon }) {
 
   const displayName = getDisplayName(pokemon);
   const englishName = getEnglishName(pokemon);
+  const [imageSrc, setImageSrc] = useState(getImageSrc(pokemon));
+
+  useEffect(() => {
+    setImageSrc(getImageSrc(pokemon));
+  }, [pokemon]);
 
   return (
     <Link to={`/pokemon/${pokemon.id}`} className="pokemon-card-link">
@@ -38,6 +46,16 @@ function PokemonCard({ pokemon }) {
             {displayName !== englishName ? ` (${englishName})` : ""}
           </h3>
           <span className="dex-badge">#{getDexNo(pokemon)}</span>
+        </div>
+
+        <div className="pokemon-card__image-wrap">
+          <img
+            src={imageSrc}
+            alt={englishName}
+            className="pokemon-card__image"
+            loading="lazy"
+            onError={() => setImageSrc(SAFE_PLACEHOLDER_IMAGE)}
+          />
         </div>
 
         <p className="meta-label">Type</p>
