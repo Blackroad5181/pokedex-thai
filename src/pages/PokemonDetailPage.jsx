@@ -8,7 +8,9 @@ import {
   getDisplayName,
   getEnglishName,
   getImageSrc,
+  getMoves,
   getStats,
+  formatMoveName,
   getTypesDisplay,
 } from "../utils/pokemonDisplay";
 
@@ -49,6 +51,7 @@ function PokemonDetailPage() {
   };
   const displayName = getDisplayName(pokemon);
   const englishName = getEnglishName(pokemon);
+  const moves = getMoves(pokemon).map(formatMoveName);
 
   return (
     <section>
@@ -102,6 +105,19 @@ function PokemonDetailPage() {
                 </div>
               ))}
             </div>
+          </div>
+
+          <div className="detail-section">
+            <h3>Moves ({moves.length})</h3>
+            {moves.length ? (
+              <ul className="moves-list">
+                {moves.map((move) => (
+                  <li key={move}>{move}</li>
+                ))}
+              </ul>
+            ) : (
+              <p>ข้อมูลท่ายังไม่เปิดเผย</p>
+            )}
           </div>
         </div>
       </div>

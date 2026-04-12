@@ -5,6 +5,7 @@ import {
   getDexNo,
   getDisplayName,
   getEnglishName,
+  getStats,
   getTypesDisplay,
 } from "../utils/pokemonDisplay";
 
@@ -18,6 +19,13 @@ function PokemonCard({ pokemon }) {
 
   const displayName = getDisplayName(pokemon);
   const englishName = getEnglishName(pokemon);
+  const stats = getStats(pokemon);
+  const statItems = [
+    ["HP", stats.hp],
+    ["ATK", stats.attack],
+    ["DEF", stats.defense],
+    ["SPD", stats.speed],
+  ];
 
   return (
     <Link to={`/pokemon/${pokemon.id}`} className="pokemon-card-link">
@@ -37,6 +45,14 @@ function PokemonCard({ pokemon }) {
         <p className="meta-value">
           {abilityNames.length ? abilityNames.join(", ") : "TBD"}
         </p>
+
+        <div className="stats-inline" aria-label="Base stats">
+          {statItems.map(([label, value]) => (
+            <span key={label} className="stats-inline__item">
+              <strong>{label}</strong> {value ?? "-"}
+            </span>
+          ))}
+        </div>
       </article>
     </Link>
   );
