@@ -1,0 +1,6847 @@
+[
+  {
+    "id": 1,
+    "dexNo": "0001",
+    "slug": "venusaur",
+    "name": {
+      "th": "",
+      "en": "Venusaur"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 2,
+    "dexNo": "0002",
+    "slug": "charizard",
+    "name": {
+      "th": "",
+      "en": "Charizard"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 3,
+    "dexNo": "0003",
+    "slug": "blastoise",
+    "name": {
+      "th": "",
+      "en": "Blastoise"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 4,
+    "dexNo": "0004",
+    "slug": "pikachu",
+    "name": {
+      "th": "",
+      "en": "Pikachu"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 5,
+    "dexNo": "0005",
+    "slug": "raichu",
+    "name": {
+      "th": "",
+      "en": "Raichu"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 6,
+    "dexNo": "0006",
+    "slug": "ninetales",
+    "name": {
+      "th": "",
+      "en": "Ninetales"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 7,
+    "dexNo": "0007",
+    "slug": "arcanine",
+    "name": {
+      "th": "",
+      "en": "Arcanine"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 8,
+    "dexNo": "0008",
+    "slug": "alakazam",
+    "name": {
+      "th": "",
+      "en": "Alakazam"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 9,
+    "dexNo": "0009",
+    "slug": "machamp",
+    "name": {
+      "th": "",
+      "en": "Machamp"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 10,
+    "dexNo": "0010",
+    "slug": "gengar",
+    "name": {
+      "th": "",
+      "en": "Gengar"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 11,
+    "dexNo": "0011",
+    "slug": "kangaskhan",
+    "name": {
+      "th": "",
+      "en": "Kangaskhan"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 12,
+    "dexNo": "0012",
+    "slug": "gyarados",
+    "name": {
+      "th": "",
+      "en": "Gyarados"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 13,
+    "dexNo": "0013",
+    "slug": "snorlax",
+    "name": {
+      "th": "",
+      "en": "Snorlax"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 14,
+    "dexNo": "0014",
+    "slug": "dragonite",
+    "name": {
+      "th": "",
+      "en": "Dragonite"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 15,
+    "dexNo": "0015",
+    "slug": "ditto",
+    "name": {
+      "th": "",
+      "en": "Ditto"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 16,
+    "dexNo": "0016",
+    "slug": "starmie",
+    "name": {
+      "th": "",
+      "en": "Starmie"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 17,
+    "dexNo": "0017",
+    "slug": "aerodactyl",
+    "name": {
+      "th": "",
+      "en": "Aerodactyl"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 1,
+    "generationLabel": "Gen1",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 18,
+    "dexNo": "0018",
+    "slug": "meganium",
+    "name": {
+      "th": "",
+      "en": "Meganium"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 2,
+    "generationLabel": "Gen2",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 19,
+    "dexNo": "0019",
+    "slug": "typhlosion",
+    "name": {
+      "th": "",
+      "en": "Typhlosion"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 2,
+    "generationLabel": "Gen2",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 20,
+    "dexNo": "0020",
+    "slug": "feraligatr",
+    "name": {
+      "th": "",
+      "en": "Feraligatr"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 2,
+    "generationLabel": "Gen2",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 21,
+    "dexNo": "0021",
+    "slug": "ampharos",
+    "name": {
+      "th": "",
+      "en": "Ampharos"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 2,
+    "generationLabel": "Gen2",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 22,
+    "dexNo": "0022",
+    "slug": "azumarill",
+    "name": {
+      "th": "",
+      "en": "Azumarill"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 2,
+    "generationLabel": "Gen2",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 23,
+    "dexNo": "0023",
+    "slug": "politoed",
+    "name": {
+      "th": "",
+      "en": "Politoed"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 2,
+    "generationLabel": "Gen2",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 24,
+    "dexNo": "0024",
+    "slug": "espeon",
+    "name": {
+      "th": "",
+      "en": "Espeon"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 2,
+    "generationLabel": "Gen2",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 25,
+    "dexNo": "0025",
+    "slug": "umbreon",
+    "name": {
+      "th": "",
+      "en": "Umbreon"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 2,
+    "generationLabel": "Gen2",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 26,
+    "dexNo": "0026",
+    "slug": "steelix",
+    "name": {
+      "th": "",
+      "en": "Steelix"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 2,
+    "generationLabel": "Gen2",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 27,
+    "dexNo": "0027",
+    "slug": "scizor",
+    "name": {
+      "th": "",
+      "en": "Scizor"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 2,
+    "generationLabel": "Gen2",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 28,
+    "dexNo": "0028",
+    "slug": "tyranitar",
+    "name": {
+      "th": "",
+      "en": "Tyranitar"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 2,
+    "generationLabel": "Gen2",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 29,
+    "dexNo": "0029",
+    "slug": "skarmory",
+    "name": {
+      "th": "",
+      "en": "Skarmory"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 2,
+    "generationLabel": "Gen2",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 30,
+    "dexNo": "0030",
+    "slug": "gardevoir",
+    "name": {
+      "th": "",
+      "en": "Gardevoir"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 3,
+    "generationLabel": "Gen3",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 31,
+    "dexNo": "0031",
+    "slug": "sableye",
+    "name": {
+      "th": "",
+      "en": "Sableye"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 3,
+    "generationLabel": "Gen3",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 32,
+    "dexNo": "0032",
+    "slug": "aggron",
+    "name": {
+      "th": "",
+      "en": "Aggron"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 3,
+    "generationLabel": "Gen3",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 33,
+    "dexNo": "0033",
+    "slug": "medicham",
+    "name": {
+      "th": "",
+      "en": "Medicham"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 3,
+    "generationLabel": "Gen3",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 34,
+    "dexNo": "0034",
+    "slug": "manectric",
+    "name": {
+      "th": "",
+      "en": "Manectric"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 3,
+    "generationLabel": "Gen3",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 35,
+    "dexNo": "0035",
+    "slug": "sharpedo",
+    "name": {
+      "th": "",
+      "en": "Sharpedo"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 3,
+    "generationLabel": "Gen3",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 36,
+    "dexNo": "0036",
+    "slug": "camerupt",
+    "name": {
+      "th": "",
+      "en": "Camerupt"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 3,
+    "generationLabel": "Gen3",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 37,
+    "dexNo": "0037",
+    "slug": "torkoal",
+    "name": {
+      "th": "",
+      "en": "Torkoal"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 3,
+    "generationLabel": "Gen3",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 38,
+    "dexNo": "0038",
+    "slug": "altaria",
+    "name": {
+      "th": "",
+      "en": "Altaria"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 3,
+    "generationLabel": "Gen3",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 39,
+    "dexNo": "0039",
+    "slug": "milotic",
+    "name": {
+      "th": "",
+      "en": "Milotic"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 3,
+    "generationLabel": "Gen3",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 40,
+    "dexNo": "0040",
+    "slug": "banette",
+    "name": {
+      "th": "",
+      "en": "Banette"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 3,
+    "generationLabel": "Gen3",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 41,
+    "dexNo": "0041",
+    "slug": "absol",
+    "name": {
+      "th": "",
+      "en": "Absol"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 3,
+    "generationLabel": "Gen3",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 42,
+    "dexNo": "0042",
+    "slug": "torterra",
+    "name": {
+      "th": "",
+      "en": "Torterra"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 4,
+    "generationLabel": "Gen4",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 43,
+    "dexNo": "0043",
+    "slug": "infernape",
+    "name": {
+      "th": "",
+      "en": "Infernape"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 4,
+    "generationLabel": "Gen4",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 44,
+    "dexNo": "0044",
+    "slug": "empoleon",
+    "name": {
+      "th": "",
+      "en": "Empoleon"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 4,
+    "generationLabel": "Gen4",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 45,
+    "dexNo": "0045",
+    "slug": "luxray",
+    "name": {
+      "th": "",
+      "en": "Luxray"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 4,
+    "generationLabel": "Gen4",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 46,
+    "dexNo": "0046",
+    "slug": "roserade",
+    "name": {
+      "th": "",
+      "en": "Roserade"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 4,
+    "generationLabel": "Gen4",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 47,
+    "dexNo": "0047",
+    "slug": "rampardos",
+    "name": {
+      "th": "",
+      "en": "Rampardos"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 4,
+    "generationLabel": "Gen4",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 48,
+    "dexNo": "0048",
+    "slug": "bastiodon",
+    "name": {
+      "th": "",
+      "en": "Bastiodon"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 4,
+    "generationLabel": "Gen4",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 49,
+    "dexNo": "0049",
+    "slug": "lopunny",
+    "name": {
+      "th": "",
+      "en": "Lopunny"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 4,
+    "generationLabel": "Gen4",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 50,
+    "dexNo": "0050",
+    "slug": "spiritomb",
+    "name": {
+      "th": "",
+      "en": "Spiritomb"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 4,
+    "generationLabel": "Gen4",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 51,
+    "dexNo": "0051",
+    "slug": "garchomp",
+    "name": {
+      "th": "",
+      "en": "Garchomp"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 4,
+    "generationLabel": "Gen4",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 52,
+    "dexNo": "0052",
+    "slug": "lucario",
+    "name": {
+      "th": "",
+      "en": "Lucario"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": 4,
+    "generationLabel": "Gen4",
+    "availableInChampions": true,
+    "isPlaceholder": false,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 53,
+    "dexNo": "0053",
+    "slug": "unknown-53",
+    "name": {
+      "th": "",
+      "en": "Unknown_53"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 54,
+    "dexNo": "0054",
+    "slug": "unknown-54",
+    "name": {
+      "th": "",
+      "en": "Unknown_54"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 55,
+    "dexNo": "0055",
+    "slug": "unknown-55",
+    "name": {
+      "th": "",
+      "en": "Unknown_55"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 56,
+    "dexNo": "0056",
+    "slug": "unknown-56",
+    "name": {
+      "th": "",
+      "en": "Unknown_56"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 57,
+    "dexNo": "0057",
+    "slug": "unknown-57",
+    "name": {
+      "th": "",
+      "en": "Unknown_57"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 58,
+    "dexNo": "0058",
+    "slug": "unknown-58",
+    "name": {
+      "th": "",
+      "en": "Unknown_58"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 59,
+    "dexNo": "0059",
+    "slug": "unknown-59",
+    "name": {
+      "th": "",
+      "en": "Unknown_59"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 60,
+    "dexNo": "0060",
+    "slug": "unknown-60",
+    "name": {
+      "th": "",
+      "en": "Unknown_60"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 61,
+    "dexNo": "0061",
+    "slug": "unknown-61",
+    "name": {
+      "th": "",
+      "en": "Unknown_61"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 62,
+    "dexNo": "0062",
+    "slug": "unknown-62",
+    "name": {
+      "th": "",
+      "en": "Unknown_62"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 63,
+    "dexNo": "0063",
+    "slug": "unknown-63",
+    "name": {
+      "th": "",
+      "en": "Unknown_63"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 64,
+    "dexNo": "0064",
+    "slug": "unknown-64",
+    "name": {
+      "th": "",
+      "en": "Unknown_64"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 65,
+    "dexNo": "0065",
+    "slug": "unknown-65",
+    "name": {
+      "th": "",
+      "en": "Unknown_65"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 66,
+    "dexNo": "0066",
+    "slug": "unknown-66",
+    "name": {
+      "th": "",
+      "en": "Unknown_66"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 67,
+    "dexNo": "0067",
+    "slug": "unknown-67",
+    "name": {
+      "th": "",
+      "en": "Unknown_67"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 68,
+    "dexNo": "0068",
+    "slug": "unknown-68",
+    "name": {
+      "th": "",
+      "en": "Unknown_68"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 69,
+    "dexNo": "0069",
+    "slug": "unknown-69",
+    "name": {
+      "th": "",
+      "en": "Unknown_69"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 70,
+    "dexNo": "0070",
+    "slug": "unknown-70",
+    "name": {
+      "th": "",
+      "en": "Unknown_70"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 71,
+    "dexNo": "0071",
+    "slug": "unknown-71",
+    "name": {
+      "th": "",
+      "en": "Unknown_71"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 72,
+    "dexNo": "0072",
+    "slug": "unknown-72",
+    "name": {
+      "th": "",
+      "en": "Unknown_72"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 73,
+    "dexNo": "0073",
+    "slug": "unknown-73",
+    "name": {
+      "th": "",
+      "en": "Unknown_73"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 74,
+    "dexNo": "0074",
+    "slug": "unknown-74",
+    "name": {
+      "th": "",
+      "en": "Unknown_74"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 75,
+    "dexNo": "0075",
+    "slug": "unknown-75",
+    "name": {
+      "th": "",
+      "en": "Unknown_75"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 76,
+    "dexNo": "0076",
+    "slug": "unknown-76",
+    "name": {
+      "th": "",
+      "en": "Unknown_76"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 77,
+    "dexNo": "0077",
+    "slug": "unknown-77",
+    "name": {
+      "th": "",
+      "en": "Unknown_77"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 78,
+    "dexNo": "0078",
+    "slug": "unknown-78",
+    "name": {
+      "th": "",
+      "en": "Unknown_78"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 79,
+    "dexNo": "0079",
+    "slug": "unknown-79",
+    "name": {
+      "th": "",
+      "en": "Unknown_79"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 80,
+    "dexNo": "0080",
+    "slug": "unknown-80",
+    "name": {
+      "th": "",
+      "en": "Unknown_80"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 81,
+    "dexNo": "0081",
+    "slug": "unknown-81",
+    "name": {
+      "th": "",
+      "en": "Unknown_81"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 82,
+    "dexNo": "0082",
+    "slug": "unknown-82",
+    "name": {
+      "th": "",
+      "en": "Unknown_82"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 83,
+    "dexNo": "0083",
+    "slug": "unknown-83",
+    "name": {
+      "th": "",
+      "en": "Unknown_83"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 84,
+    "dexNo": "0084",
+    "slug": "unknown-84",
+    "name": {
+      "th": "",
+      "en": "Unknown_84"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 85,
+    "dexNo": "0085",
+    "slug": "unknown-85",
+    "name": {
+      "th": "",
+      "en": "Unknown_85"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 86,
+    "dexNo": "0086",
+    "slug": "unknown-86",
+    "name": {
+      "th": "",
+      "en": "Unknown_86"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 87,
+    "dexNo": "0087",
+    "slug": "unknown-87",
+    "name": {
+      "th": "",
+      "en": "Unknown_87"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 88,
+    "dexNo": "0088",
+    "slug": "unknown-88",
+    "name": {
+      "th": "",
+      "en": "Unknown_88"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 89,
+    "dexNo": "0089",
+    "slug": "unknown-89",
+    "name": {
+      "th": "",
+      "en": "Unknown_89"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 90,
+    "dexNo": "0090",
+    "slug": "unknown-90",
+    "name": {
+      "th": "",
+      "en": "Unknown_90"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 91,
+    "dexNo": "0091",
+    "slug": "unknown-91",
+    "name": {
+      "th": "",
+      "en": "Unknown_91"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 92,
+    "dexNo": "0092",
+    "slug": "unknown-92",
+    "name": {
+      "th": "",
+      "en": "Unknown_92"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 93,
+    "dexNo": "0093",
+    "slug": "unknown-93",
+    "name": {
+      "th": "",
+      "en": "Unknown_93"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 94,
+    "dexNo": "0094",
+    "slug": "unknown-94",
+    "name": {
+      "th": "",
+      "en": "Unknown_94"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 95,
+    "dexNo": "0095",
+    "slug": "unknown-95",
+    "name": {
+      "th": "",
+      "en": "Unknown_95"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 96,
+    "dexNo": "0096",
+    "slug": "unknown-96",
+    "name": {
+      "th": "",
+      "en": "Unknown_96"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 97,
+    "dexNo": "0097",
+    "slug": "unknown-97",
+    "name": {
+      "th": "",
+      "en": "Unknown_97"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 98,
+    "dexNo": "0098",
+    "slug": "unknown-98",
+    "name": {
+      "th": "",
+      "en": "Unknown_98"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 99,
+    "dexNo": "0099",
+    "slug": "unknown-99",
+    "name": {
+      "th": "",
+      "en": "Unknown_99"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 100,
+    "dexNo": "0100",
+    "slug": "unknown-100",
+    "name": {
+      "th": "",
+      "en": "Unknown_100"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 101,
+    "dexNo": "0101",
+    "slug": "unknown-101",
+    "name": {
+      "th": "",
+      "en": "Unknown_101"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 102,
+    "dexNo": "0102",
+    "slug": "unknown-102",
+    "name": {
+      "th": "",
+      "en": "Unknown_102"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 103,
+    "dexNo": "0103",
+    "slug": "unknown-103",
+    "name": {
+      "th": "",
+      "en": "Unknown_103"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 104,
+    "dexNo": "0104",
+    "slug": "unknown-104",
+    "name": {
+      "th": "",
+      "en": "Unknown_104"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 105,
+    "dexNo": "0105",
+    "slug": "unknown-105",
+    "name": {
+      "th": "",
+      "en": "Unknown_105"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 106,
+    "dexNo": "0106",
+    "slug": "unknown-106",
+    "name": {
+      "th": "",
+      "en": "Unknown_106"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 107,
+    "dexNo": "0107",
+    "slug": "unknown-107",
+    "name": {
+      "th": "",
+      "en": "Unknown_107"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 108,
+    "dexNo": "0108",
+    "slug": "unknown-108",
+    "name": {
+      "th": "",
+      "en": "Unknown_108"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 109,
+    "dexNo": "0109",
+    "slug": "unknown-109",
+    "name": {
+      "th": "",
+      "en": "Unknown_109"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 110,
+    "dexNo": "0110",
+    "slug": "unknown-110",
+    "name": {
+      "th": "",
+      "en": "Unknown_110"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 111,
+    "dexNo": "0111",
+    "slug": "unknown-111",
+    "name": {
+      "th": "",
+      "en": "Unknown_111"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 112,
+    "dexNo": "0112",
+    "slug": "unknown-112",
+    "name": {
+      "th": "",
+      "en": "Unknown_112"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 113,
+    "dexNo": "0113",
+    "slug": "unknown-113",
+    "name": {
+      "th": "",
+      "en": "Unknown_113"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 114,
+    "dexNo": "0114",
+    "slug": "unknown-114",
+    "name": {
+      "th": "",
+      "en": "Unknown_114"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 115,
+    "dexNo": "0115",
+    "slug": "unknown-115",
+    "name": {
+      "th": "",
+      "en": "Unknown_115"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 116,
+    "dexNo": "0116",
+    "slug": "unknown-116",
+    "name": {
+      "th": "",
+      "en": "Unknown_116"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 117,
+    "dexNo": "0117",
+    "slug": "unknown-117",
+    "name": {
+      "th": "",
+      "en": "Unknown_117"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 118,
+    "dexNo": "0118",
+    "slug": "unknown-118",
+    "name": {
+      "th": "",
+      "en": "Unknown_118"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 119,
+    "dexNo": "0119",
+    "slug": "unknown-119",
+    "name": {
+      "th": "",
+      "en": "Unknown_119"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 120,
+    "dexNo": "0120",
+    "slug": "unknown-120",
+    "name": {
+      "th": "",
+      "en": "Unknown_120"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 121,
+    "dexNo": "0121",
+    "slug": "unknown-121",
+    "name": {
+      "th": "",
+      "en": "Unknown_121"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 122,
+    "dexNo": "0122",
+    "slug": "unknown-122",
+    "name": {
+      "th": "",
+      "en": "Unknown_122"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 123,
+    "dexNo": "0123",
+    "slug": "unknown-123",
+    "name": {
+      "th": "",
+      "en": "Unknown_123"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 124,
+    "dexNo": "0124",
+    "slug": "unknown-124",
+    "name": {
+      "th": "",
+      "en": "Unknown_124"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 125,
+    "dexNo": "0125",
+    "slug": "unknown-125",
+    "name": {
+      "th": "",
+      "en": "Unknown_125"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 126,
+    "dexNo": "0126",
+    "slug": "unknown-126",
+    "name": {
+      "th": "",
+      "en": "Unknown_126"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 127,
+    "dexNo": "0127",
+    "slug": "unknown-127",
+    "name": {
+      "th": "",
+      "en": "Unknown_127"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 128,
+    "dexNo": "0128",
+    "slug": "unknown-128",
+    "name": {
+      "th": "",
+      "en": "Unknown_128"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 129,
+    "dexNo": "0129",
+    "slug": "unknown-129",
+    "name": {
+      "th": "",
+      "en": "Unknown_129"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 130,
+    "dexNo": "0130",
+    "slug": "unknown-130",
+    "name": {
+      "th": "",
+      "en": "Unknown_130"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 131,
+    "dexNo": "0131",
+    "slug": "unknown-131",
+    "name": {
+      "th": "",
+      "en": "Unknown_131"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 132,
+    "dexNo": "0132",
+    "slug": "unknown-132",
+    "name": {
+      "th": "",
+      "en": "Unknown_132"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 133,
+    "dexNo": "0133",
+    "slug": "unknown-133",
+    "name": {
+      "th": "",
+      "en": "Unknown_133"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 134,
+    "dexNo": "0134",
+    "slug": "unknown-134",
+    "name": {
+      "th": "",
+      "en": "Unknown_134"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 135,
+    "dexNo": "0135",
+    "slug": "unknown-135",
+    "name": {
+      "th": "",
+      "en": "Unknown_135"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 136,
+    "dexNo": "0136",
+    "slug": "unknown-136",
+    "name": {
+      "th": "",
+      "en": "Unknown_136"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 137,
+    "dexNo": "0137",
+    "slug": "unknown-137",
+    "name": {
+      "th": "",
+      "en": "Unknown_137"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 138,
+    "dexNo": "0138",
+    "slug": "unknown-138",
+    "name": {
+      "th": "",
+      "en": "Unknown_138"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 139,
+    "dexNo": "0139",
+    "slug": "unknown-139",
+    "name": {
+      "th": "",
+      "en": "Unknown_139"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 140,
+    "dexNo": "0140",
+    "slug": "unknown-140",
+    "name": {
+      "th": "",
+      "en": "Unknown_140"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 141,
+    "dexNo": "0141",
+    "slug": "unknown-141",
+    "name": {
+      "th": "",
+      "en": "Unknown_141"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 142,
+    "dexNo": "0142",
+    "slug": "unknown-142",
+    "name": {
+      "th": "",
+      "en": "Unknown_142"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 143,
+    "dexNo": "0143",
+    "slug": "unknown-143",
+    "name": {
+      "th": "",
+      "en": "Unknown_143"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 144,
+    "dexNo": "0144",
+    "slug": "unknown-144",
+    "name": {
+      "th": "",
+      "en": "Unknown_144"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 145,
+    "dexNo": "0145",
+    "slug": "unknown-145",
+    "name": {
+      "th": "",
+      "en": "Unknown_145"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 146,
+    "dexNo": "0146",
+    "slug": "unknown-146",
+    "name": {
+      "th": "",
+      "en": "Unknown_146"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 147,
+    "dexNo": "0147",
+    "slug": "unknown-147",
+    "name": {
+      "th": "",
+      "en": "Unknown_147"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 148,
+    "dexNo": "0148",
+    "slug": "unknown-148",
+    "name": {
+      "th": "",
+      "en": "Unknown_148"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 149,
+    "dexNo": "0149",
+    "slug": "unknown-149",
+    "name": {
+      "th": "",
+      "en": "Unknown_149"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 150,
+    "dexNo": "0150",
+    "slug": "unknown-150",
+    "name": {
+      "th": "",
+      "en": "Unknown_150"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 151,
+    "dexNo": "0151",
+    "slug": "unknown-151",
+    "name": {
+      "th": "",
+      "en": "Unknown_151"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 152,
+    "dexNo": "0152",
+    "slug": "unknown-152",
+    "name": {
+      "th": "",
+      "en": "Unknown_152"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 153,
+    "dexNo": "0153",
+    "slug": "unknown-153",
+    "name": {
+      "th": "",
+      "en": "Unknown_153"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 154,
+    "dexNo": "0154",
+    "slug": "unknown-154",
+    "name": {
+      "th": "",
+      "en": "Unknown_154"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 155,
+    "dexNo": "0155",
+    "slug": "unknown-155",
+    "name": {
+      "th": "",
+      "en": "Unknown_155"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 156,
+    "dexNo": "0156",
+    "slug": "unknown-156",
+    "name": {
+      "th": "",
+      "en": "Unknown_156"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 157,
+    "dexNo": "0157",
+    "slug": "unknown-157",
+    "name": {
+      "th": "",
+      "en": "Unknown_157"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 158,
+    "dexNo": "0158",
+    "slug": "unknown-158",
+    "name": {
+      "th": "",
+      "en": "Unknown_158"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 159,
+    "dexNo": "0159",
+    "slug": "unknown-159",
+    "name": {
+      "th": "",
+      "en": "Unknown_159"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 160,
+    "dexNo": "0160",
+    "slug": "unknown-160",
+    "name": {
+      "th": "",
+      "en": "Unknown_160"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 161,
+    "dexNo": "0161",
+    "slug": "unknown-161",
+    "name": {
+      "th": "",
+      "en": "Unknown_161"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 162,
+    "dexNo": "0162",
+    "slug": "unknown-162",
+    "name": {
+      "th": "",
+      "en": "Unknown_162"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/162.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 163,
+    "dexNo": "0163",
+    "slug": "unknown-163",
+    "name": {
+      "th": "",
+      "en": "Unknown_163"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 164,
+    "dexNo": "0164",
+    "slug": "unknown-164",
+    "name": {
+      "th": "",
+      "en": "Unknown_164"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 165,
+    "dexNo": "0165",
+    "slug": "unknown-165",
+    "name": {
+      "th": "",
+      "en": "Unknown_165"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 166,
+    "dexNo": "0166",
+    "slug": "unknown-166",
+    "name": {
+      "th": "",
+      "en": "Unknown_166"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/166.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 167,
+    "dexNo": "0167",
+    "slug": "unknown-167",
+    "name": {
+      "th": "",
+      "en": "Unknown_167"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 168,
+    "dexNo": "0168",
+    "slug": "unknown-168",
+    "name": {
+      "th": "",
+      "en": "Unknown_168"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 169,
+    "dexNo": "0169",
+    "slug": "unknown-169",
+    "name": {
+      "th": "",
+      "en": "Unknown_169"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 170,
+    "dexNo": "0170",
+    "slug": "unknown-170",
+    "name": {
+      "th": "",
+      "en": "Unknown_170"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 171,
+    "dexNo": "0171",
+    "slug": "unknown-171",
+    "name": {
+      "th": "",
+      "en": "Unknown_171"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 172,
+    "dexNo": "0172",
+    "slug": "unknown-172",
+    "name": {
+      "th": "",
+      "en": "Unknown_172"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 173,
+    "dexNo": "0173",
+    "slug": "unknown-173",
+    "name": {
+      "th": "",
+      "en": "Unknown_173"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 174,
+    "dexNo": "0174",
+    "slug": "unknown-174",
+    "name": {
+      "th": "",
+      "en": "Unknown_174"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 175,
+    "dexNo": "0175",
+    "slug": "unknown-175",
+    "name": {
+      "th": "",
+      "en": "Unknown_175"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 176,
+    "dexNo": "0176",
+    "slug": "unknown-176",
+    "name": {
+      "th": "",
+      "en": "Unknown_176"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 177,
+    "dexNo": "0177",
+    "slug": "unknown-177",
+    "name": {
+      "th": "",
+      "en": "Unknown_177"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 178,
+    "dexNo": "0178",
+    "slug": "unknown-178",
+    "name": {
+      "th": "",
+      "en": "Unknown_178"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/178.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 179,
+    "dexNo": "0179",
+    "slug": "unknown-179",
+    "name": {
+      "th": "",
+      "en": "Unknown_179"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 180,
+    "dexNo": "0180",
+    "slug": "unknown-180",
+    "name": {
+      "th": "",
+      "en": "Unknown_180"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/180.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 181,
+    "dexNo": "0181",
+    "slug": "unknown-181",
+    "name": {
+      "th": "",
+      "en": "Unknown_181"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 182,
+    "dexNo": "0182",
+    "slug": "unknown-182",
+    "name": {
+      "th": "",
+      "en": "Unknown_182"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 183,
+    "dexNo": "0183",
+    "slug": "unknown-183",
+    "name": {
+      "th": "",
+      "en": "Unknown_183"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 184,
+    "dexNo": "0184",
+    "slug": "unknown-184",
+    "name": {
+      "th": "",
+      "en": "Unknown_184"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  },
+  {
+    "id": 185,
+    "dexNo": "0185",
+    "slug": "unknown-185",
+    "name": {
+      "th": "",
+      "en": "Unknown_185"
+    },
+    "types": [],
+    "abilities": [],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png",
+    "stats": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "spAttack": 0,
+      "spDefense": 0,
+      "speed": 0
+    },
+    "description": "",
+    "forms": [
+      "normal"
+    ],
+    "generation": null,
+    "generationLabel": "TBD",
+    "availableInChampions": false,
+    "isPlaceholder": true,
+    "sourceGame": "Pokemon Champions",
+    "dataCompleteness": {
+      "hasThaiName": false,
+      "hasTypes": false,
+      "hasAbilities": false,
+      "hasForms": false,
+      "hasStats": false,
+      "hasDescription": false
+    }
+  }
+]

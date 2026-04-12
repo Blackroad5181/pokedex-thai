@@ -1,0 +1,266 @@
+[
+  {
+    "id": "overgrow",
+    "name": {
+      "en": "Overgrow",
+      "th": "โอเวอร์โกรว์"
+    },
+    "description": {
+      "en": "Powers up Grass-type moves when HP is low.",
+      "th": "เพิ่มพลังท่า Grass เมื่อ HP ต่ำ"
+    }
+  },
+  {
+    "id": "chlorophyll",
+    "name": {
+      "en": "Chlorophyll",
+      "th": "คลอโรฟิลล์"
+    },
+    "description": {
+      "en": "Boosts Speed in sunshine.",
+      "th": "เพิ่มความเร็วเมื่ออยู่กลางแดด"
+    }
+  },
+  {
+    "id": "blaze",
+    "name": {
+      "en": "Blaze",
+      "th": "เบลซ"
+    },
+    "description": {
+      "en": "Powers up Fire-type moves when HP is low.",
+      "th": "เพิ่มพลังท่า Fire เมื่อ HP ต่ำ"
+    }
+  },
+  {
+    "id": "solar-power",
+    "name": {
+      "en": "Solar Power",
+      "th": "โซลาร์พาวเวอร์"
+    },
+    "description": {
+      "en": "Boosts Sp. Atk in sunshine, but HP decreases.",
+      "th": "เพิ่มพลังโจมตีพิเศษกลางแดด แต่ HP ลดลง"
+    }
+  },
+  {
+    "id": "torrent",
+    "name": {
+      "en": "Torrent",
+      "th": "ทอร์เรนต์"
+    },
+    "description": {
+      "en": "Powers up Water-type moves when HP is low.",
+      "th": "เพิ่มพลังท่า Water เมื่อ HP ต่ำ"
+    }
+  },
+  {
+    "id": "rain-dish",
+    "name": {
+      "en": "Rain Dish",
+      "th": "เรนดิช"
+    },
+    "description": {
+      "en": "Restores HP in rain.",
+      "th": "ฟื้น HP เมื่ออยู่กลางฝน"
+    }
+  },
+  {
+    "id": "static",
+    "name": {
+      "en": "Static",
+      "th": "สแตติก"
+    },
+    "description": {
+      "en": "May paralyze on contact.",
+      "th": "มีโอกาสทำให้เป็นอัมพาตเมื่อสัมผัสตัว"
+    }
+  },
+  {
+    "id": "lightning-rod",
+    "name": {
+      "en": "Lightning Rod",
+      "th": "ไลท์นิงร็อด"
+    },
+    "description": {
+      "en": "Draws in Electric-type moves to boost Sp. Atk.",
+      "th": "ดึงดูดท่าไฟฟ้าและเพิ่มพลังโจมตีพิเศษ"
+    }
+  },
+  {
+    "id": "cute-charm",
+    "name": {
+      "en": "Cute Charm",
+      "th": "คิวท์ชาร์ม"
+    },
+    "description": {
+      "en": "May infatuate on contact.",
+      "th": "มีโอกาสทำให้หลงใหลเมื่อสัมผัสตัว"
+    }
+  },
+  {
+    "id": "competitive",
+    "name": {
+      "en": "Competitive",
+      "th": "คอมเพทิทีฟ"
+    },
+    "description": {
+      "en": "Raises Sp. Atk when a stat is lowered.",
+      "th": "เพิ่มพลังโจมตีพิเศษเมื่อค่าสถานะถูกลด"
+    }
+  },
+  {
+    "id": "friend-guard",
+    "name": {
+      "en": "Friend Guard",
+      "th": "เฟรนด์การ์ด"
+    },
+    "description": {
+      "en": "Reduces damage done to allies.",
+      "th": "ลดความเสียหายที่เพื่อนร่วมทีมได้รับ"
+    }
+  },
+  {
+    "id": "pickup",
+    "name": {
+      "en": "Pickup",
+      "th": "พิคอัพ"
+    },
+    "description": {
+      "en": "May pick up items.",
+      "th": "อาจเก็บไอเทมได้หลังการต่อสู้"
+    }
+  },
+  {
+    "id": "technician",
+    "name": {
+      "en": "Technician",
+      "th": "เทคนิคเชียน"
+    },
+    "description": {
+      "en": "Boosts weaker moves.",
+      "th": "เพิ่มพลังท่าที่มีพลังต่ำ"
+    }
+  },
+  {
+    "id": "unnerve",
+    "name": {
+      "en": "Unnerve",
+      "th": "อันเนิร์ฟ"
+    },
+    "description": {
+      "en": "Prevents opponents from eating Berries.",
+      "th": "ทำให้คู่ต่อสู้ใช้เบอร์รีไม่ได้"
+    }
+  },
+  {
+    "id": "damp",
+    "name": {
+      "en": "Damp",
+      "th": "แดมป์"
+    },
+    "description": {
+      "en": "Prevents self-destruction moves.",
+      "th": "ป้องกันท่าระเบิดตัวเอง"
+    }
+  },
+  {
+    "id": "cloud-nine",
+    "name": {
+      "en": "Cloud Nine",
+      "th": "คลาวด์ไนน์"
+    },
+    "description": {
+      "en": "Eliminates the effects of weather.",
+      "th": "ยกเลิกผลของสภาพอากาศ"
+    }
+  },
+  {
+    "id": "swift-swim",
+    "name": {
+      "en": "Swift Swim",
+      "th": "สวิฟต์สวิม"
+    },
+    "description": {
+      "en": "Boosts Speed in rain.",
+      "th": "เพิ่มความเร็วเมื่ออยู่กลางฝน"
+    }
+  },
+  {
+    "id": "run-away",
+    "name": {
+      "en": "Run Away",
+      "th": "รันอเวย์"
+    },
+    "description": {
+      "en": "Enables a sure getaway from wild Pokémon.",
+      "th": "หนีจากโปเกมอนป่าได้แน่นอน"
+    }
+  },
+  {
+    "id": "adaptability",
+    "name": {
+      "en": "Adaptability",
+      "th": "อะแดปทาบิลิตี"
+    },
+    "description": {
+      "en": "Powers up same-type moves.",
+      "th": "เพิ่มพลังท่าที่ธาตุตรงกับตัวเอง"
+    }
+  },
+  {
+    "id": "anticipation",
+    "name": {
+      "en": "Anticipation",
+      "th": "แอนทิซิเพชัน"
+    },
+    "description": {
+      "en": "Senses dangerous moves.",
+      "th": "รับรู้ท่าอันตรายของคู่ต่อสู้"
+    }
+  },
+  {
+    "id": "immunity",
+    "name": {
+      "en": "Immunity",
+      "th": "อิมมูนิตี"
+    },
+    "description": {
+      "en": "Prevents poisoning.",
+      "th": "ป้องกันการติดพิษ"
+    }
+  },
+  {
+    "id": "thick-fat",
+    "name": {
+      "en": "Thick Fat",
+      "th": "ธิคแฟต"
+    },
+    "description": {
+      "en": "Reduces damage from Fire- and Ice-type moves.",
+      "th": "ลดความเสียหายจากท่า Fire และ Ice"
+    }
+  },
+  {
+    "id": "gluttony",
+    "name": {
+      "en": "Gluttony",
+      "th": "กลัตโตนี"
+    },
+    "description": {
+      "en": "Uses a held Berry earlier than usual.",
+      "th": "ใช้เบอร์รีเร็วกว่าปกติ"
+    }
+  },
+  {
+    "id": "pressure",
+    "name": {
+      "en": "Pressure",
+      "th": "เพรสเชอร์"
+    },
+    "description": {
+      "en": "Raises the foe's PP usage.",
+      "th": "ทำให้คู่ต่อสู้ใช้ PP มากขึ้น"
+    }
+  }
+]
